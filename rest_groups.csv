@@ -1,0 +1,971 @@
+Restaurant ID,Restaurant Name,Location Name,Restaurant Group ID,Restaurant Group Name
+4d0be762-d066-4fa4-8a98-6a9d0fa5d477,25 Lusk,SOMA,50cb9cbe-1902-4ad7-8591-f111683258e0,25 Lusk
+7bba6b82-8d55-4d0f-b986-f4aed19a1a27,3 Sheets,Greenwich Village,7842c853-cd64-4e82-a24e-7b40eb8eae6b,Eat Drink & Be Merry
+25fe6b39-8e79-44e2-a873-70e093b3bb8b,54 Mint Cucina Romana,Soma,287560d0-c148-425f-9214-82d4c2a4f3e4,54 Mint
+2ee3a98e-7dd4-4aed-a676-d6d63af96105,5ive Spice,Gramercy,043b7e52-9ee4-4913-bf96-9b3a265618d4,5ive Spice
+2ee3a98e-7dd4-4aed-a676-d6d63af96105,5ive Spice,SoHo,043b7e52-9ee4-4913-bf96-9b3a265618d4,5ive Spice
+d01e5b0f-8ec9-498b-9dd1-3ce18ca5d920,6 NYC,Carroll Gardens,66cff352-b298-4433-a73f-3488dca687c4,6 NYC
+4367bdf5-58b2-47cf-afa4-d7ae132227c3,6 Tables,Marina,185856e3-b9ee-4d64-9e9c-ca32174bc667,6 Tables
+57aebd11-6605-4506-bb3d-fd4cd69b76f0,8282,Lower East Side,214e6bf5-b27a-4273-ad57-0bd5ded8b2d0,8282
+6716d586-8714-4450-bdee-550655e46a45,82 Queen,French Quarter,7065715a-94f8-4da6-bbe1-7e1af4c2bfed,Queen Street Hospitality Group
+a8844f53-706d-4d1f-a745-190be8ea70be,886,East Village,7a00f980-5ed0-4542-9aa1-4c041595876a,eighteightsix
+fa92ed26-2c5e-4a55-9c52-19817551f09f,A5 Steakhouse,LoDo,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+8c25d991-e42c-4311-b475-b7ab9700074e,Accidental Bar,Alphabet City,0543ef5c-af49-441d-b119-63e9c09d30b0,Accidental Bar
+e76fe579-3db3-4da3-8fdf-6eaee6e791f7,Ace Coffee Bar,Uptown,5dea68d3-e858-447e-ae16-c1eec8003090,Secret Sauce
+5777c442-43a0-475a-b307-de7f945b585d,Ace Eat Serve,Uptown,5dea68d3-e858-447e-ae16-c1eec8003090,Secret Sauce
+74f97cb4-6c64-48e2-9d3a-ef2a0c08f13d,Ace's Pizza,Rockefeller Center,b4369c0d-bb70-484e-b6c7-eba50efa2a4f,Ace's Pizza
+74f97cb4-6c64-48e2-9d3a-ef2a0c08f13d,Ace's Pizza,Williamsburg,b4369c0d-bb70-484e-b6c7-eba50efa2a4f,Ace's Pizza
+cd807d58-be04-4d78-a408-6c4e5e6192a6,African Chophouse x Complex,Industry City,a94e85af-be08-48b5-a3fa-3d6254494596,African Chophouse
+00221d4f-9bfe-412f-8fc9-1e930b22c01e,Aftermath,Ridgewood,ca424774-a65e-4b7d-9476-7c99d595644c,Aftermath
+5a3d5735-51eb-4280-824d-93d089a0ff04,Alcove Market,Harleston Village,bbca6711-d3be-4276-822f-abb3f1ef2877,Easton Porter Group
+6a08bd5a-23b0-4f8c-b791-9a7d0790d20c,Aldo Sohm Wine Bar,Midtown,7ae7f76f-5633-472a-854b-d4128415bcd3,Aldo Sohm
+d3906dd6-27ba-44aa-a8f8-b71941b64fb9,Alidoro,Bryant Park,fa5c6b2d-8dce-420f-8ad2-e61f3dd44e59,Alidoro
+d3906dd6-27ba-44aa-a8f8-b71941b64fb9,Alidoro,Dekalb Market,fa5c6b2d-8dce-420f-8ad2-e61f3dd44e59,Alidoro
+d3906dd6-27ba-44aa-a8f8-b71941b64fb9,Alidoro,Long Island City,fa5c6b2d-8dce-420f-8ad2-e61f3dd44e59,Alidoro
+d3906dd6-27ba-44aa-a8f8-b71941b64fb9,Alidoro,Midtown,fa5c6b2d-8dce-420f-8ad2-e61f3dd44e59,Alidoro
+d3906dd6-27ba-44aa-a8f8-b71941b64fb9,Alidoro,Rockefeller Center,fa5c6b2d-8dce-420f-8ad2-e61f3dd44e59,Alidoro
+d3906dd6-27ba-44aa-a8f8-b71941b64fb9,Alidoro,The Hugh,fa5c6b2d-8dce-420f-8ad2-e61f3dd44e59,Alidoro
+cc382352-ee3d-4226-9437-de94695f18e6,ALL BLUES,Tribeca,178b7ad1-b393-4ebd-8897-348fd09d659c,All Blues
+c6de192b-71f6-49f4-843f-d2cfbeab6de1,All Buru,Fort Greene,790478d7-f76d-4a17-8a42-1922c6ef68ac,All Buru
+a8cdc6b5-068d-477f-8ec9-cb8840f1e051,Alma Negra,Park Slope,b5cbad77-87c4-44d6-97d3-dc46d9d33af8,Alma Negra
+809d1ca3-00c2-4a0e-9910-3b54db57c4a3,Almond,Bridgehampton,4f4eac88-d4a2-4a1a-89cc-646d0c331f1a,Almond Restaurants
+40828311-1271-4432-b9ee-e2c3178db3f3,Alora Coastal Mediterranean,Alora Coastal Mediterranean,d6282b9f-97d6-487b-a067-73bfbeafa765,Alora
+e30e6a33-33d0-4348-b605-f84a63f708d0,Alphabet City Beer Co.,Lower East Side,7142a579-3d1a-46f4-a07c-6821ed89d7b7,Alphabet City Beer Co.
+1ed0d1bd-3256-4369-b310-0e45903ef42d,Amarena,Russian Hill,1dc21ea6-d805-4a25-8057-621e12a3263c,Amarena
+56185fe4-81a0-4d08-9285-3d656c646cd7,Ambler,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+51a415d7-0008-434c-ab0b-e8a389e6f90d,Amelie SF,Polk Gulch,3d15f697-01d5-44bb-be29-1c43f38e3351,Amelie
+64eabb60-e0c4-4c74-aecc-99838bbc138b,Amélie UWS,Upper West Side,3d15f697-01d5-44bb-be29-1c43f38e3351,Amelie
+539cba4d-232a-4572-861f-9750e05135d3,Amen Street Fish & Raw Bar,French Quarter - Charleston,30e733b9-46fe-44a5-a9f2-e83a1f801315,Amen Street
+7d952882-e0a2-4be7-ba63-a1cc418d03f1,Andros Taverna,Logan Square,b8d1188d-8e54-4544-9fae-252d6369e027,Eat Well Hospitality
+14339db3-2e7a-42c4-aa98-4c0fb18679eb,Anton's,Anton's,bd0a2b6c-d052-4656-871c-d6b6067b6aee,Anton's
+91f46713-d73d-4672-940c-5a56d5453b09,Aqua,Flatiron,7d1ad92a-844d-4507-9246-6a05a8507ecc,Aqua
+0e2b62c0-e9d1-4bde-aec8-8d55a9e6d153,Aquarelle,Aquarelle,7767c427-7f20-4c52-81fb-761ece6ffd14,Aquarelle
+56d9be94-3ef9-4eb2-88e0-b3544f53633e,Arcana,Mission,aad495e2-9587-4f98-8d69-bc36388f1a9e,Arcana
+581686d8-cf14-4fe3-bb91-b4d9bc3f9523,Ariari,East Village,070dc03e-4d70-4412-91b3-6730befb2859,Hand Hospitality
+bccca2d4-4553-4475-b6c6-9c14f2775092,Artesano,Tribeca,4634209e-1fd1-4671-9025-cacbb3608732,Artesano
+37544e61-37fc-408e-b23c-1c5d9ba9af0a,Arthur and Sons,Murray Hill,8c6f8248-cae5-4809-a0e7-cbc557c5f722,Arthur and Sons
+37544e61-37fc-408e-b23c-1c5d9ba9af0a,Arthur and Sons,West Village,8c6f8248-cae5-4809-a0e7-cbc557c5f722,Arthur and Sons
+c37be2af-1b53-4c87-a9bd-8330bd4c3f82,Asador Bastian,Asador Bastian,b8d1188d-8e54-4544-9fae-252d6369e027,Eat Well Hospitality
+ec8bb022-2126-495e-b781-47b35e16078a,Asano,Upper East Side,cb7b4aec-18b1-455e-b2a5-8aac059e9496,Sandro's
+f4f7c48c-e185-4bc1-97c2-0236e5ae390e,Ash'Kara,LoHi,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+a0764262-dbba-4a83-9d3b-7a37eda5dcb3,Attaboy,Lower East Side,67829338-bc96-4832-8038-8bddb2b47ca6,Attaboy
+4c244d26-35cc-4204-a3ed-384065a2dfc8,Augurs Well Bar,East Village,599b7c99-2c8b-43db-a6d8-ce48c267001b,Augurs Well Bar
+27ca2662-cc53-4445-95fd-faace3d6a5c6,AURA Tapas & Cocktail Bar,East Village,f9f26dff-f7e5-4fa2-8289-eed65e27201c,AURA Bar & Kitchen
+16b0a635-3fd7-489e-830a-70ff4b4dad20,Avenida,Midtown,d53f41c7-d561-4c90-9154-9a606c7effe3,Host Restaurants
+aded722b-9d4c-4ccf-afc9-db9ca5629692,Ay Papi,Cherry Creek,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+42237498-22ce-4f87-bd53-c28a84d65e1a,Bad Roman,Columbus Circle,e4d2c913-5f09-47c9-85b9-f05766f6bba5,Quality Branded
+18dd4674-e0d8-4ec4-9cf6-235ac867a1fc,Baguette Magic,James Island,1b1a0dc7-797c-49a2-bfcd-3d6a3a388e82,Baguette Magic / Kultura
+18dd4674-e0d8-4ec4-9cf6-235ac867a1fc,Baguette Magic,West Ashley,1b1a0dc7-797c-49a2-bfcd-3d6a3a388e82,Baguette Magic / Kultura
+ea02ee80-d08f-4c6f-9a69-2865c501db90,Balzem,Nolita,ef5ac0d7-9e3f-460d-a09f-5e02363de6ad,Balzem
+920d65fc-37b1-4911-9d1d-6a6a367834b0,Bananas,East Village,09165125-9d3a-485a-9383-85de427dff71,Bananas NYC
+38b70cfe-2419-4b0a-baa7-ee5b80298f58,Bandits Burger + Dive,West Village,3765dc1e-07e7-43a0-882c-e1776ad4e834,The Garrett Group
+3eaddebb-88f3-45b2-82f1-a4937def121c,Bāng Bar,Columbus Circle,0d4c2d41-3a42-4c06-8f32-99694c2cb06a,Momofuku Noodle Bar
+cf98d865-ab30-44e1-a7b8-dbef6db67065,Bangkok Supper Club,West Village,50aae766-e8bf-4d47-b518-ef4fddb96aa4,Bangkok Supper Club
+322b343c-665e-4fc7-9d5e-7244ec7e97ca,Banzarbar,Nolita,0a061081-19d9-4457-ada4-823b7f4be0ed,Banzarbar / Freemans
+aa7f481d-9825-40ec-8427-3f4fff286673,bar56,Dumbo,c3a5791c-c7d9-4bf2-b4e0-2f9734dfdc1d,bar56
+6d2b1e6a-08ac-4e0e-8529-6da079a9ab6b,Bar Amorina,Cherry Creek,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+ead17a07-961d-4209-b92a-1117f3f80516,Bar Boulud,UWS,36e7ed88-dd55-4088-82ac-b77f241f710a,Dinex Group
+abd27597-6ffd-4ad0-a958-33a7f2d5afe7,Barbuto,West Village,2cc4a1b1-5367-4aff-8208-cfc4b12ed0b7,Barbuto
+f06ef19e-3878-45df-b9db-e8afac0db24c,Bar Dough,LoHi,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+c734fead-61d2-451a-b217-ae2ed2879735,Bar Enzo,Long Island City,93ae0fe1-50c7-42ef-bf81-d894f4c6e069,The Greats of Craft & Bar Enzo
+b4e4b60f-16e4-473a-bba7-1fc7abf94561,Bar Francis,Clinton Hill,13e3331b-e118-4afe-9760-12348e02d405,Bar Francis
+2f3fbbe4-6afc-42c9-966e-c03835cc711f,Bar Freda,Ridgewood,19f91156-54d7-44c9-99ea-be1509b406c9,Bar Freda
+b8d43fea-d2bd-4267-b0ca-a6eb8dfa519a,Bar Iris,Russian Hill,9b9f9222-b9a9-433e-a85a-89cfa6b8d037,Nisei / Bar Iris
+b96a0632-633d-4a2b-bc1d-1edeadc2b7cf,Bar Jade,East Williamsburg,06fef549-0ce3-4ab7-a949-ab27e4f73c81,Bar Jade
+7f2def96-d96e-441d-97fa-c53badb8a0e7,Bar Louise,Park Slope,827ebed0-698b-47f5-b16b-1ce0fa5dae77,Pasta Louise
+f95fcf53-029f-49a2-9599-062bc7b65957,Bar Madonna,Williamsburg,442f0acb-325c-4fe0-9227-101a0151eab4,Bar Madonna
+45838ce0-b2a9-4e6e-8139-1b33eafb4cf8,Bar Maritime & Maritime Boat Club,Union Square,93acc6ed-c7ba-45e3-8441-71acc93625bd,Bar Maritime
+ea8e7080-ac70-456e-9e7a-62728fcae7eb,Bar Moga,SoHo,ce58e2dd-6e6b-424d-b087-aaa231eead5d,Bar Moga
+18cb153e-e331-4f90-8675-7f8e8a64b2fe,Barn Joo,Union Square,7b20a67e-b9bd-4154-8331-580ee0946e45,Barn Joo
+d0e3937b-d7ab-4329-82e3-1f1be1848da7,Bar Primi,NoHo,5ef43215-f93d-420f-9bb0-266151d1be1f,Noho Hospitality Group
+28887ce9-8a7f-4347-a7dd-f71c98c376a3,Bar Six,Greenwich Village,86d0b759-0c16-49fa-8627-d40f165ac09a,Bar Six
+b4a42e17-58a7-47be-b8de-081c971383f4,Bar Sprezzatura NYC,Midtown,e6baf9e6-441a-4fe0-9991-fcae681fdf8b,Bar Sprezzatura
+4ee9a7eb-4a45-4fa1-8467-5778ae624e18,Bar Sprezzatura SF,Financial District,e6baf9e6-441a-4fe0-9991-fcae681fdf8b,Bar Sprezzatura
+a90ca815-420f-48ea-86a1-ed12496e4ec7,Bar Tetto,Lower East Side,2d137033-a0d3-4b67-a145-661dc58fc55d,No. 79
+4d716fe9-021c-4c28-8009-5884b82dc6b4,Basic Kitchen,Downtown Charleston,14513b97-63b2-4874-8b17-e69a089d2dfc,Basic Projects
+7e4589c7-8820-4423-91e1-c4127d259ea7,Bateman's,East Village,37d2b495-4625-4534-954f-f7a85286b52d,Bateman's
+6cebd1c4-cda5-4b75-93ba-d298b6896201,Bathtub Gin,Chelsea,d084a821-95b3-4760-ab84-b58ecc8f330e,"Bathtub Gin, Stone Street, and Hello Hello"
+acdd28eb-256b-4b7f-b2da-194ef241bc0d,Bati,Clinton Hill,7060eafe-9f02-4b22-bd27-7439d97e8c44,Bati
+a0955adb-5d38-48a9-8555-59254d94b990,Beacon Coffee & Pantry,North Beach,df3cb8b3-b65c-4e6e-a7c6-777745ecb156,Beacon Coffee & Pantry
+8cc49104-a5e7-4686-bc46-b190a1f61cf0,Beautiful South,Cannonborough,8b292448-3d3e-4133-9448-c3857bd27da2,Always Awkward Hospitality
+da2bb089-4239-4d37-af15-d4d13fc797cd,Beer Street South,Prospect Heights,b2e9f3cd-74f9-45f5-bd4c-68692908efff,Beer Street
+497a1f0b-6d1a-453a-b5a2-32306772a52b,Bee's Knees,Williamsburg,2e2c59f6-4d51-4682-90ec-bf9af2cad7c2,Bee's Knees
+8fccb63a-aaaa-4acf-861d-8726d661a4c3,Beethoven Market,Mar Vista,8adb7629-a8f3-456b-a74b-0c14a0343a6d,Beethoven Market
+4033ee3b-5537-49c0-91e0-1bab0d13d144,Bella Luna Restaurant,Upper West Side,13c679c7-d031-4f36-aac7-b187632b6944,Bella Luna
+56e50767-5eb4-449e-9ff5-1c45760d9a79,Bergerac,SoMa,7deaefff-c975-4505-bb79-9e4627d079a9,Bergerac
+a6166c2b-dc7f-42a1-b8a6-4d77cd3a22f4,Berkeley’s,Hampton Park Terrace,d4e624dd-a966-4c3a-a78d-8deb5da66271,The Archer / Berkeley's
+12345eff-108a-4e44-ba95-5ada6e827afd,Bernie's,Noe Valley,6de2c645-6585-4348-b934-aca92af9cc31,Bernie's
+575ca8f4-f085-4315-9b92-ac8cf24cf4b4,Besharam,Potrero Hill,0ee4ef47-3899-4299-814e-aceb554e3a1c,Besharam
+946fc993-8cbf-4658-a842-b96319c33f2f,Bettola,Inner Richmond,0b964596-c124-4542-b7dd-7fe053e4db6e,Bettola
+0c31c810-e23b-4578-8c96-f47405040a51,BierWax,Prospect Heights,d2f0db0a-2d54-4c95-a28c-8b1710f4bbed,Bierwax
+e0c81b08-1909-4ae9-8326-289c2fbacc8d,Birdee,Williamsburg,7c435f30-a2ba-4393-83ee-86aff33a72e1,Saga Hospitality Group
+775e5aaa-f871-4514-96c6-addc6d6b6a1b,Bird on the Roof,Montauk,da1ffcc0-ea3d-49cc-a12e-66f530ca9d65,Bird on a Roof
+286b0d4c-c520-459c-8135-b3244129378f,Birdsong,SOMA,3bec0dd2-7c1b-42fd-a4ca-931a84c77740,Birdsong
+51aa13d5-b8db-4074-9b25-43967a5abcae,Bistro Ete,Water Mill,f184c9f2-bea3-4dd4-8c85-ca94cf7fbd2c,Bistro Ete
+ea2a71bd-bd21-4721-8d53-851d6a7298eb,Bistro Vendôme,Park Hill,0c4159a8-110b-4401-a1bc-7b0e48d8f8ba,Crafted Concepts
+7a717e76-34ed-4991-84f2-6797c1cb664b,Blackbird Club at Parcelle,Greenwich Village,b42470b9-18e3-45f5-8692-0b05b5e6bd98,Blackbird Club
+fbfcc75a-ab86-423a-b2b0-b2d8a30dea67,Blackbird × Cowy Burger,Meatpacking,849b3ba2-af16-43cf-8966-2077c650de09,Cowy Burger
+95978f59-71b5-4e70-b003-d3cd37223449,Blackbird Residency at The Standard,Meatpacking,5ac2382c-b104-466a-9ea8-4560d79ea81c,Blackbird Residency
+151a3037-9727-488b-ba4e-890767bf860f,Black Seed Bagels,Battery Park City,ffd684b7-7489-4458-a608-1df787dfba96,Black Seed Bagels
+151a3037-9727-488b-ba4e-890767bf860f,Black Seed Bagels,Rockefeller Center,ffd684b7-7489-4458-a608-1df787dfba96,Black Seed Bagels
+24f9d9fa-aaf9-4872-807a-134bc020e9cc,Black Tap Craft Burgers & Beer,Midtown,b2ee630f-2811-4a0d-ba78-a38e467d20cc,Black Tap
+24f9d9fa-aaf9-4872-807a-134bc020e9cc,Black Tap Craft Burgers & Beer,SoHo,b2ee630f-2811-4a0d-ba78-a38e467d20cc,Black Tap
+d256b18e-4c7e-41e6-83e4-d345a3279a31,Blackwood,Blackwood,1cbf23a0-1718-404b-8a9d-cb972a7b187f,Blackwood
+905a6d08-db56-41f9-a49a-5c445ab0c10a,BlindPig,Tenderloin,865608b3-5ebf-4afd-a86d-c12bd9304b18,Blind Pig
+0b8ba2a7-9b62-4ffc-af58-780cbcbe8423,Blind Tiger,West Village,20b47dc3-d8ec-4bd7-bb48-d529f9548e8b,Blind Tiger
+9880d849-3db3-4de4-9c43-a8147d10a089,Blinky's,Williamsburg,b609e5f3-1cd6-4a42-b615-1a468cb18205,Blinky's
+33e3e1ce-1863-47fe-a15b-533c6760277f,BLT Prime,Upper East Side,d01f8c4b-d24e-4188-aeaa-1a65d2b7d2a6,BLT Prime
+25e910c6-5fef-42eb-b430-28f2c76690a5,Blue Plate,Mission,82465abf-6cba-4303-ba5e-e530a518f553,Blue Plate
+2cf2b124-c9a2-42e4-ae93-453c94d9f908,Blue Whale,Marina,da0504c6-1488-4f24-bb2a-c1d521760eaa,Blue Whale
+ec929ec7-8d34-45ca-8fc3-e51a74058f35,Boa's CVC,Outer Richmond,06502a1b-4d69-4f06-8f8b-e5c39090c5d7,Fable & Boas
+5451c3a9-73f7-4293-b740-2f7f3a2c8f10,Bobbi's Italian Beef,Cobble Hill,69f615d3-252e-44b4-bbb4-81e3ed697279,Bobbi's Italian Beef
+7be8b074-29da-4bda-abae-85d446802664,Bodega (Coffee Counter),Downtown,e7ac75ad-c53f-460a-9592-738a1ee99ea4,Uptown Hospitality Group
+7be8b074-29da-4bda-abae-85d446802664,Bodega (Coffee Counter),Mt. Pleasant,e7ac75ad-c53f-460a-9592-738a1ee99ea4,Uptown Hospitality Group
+4efb6b25-e0f0-417e-ac25-2deab254ef48,Bodega (Dine In),Downtown Charleston,e7ac75ad-c53f-460a-9592-738a1ee99ea4,Uptown Hospitality Group
+f40f1e73-5b12-48e3-8bc3-19de5163f336,Bodega SF,Bodega SF,1af70182-6533-4d30-b195-0b0de5c0c0b0,Bodega Restaurants
+cc1e4e53-77f1-42e7-a921-956cbaf22969,Bon Banh Mi,Downtown,3cbd96ee-1361-45b3-a1ac-b9614534385d,Bon Banh Mi
+cc1e4e53-77f1-42e7-a921-956cbaf22969,Bon Banh Mi,Mt. Pleasant,3cbd96ee-1361-45b3-a1ac-b9614534385d,Bon Banh Mi
+cc1e4e53-77f1-42e7-a921-956cbaf22969,Bon Banh Mi,South Mt. Pleasant,3cbd96ee-1361-45b3-a1ac-b9614534385d,Bon Banh Mi
+0ffad0d1-02e4-41b9-ae63-084b64dbb058,Bonnie's,Williamsburg,f12240ce-ab06-46a2-ab1c-38b545c75b22,Bonnie's
+edf435c6-d44c-47f7-b152-8b65fb4437a3,Bosque,Hayes Valley,9f5003cf-60a7-481c-92bc-776bf1113a44,Bosque
+a84663ba-094d-440f-96b4-919c99a45cdd,Bottino,Chelsea,56cfb28e-7700-4fd2-bc9b-ae46233359d9,Bottino
+1231c78d-abf4-41af-bfa5-3f771688f522,Brass,NoMad,4a0e264d-bc32-4718-8053-ac0a183defb0,Brass / Moby's
+3394b38d-706b-46b5-a255-8fd9d7932420,Breeze,Greenpoint,3d2f209c-e855-4bd6-b880-a3b3a0b53bcf,Breeze
+ea5e6c30-05d4-45bf-916f-fc94081b1f14,Brenda's French Soul Food,Tenderloin,ce581429-728c-4c77-a94f-73dd079d1ca9,Brenda and the Krewe
+965cceca-4a6f-477b-82f8-3dd816e75f3b,Brenda's Meat & Three,NOPA,ce581429-728c-4c77-a94f-73dd079d1ca9,Brenda and the Krewe
+301f84dc-4faf-45a9-a406-a894f9f39777,Bricklane Curry House,East Village,a707cfd6-d403-41e0-9a81-d03356a71601,Bricklane Curry House
+db4a0287-fcc3-4d19-8cc3-547475a7d715,Briscola,Crown Heights,64ce2401-7a33-4400-8cad-683078ad24fc,LaRina
+94baead0-d295-42c5-8ad9-26d345909160,Brooklyn Brewery,Williamsburg,facaeef8-3bb3-47c2-a6df-f20f0239dac4,Brooklyn Brewery
+4eaceb8c-99ed-4407-a908-5221c51625c4,Brooklyn French Bakers,Carroll Gardens,36bbcbcd-ebcb-4ee7-abaa-3690540e94e6,Brooklyn French Bakers
+4eaceb8c-99ed-4407-a908-5221c51625c4,Brooklyn French Bakers,Park Slope,36bbcbcd-ebcb-4ee7-abaa-3690540e94e6,Brooklyn French Bakers
+196a8ced-de66-485c-8d4e-6bb29b43503d,Brooklyn Kava,Bushwick,e2083fe4-8f3c-4af5-ac67-31f67281b3c2,Brooklyn Kava
+83ed4391-bbea-4afc-a0bd-09d65d13c405,Brooklyn Kolache,Bedford-Stuyvesant,69da47fa-64bf-408b-abe9-0a0902a9fc1f,Brooklyn Kolache
+98fe30fa-14bd-48ab-a30f-17f853329004,Burgerhead,Greenwich Village,ea058449-28e2-48e4-a1a2-2c0f64c5af76,Burgerhead
+1ae8ba6a-b429-4aa7-b61a-d08a1cd8c905,Burgers and Beer,West Village,ea2589e9-797b-4391-afda-95200fafb492,Tio Pepe
+1899ddcc-e51f-42a1-a2ed-baf946cafef3,Bushwick Bakery,Bushwick,95823173-65c9-431f-be5b-cfdac4d1353a,Bushwick Bakery
+bb33b5f8-bdda-4ab8-b061-40b3c69b0eb3,Bus Stop,Pacific Heights,6bffc2b4-1771-4f8b-94da-ebc8219c8f0f,Joe Wallace Group
+e7a05cd6-576c-4beb-b600-b9697acaaa07,Butcher's Daughter,Nolita,9cbb2dd6-d26c-4e96-8e9d-d9da7f08b6c0,Butcher's Daughter
+e7a05cd6-576c-4beb-b600-b9697acaaa07,Butcher's Daughter,Williamsburg,9cbb2dd6-d26c-4e96-8e9d-d9da7f08b6c0,Butcher's Daughter
+309e8a93-25e1-4572-8abe-b267d7b1df0c,Cafe Blackbird at FarCon,FarCon,ce948a32-174b-45f5-8565-e9f01769496f,Marketing
+78579bcd-c6fb-4d9a-8f20-2e88433aa8d3,Cafe Boulud,Upper East Side,36e7ed88-dd55-4088-82ac-b77f241f710a,Dinex Group
+8c0809e3-0d1f-41ea-acbe-88b250ca1ab5,Cafe Colette,Williamsburg,7da399fe-6a82-4a09-8398-1524a8d255ba,Cafe Colette
+f5fa4d03-18a1-4cd6-a6aa-cd3e07aae162,Cafe Mado,Prospect Heights,852a5364-150b-40d4-89f4-0fe1c42077d9,Redwood Hospitality
+56d97f29-055a-480a-a857-d7de9932cb40,Cafe Ornithology,Bushwick,3070361d-5bd6-42b0-a3cc-d3026babbbd3,Cafe Ornithology
+2c79c548-c5da-4bd9-bdf5-6dce67b8afb2,Cafe Patoro,Financial District,e8826aad-776b-4f6b-843a-4e79484068b4,Cafe Patoro
+400dccf7-0917-43c7-8750-20fda21ba3e1,Caffe Sport,North Beach,38ded44c-08a2-4c81-92aa-0ceeb2998ee8,Caffe Sport Group
+2e4dd69e-a207-49dd-a637-1eab8cf6ea13,Caledonia Bar,Upper East Side,99c7df4c-8557-427b-884a-858d09926c05,Caledonia Bar
+9b1d16fa-0b2d-4197-a306-583e3405f7ab,California Kahve,California Kahve,b91064e5-81c0-4ffb-a745-8ae194807f99,California Khave
+6df52367-8a0c-434d-bd9a-ff4fba66ff12,Call Me Pearl,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+46572411-97dd-4b7e-8069-7af0aadb9310,Camino Alto,Marina,9302b5c9-4edd-42ff-b2d0-8ffd88f9eb47,Camino Alto
+2b3a5a2b-378d-481a-8303-c20db3c82163,Canal Street Market,Soho,c19bbcbf-dd46-4c2f-93ad-cc202468cf03,Canal Street Market
+9749b36b-0332-49e1-a0ac-a574868c09d2,Cane Pazzo,Hanahan,92b5d248-b045-40c2-81c7-982e6ab3a389,Cane Pazzo
+e637971f-536b-47a5-91ba-cddad208e73c,Carissa's Bakery,Amagansett,ac4e7347-43e8-4b9a-b67d-2f00844b0369,Carissa's
+e637971f-536b-47a5-91ba-cddad208e73c,Carissa's Bakery,East Hampton,ac4e7347-43e8-4b9a-b67d-2f00844b0369,Carissa's
+e637971f-536b-47a5-91ba-cddad208e73c,Carissa's Bakery,Sag Harbor,ac4e7347-43e8-4b9a-b67d-2f00844b0369,Carissa's
+796a1658-19b8-4bc5-a06f-20ed9310f0b9,Carlotto,Union Square,69d05307-fbb4-4053-9e60-26903c34bbac,Toptable Group
+f0a1a4e2-605c-41f6-8f23-909cc77bba5f,Carmine Street Beers,West Village,4c87536c-7a01-4b05-9f44-0478c8b14c37,Carmine Street Beers
+7a71b2d7-56e5-45db-839b-62c7fbfdd117,Carne,RiNo,6d9c2232-b436-4e58-a229-c695d4d607c9,SuperLoca
+8b87afbe-497b-4176-8215-3945ba1b3fdc,Carriage House,West Village,3a6bf638-7b60-4a24-a903-cd2798ad2590,Carriage House
+3c19d9b7-81d9-4436-95af-b2d5d08b9917,Carta,West Village,0561d863-369f-4e83-ae9d-461f51823c68,Carta
+7799acb4-64bb-4f21-9918-13fb8cb37ed2,Cart Driver,LoHi,6e61f646-d0a1-4bf5-a199-cefe21897f3f,Cart Driver
+8a69da80-1dd2-4a86-bbd4-aa1a9b72b06e,Casa 13urger,Bowery,02f73010-57fd-46f2-be94-6fd248e4a571,Casa Thirteen
+9f41ee50-0f7d-45ca-81ae-f086135daa74,Casa Thirteen,Bowery,02f73010-57fd-46f2-be94-6fd248e4a571,Casa Thirteen
+b8c0b5a1-7e3f-47ec-b3e1-9eaf1c2245aa,Castro Indian Restaurant & Bar,The Castro,a71f3435-b387-43de-b254-720a690b2216,Castro Indian Restaurant & Bar
+b20c5408-f6d9-4029-bbd6-3672f3a49b72,Catbird Kitchen,3770 Walnut St,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+d9d08960-92ed-4527-b66e-d5b8c22e438d,Cecilia,East Village,a1ce9e95-f3a3-48f2-80bc-68682d36fd74,Cecilia
+1951a8cd-d0a7-4b90-9931-e1ea85a73789,Center Bar,Columbus Circle,f774ff15-9e88-4e16-a22b-cabdb4199168,Porter House / Center Bar
+791f2cca-42ce-49cc-a1e7-108c2862e685,Cha Cha Tang,West Village,30cdda1a-56d2-40e1-98e2-32057b60b80c,MSH Restaurants
+17817c64-31f7-4624-ad5e-6dc0570428cb,Chada,Greenwich Village,085e9114-4a8f-4468-b983-59905d4864d1,Chada
+0b393047-5ff6-451d-bc51-00bcdfe55ca7,Chambers,Tribeca,f04a9437-94d4-44c5-acb4-7209d3d0d260,Chambers
+a9beb7de-0401-4e7c-a66d-c31a3eab1034,Champagne Tiger,East Colfax,33606975-5dee-4718-8b50-de233816c89b,Champagne Tiger
+81606580-530a-4283-923a-7a4185f1e606,Charcoal Venice,Venice,0c74eed8-fcef-4e62-92d0-6eda1aba197f,Citrin Hospitality
+7d860134-b296-4269-a6c4-abd23adab57f,Charles Pan-Fried Chicken,Harlem 125th,0249094f-52c3-4c24-9c71-052b9f0995ac,Charles Pan Fried Chicken
+7d860134-b296-4269-a6c4-abd23adab57f,Charles Pan-Fried Chicken,Harlem 145th,0249094f-52c3-4c24-9c71-052b9f0995ac,Charles Pan Fried Chicken
+7d860134-b296-4269-a6c4-abd23adab57f,Charles Pan-Fried Chicken,Upper West Side,0249094f-52c3-4c24-9c71-052b9f0995ac,Charles Pan Fried Chicken
+37abac99-3895-491b-adca-3039438a2cbe,Chelsea Living Room,Chelsea,b81bc84b-0259-4ada-9eb9-6dec96fb717c,Chelsea Living Room
+ae019990-6d57-4273-b6a7-dbca9de6b551,Chief Sullivan's,North Beach,6c2863ad-fdf7-40b6-b066-d0873eee008c,Chief Sullivan's
+2a8a7a35-8d74-4315-b11a-ff9c9f5f506d,CHILI 美麗,Midtown East,a1c46bdd-6b2e-4808-8241-9c277f075323,Meili
+1a67e121-7411-4381-acba-91c65f4f0b0a,Chinta Thai,Greenpoint,48cd2c00-ce66-4a80-b251-81457afcbc4a,Chinta Thai
+0a463fd3-42b7-42d6-8573-8ad083ceb233,Cholon LoDo,LoDo,701fca55-fdb3-4af2-9896-1ac7d36dd526,Cholon Group
+812c7730-4adf-4a37-82de-f14ea531ddbd,Chouquet's,Chouquet's,3cdd6722-d9cf-4671-94ca-75e6846913ec,Chouquet's
+fce4fa93-98c7-40c7-bae3-20044c6488b9,Citrin Restaurant,Santa Monica,0c74eed8-fcef-4e62-92d0-6eda1aba197f,Citrin Hospitality
+5de2ab76-a948-434d-a686-16ce7ac868f4,Clam Bar,Amagansett,e0af7db4-bbb4-4927-aae9-82e6e2c3122d,Clambar
+2c4210bb-e581-470f-b285-1b925dd79a0c,Claro,Gowanus,1a1c7b74-4565-42b0-9321-7d02fec62f56,Claro
+3613acf1-7e19-4666-b1d0-69b632f17f10,Clerks,Downtown,3b3b5f97-45a0-451f-bdd4-9c221a041538,Hotel Emeline
+c780fb06-8720-48fc-a3b5-d8d792dab2b1,Coche Comedor,Amagansett,d350c077-3db0-48a5-9cde-874d9aa93044,Honest Man Hospitality
+7d829d15-f0d7-498b-ab33-01154b63e814,Coleman Public House,Mt. Pleasant,3c41006c-8c75-4a37-894b-deea870ee0e8,Coleman Maybank Public House
+4ccac447-e272-4ccc-b534-0b56cea1bab9,Collina,Russian Hill,86a695ec-2916-4119-be7e-b7151187d8f3,Collina / Seven Hills
+4c5bd22d-da75-4ed1-b086-936c5b28079c,Colonia Verde,Fort Greene,aee338b8-c44f-4627-887d-d4cfd8e121a5,Colonia Verde
+8894f0e0-e7d7-4b14-8b9a-329e760117f9,Commodore II,LES,d41efca1-f4b1-43e7-b24b-a51a500b7573,The Commodore Bars
+47556a2a-1fe9-45da-9719-5c332b2b3609,CO Restaurant,Radcliffborough,a7cdd59e-2cf5-47f6-8dce-c0f083cedbbb,CO Restaurant
+afbd71ed-bd4a-4b17-add9-befa791404db,Corsica Wine Bar,RiNo,73903e2e-8dbe-4cf7-9bd6-3dd3aab12327,Barcelona Wine + Corsica
+eb4dd087-b010-4b14-a5d3-d1f81a524d3c,Costa Charleston,Costa Charleston,bbca6711-d3be-4276-822f-abb3f1ef2877,Easton Porter Group
+a1cdbdb9-6ecb-4c63-b2e8-4d7c2bd97d86,Crif Dogs,East Village,2034c9f8-f71f-489f-937d-206e3718ea82,PDT/Crif Dogs
+45f037e6-a037-4bc9-a068-070ff1c11d83,Criollas Hell's Kitchen,Hell's Kitchen,c0a7f98b-d21e-49b6-b627-1c26939729ef,Criollas Baked Empanadas
+ff22710d-c7ce-4fea-8aca-5301f23b20f9,Criollas West Village,West Village,c0a7f98b-d21e-49b6-b627-1c26939729ef,Criollas Baked Empanadas
+3d45ee2c-1709-400c-8604-cf6f0cc55302,Crown Shy,Financial District,7c435f30-a2ba-4393-83ee-86aff33a72e1,Saga Hospitality Group
+e0aefa1d-c232-4798-856c-4642ec9c2774,Crudo e Nudo,Santa Monica,27c08a8f-0f9b-4da5-a580-43d2dd71a3f0,Crudo e Nudo
+00c6ef82-ad73-4494-b512-b1aa20a251e6,Cruise Room,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+6c839b38-fe74-437c-bd0c-90cebe5d8f8a,CyBelle's Front Room,Inner Sunset,95597d6d-8f35-42cb-8c42-741bd2f3c977,Cybelle's Pizza
+49eef946-5c07-4be3-ba77-2d1d7d147caf,Dacha,Polk Gulch,344391cd-3de6-47eb-a403-1ea4350a1ab6,Dacha Group
+454dd4f5-3f9f-48a6-a022-27528b1f07df,Dada,Ridgewood,94135ded-e759-4c7d-96d2-0fd7306b14a9,Dada
+ad840011-4e34-4242-a78b-23ebf509d16c,Dalida,Mission,c367f0ed-1ce4-483c-8975-13a0821ac9a7,Dalida
+89a83dfc-2d2a-4bff-801d-5b8765a9b017,Dalila's,Cannonborough Elliotborough,e3219ddc-273c-47c6-93c5-0e6bd3fcdb41,Dalila's
+873bec06-5645-4df4-8f05-6b2c1155d898,DAMNFiNE pizza,Outer Sunset,e8e67ab3-2d41-432d-b1f8-5a1e963d4d8f,Damnfine
+648c3550-3919-49f5-8c90-e196d104205c,Dashi,Park Circle,0cec2453-99f1-402c-8b84-2fc9a9417950,Dashi
+a219819c-a611-4be2-866e-b1724f0e7674,Dashi Wine Bar and Emporium,Park Circle,0cec2453-99f1-402c-8b84-2fc9a9417950,Dashi
+6c783fab-7534-46c6-abaf-59f5e2d1ab2a,Dead Low Cafe,Folly Beach,1fb4cee6-39dc-41c3-b484-ddcbe200669e,Dead Low
+1dbee9b0-9549-4cb4-84c9-2100262c03f5,Dear John's,Culver City,42ec1c7c-46ff-43dd-8476-a4482b3f228c,Dear John LLC
+fa99e070-dee7-465b-b155-e8e52e050b07,Dear Strangers,West Village,65562520-1b30-4d57-a2f3-1ea26cb795e3,Dear Strangers
+86bc9c75-67eb-4ebf-b493-635d2701bea3,Debajo,NoMad,55411d82-ec1f-4454-bf96-904ef64cf4ae,Debajo
+a9fb2c46-8797-4c02-bfae-b5371a25e801,Decades Pizza,Ridgewood,c5bcbfc6-f516-4a69-89bf-0a9908142154,Decades Pizza
+ec8b2dbb-1202-4fc0-acc7-d7123443f163,designers collab coffee.,Williamsburg,230ebdd2-ddab-485f-b950-2a1c61bee59f,Designers Collab
+3c6e4a5f-eb68-4631-90a4-e3b1d8477db7,Deux Luxe,SoHo,ff7fd1c2-cf6b-4cb3-9d95-8bf08483eb5a,Deux Luxe
+f8b3e12b-d433-4131-99fe-0061a0e3943e,Dhamaka,Lower East Side,dd835bb3-b594-48c0-ab26-16811eb8b8f0,Unapologetic Indian
+b4dc213b-1506-4830-a663-da4fd340a632,Diner Antonette,Santa Monica,ff9fb672-6042-4ac9-902f-f13808fcf3e7,Diner Antonette
+9686e6ff-b576-45d4-bf4c-729fb743f13b,Dive Bar Pizza,Montauk,56d54500-b9c2-46cf-893b-d0299103a0dc,Dive Bar Pizza
+c721c507-81e9-4e8f-bd41-2a6d03824a03,Diwali Indian Cuisine,Mission,eb60f0ad-9595-41f2-b95d-52d46dd9bc83,Diwali Indian Cuisine
+4ef0ebd9-e9d3-4902-b3eb-8e20d24cbcc5,Doubles,Amagansett,668e5276-1dbd-48a9-9de2-8425ebabb7fe,Doubles
+2684fbf1-eeb2-4096-bb45-9e2ac98ac943,Down the Hatch,West Village,7842c853-cd64-4e82-a24e-7b40eb8eae6b,Eat Drink & Be Merry
+e4e8c0b0-ba94-4887-95e5-be0c6deba967,Downtown Social,East Village,7842c853-cd64-4e82-a24e-7b40eb8eae6b,Eat Drink & Be Merry
+7a8090fa-79b2-4593-915b-6445dc7976ba,Dragon Horse,SOMA,92bf9d77-67db-40d5-86c8-60eded6874ef,Mins Group
+526df0c2-2034-41b1-8795-721c9b99d0c2,Drift In,West Village,d578bd05-9453-42d4-b1a8-1fd1e70acd19,Crew Hospitality
+aa6093b2-5257-4105-8637-99d166b35524,Due West,West Village,9ddbcefb-02fd-4e26-9a9b-ad06f1be0d6c,Due West
+29147e61-af36-491c-af99-65d9fbe0f70e,Dumpling Time,Design District,2c801270-ed8d-4562-ab6d-c5892e69b273,Dumpling Time
+29147e61-af36-491c-af99-65d9fbe0f70e,Dumpling Time,Mission Bay,2c801270-ed8d-4562-ab6d-c5892e69b273,Dumpling Time
+0abeb13d-fab3-4f27-913d-05c43d3b8298,Dynamo Donut & Coffee,Mission,0bd1900c-031f-423c-b22c-876df6ae2f60,Dynamo Donut
+dfb8cf3c-6a80-45db-8d08-114d1456aa19,Earthly Delights,Ridgewood,e28b7384-f407-4b35-839d-bd3f69d7745a,Earthly Delights
+142ab2b9-7837-4e26-9588-b259cb541506,Echo Bravo,Bushwick,8811acd7-a0a0-43e4-b411-d5567f4844ab,Bravo Bar Party
+3e7f913a-8bd0-41e3-9224-7cd28930d25e,Edmund's Oast Brewing Co.,Wagener Terrace,d8dce431-e611-493a-8d71-7942d31eb2d8,Edmund's Oast Brewing Co.
+9866b273-3884-428c-81f0-115014687d30,EJ's Luncheonette,Upper East Side,d620a383-9c68-45f9-b478-a7f8b68b8a57,EJ's Luncheonette
+d32b049d-0a3e-493e-882f-a19aa80f0fa3,Elaia Estiatorio,Bridgehampton,402ec75d-16eb-4b40-859c-c8ba4486fe96,Elaia Estiatorio
+854f5139-4029-4910-b735-51ed71c5b437,Elephant Sushi,Fillmore,db46904a-3170-46c9-810e-be90785f405b,Elephant Sushi / Elephant Sushi
+854f5139-4029-4910-b735-51ed71c5b437,Elephant Sushi,Russian Hill,db46904a-3170-46c9-810e-be90785f405b,Elephant Sushi / Elephant Sushi
+f1723d23-1f1b-454f-859a-961fdff56630,Elixir,Mission,1001c1bf-5d88-4e3f-91a6-0f8969885e89,Elixir
+b0db1446-6506-47e7-a61a-e001bfa7f608,Ella Funt,East Village,0a756f22-a296-40dc-a4da-087fc7b24612,Ella Funt
+c687e091-d503-44de-b8d8-bb2864445c04,El Mansour,Outer Richmond,40b8b2e3-7954-433c-aa55-9d242c8d3a7f,El Mansour
+dd50d551-baee-4ece-b987-7ee8f443aa5e,Emblem,Williamsburg,e561f7f5-88a7-4d5b-be6a-8e5d6f5a8c89,Emblem
+73b31ac1-054a-433a-a10d-6c6756fd1b5a,Emily Brooklyn,Clinton Hill,7c3412c7-8071-481f-9d46-edbf92b47b61,Emily Pizza
+b2ed05c0-a3c8-44a4-a594-ce1f180923cc,Emmett's,SoHo,5cab0c9d-361f-46f5-bebf-436178e92daa,Emmett's
+b2ed05c0-a3c8-44a4-a594-ce1f180923cc,Emmett's,West Village,5cab0c9d-361f-46f5-bebf-436178e92daa,Emmett's
+d09d72da-e46e-4917-82ff-eaa3df1d75bf,Empellón Taqueria & Bar,Greenwich Village,e26a097a-c63b-40e0-a29d-19b0d36b0c0e,Empellon
+6aad081c-27a2-4b2e-afcf-dc7b6c3b91d9,Ensenada,Williamsburg,8f171c1e-6623-4d59-b8db-46c3c6bcb49f,Ensenada
+d8c8f453-eada-42c4-8a6d-918831db66fe,E&O Kitchen and Bar,Union Square,e5edb57a-134d-4e5e-8773-1cc16ae39522,E&O Kitchen and Bar
+6896fcbe-9de9-4d6c-b28d-ab5a0191b911,Essential by Christophe,Upper West Side,cc77ab50-0662-4c78-b1a6-a767ea30d816,Essential
+41063c94-abbc-469d-a42d-c7c4459f47a0,Estadio,Cannonborough,f85d9cf4-6312-40c0-bd98-d5d2c43dc7bc,Estadio
+76a6c6d1-2533-42b7-b46e-4aa01b9095dc,Estancia Piola,Gowanus,fe0fb570-ae3f-4635-9473-e98fb6fd9bff,Estancia
+2b41aa2c-c319-4733-898c-ea442e919f6b,Evelina,Fort Greene,717bf5fe-eb99-4341-8b5a-5036ac967054,Evelina
+15b958b2-f0ba-49f0-b50f-712f17a6cc1b,Evil Twin Brewing,Dumbo,e49aefe3-d0b6-4d9a-a9d3-10a1c03bde24,Evil Twin Brewing
+15b958b2-f0ba-49f0-b50f-712f17a6cc1b,Evil Twin Brewing,Evil Twin Brewing NYC,e49aefe3-d0b6-4d9a-a9d3-10a1c03bde24,Evil Twin Brewing
+aa5e81f0-e408-4d4b-88e5-3b76efae7c85,EVO Craft Bakery,Park Circle,09a96c7b-3fc7-45de-bcd1-f1d1dd57a9e8,EVO
+b1ef67fb-8cd9-4aeb-ade9-eed1fd6d0a70,EVO Pizzeria,Park Circle,09a96c7b-3fc7-45de-bcd1-f1d1dd57a9e8,EVO
+a0803c37-d104-49ad-8dbf-39811525564c,Fable,Mission,06502a1b-4d69-4f06-8f8b-e5c39090c5d7,Fable & Boas
+5c9b968a-9e81-4d8f-83a8-3fe6f2b62640,Falansai,Bushwick,a35eed2b-2208-4ee9-a266-b339949da6ee,Falansai
+43f19e7b-d9f0-4746-8690-5d5b99330cbd,Falu House,Greenpoint,585b4944-0d88-4b73-8d34-5083c643bd19,Falu House
+ae2a8f49-bd41-4b99-92f6-aef0db34f002,Fan Fan Doughnuts,Clinton Hill,9eaddf20-157d-40fd-a46d-e5d17aef26ee,La Newyorkina
+fb217f5a-d083-4015-88e2-99526c5925d0,Farm and Forage - East Hampton,East Hampton,b1dc89bd-9c46-45f8-becb-dcb15b87af33,Farm and Forage
+e1c9173a-7fbf-4e14-8936-2e6d89b15747,Farm and Forage - Southampton,Southhampton,b1dc89bd-9c46-45f8-becb-dcb15b87af33,Farm and Forage
+b7f6543b-00d8-43d9-a1b6-cc5f96e72c82,Farm to People Kitchen & Bar,Bushwick,4e4a85d6-f677-4aea-bf4b-3c6571e4cce7,Farm to People
+cdc408be-3fab-4744-b815-6e64573796f7,Felix Trattoria,Venice,3b3c3776-43d8-42ec-9dcc-594b265f9a1a,Gusto 54
+09d63687-7956-44c3-a856-43a92cbb8b9c,Ferdi,West Village,9cb4788e-72eb-40e6-9bd0-f42b2ad92a9b,Ferdi
+5731b9d1-a4b3-4352-ac9b-05c65feb4eae,F&F Restaurant and Bar,Carroll Gardens,90046af8-eebf-4685-a49d-ff239bac5268,F&F Pizzeria
+5ad7e960-8ac6-4823-8580-3959bfcde52a,F&F Slice,F&F Slice,90046af8-eebf-4685-a49d-ff239bac5268,F&F Pizzeria
+0392524d-9366-46c9-bb59-e158230db812,FIELDTRIP,Harlem,2dddd51e-2621-43b9-aaf5-53e706b03723,FIELDTRIP
+0392524d-9366-46c9-bb59-e158230db812,FIELDTRIP,Rockefeller Center,2dddd51e-2621-43b9-aaf5-53e706b03723,FIELDTRIP
+ecabaa8e-ac5d-455d-a2a3-2b5e53c829ed,Fig Tree,Venice,9059edc8-9f36-474f-a9af-25d190a27b67,Fig Tree
+88ae5244-814f-446a-bfe2-489fae723cbd,Filé Gumbo Bar,Tribeca,c50dea8b-09c4-4f72-b024-250c11048b00,Filé Gumbo Bar
+8f8029c2-0567-40a8-8f14-fe6096806cf3,Filthy Diamond,Bushwick,5aabbe08-1243-4e2f-96fe-de410fca41b1,The Filthy Diamond
+222ac2ab-0540-46c6-887d-ceab2c42dc70,Final Final,Pacific Heights,6bffc2b4-1771-4f8b-94da-ebc8219c8f0f,Joe Wallace Group
+2ed2f0c1-2f1b-4acd-8a17-e6c6cc725ce0,Finback Brewery,Glendale,a805868e-7ae4-4954-822f-3d69c4891833,Finback Brewery
+2ed2f0c1-2f1b-4acd-8a17-e6c6cc725ce0,Finback Brewery,Gowanus,a805868e-7ae4-4954-822f-3d69c4891833,Finback Brewery
+2ed2f0c1-2f1b-4acd-8a17-e6c6cc725ce0,Finback Brewery,Long Island City,a805868e-7ae4-4954-822f-3d69c4891833,Finback Brewery
+f3e7dbb0-0b8d-47ca-a724-4d29f83f9dfc,Fish Cheeks,Noho,bc8c1316-c4c1-47ea-9607-4c21f79fd668,Fish Cheeks
+f3e7dbb0-0b8d-47ca-a724-4d29f83f9dfc,Fish Cheeks,Williamsburg,bc8c1316-c4c1-47ea-9607-4c21f79fd668,Fish Cheeks
+da72dc7e-e6de-4e12-bdcb-104e7e057460,Fish Cheeks x Complex,Industry City,bc8c1316-c4c1-47ea-9607-4c21f79fd668,Fish Cheeks
+94ad49c5-c5ed-4979-bc03-a65478160a49,Fish N Beer,RiNo,09be19c2-8471-499c-8dc5-8b2f0f29d5af,Fish N Beer
+dfa4e978-61d7-4af8-a97a-afcc81f7a623,Five Loaves Cafe,Mt. Pleasant,5da42aa8-f3cf-4f61-9962-4dbc31bb6776,Glowfisch Hospitality
+dfa4e978-61d7-4af8-a97a-afcc81f7a623,Five Loaves Cafe,Summerville,5da42aa8-f3cf-4f61-9962-4dbc31bb6776,Glowfisch Hospitality
+b1cf9fef-26fc-4748-8672-d4d6d5434220,Flex Mussels,Upper East Side,d13d0607-0393-429f-ac54-7336837e880a,Flex Mussels
+7109aa48-17ca-4e24-bf51-7232ed487d51,Florence's,James Island,7065715a-94f8-4da6-bbe1-7e1af4c2bfed,Queen Street Hospitality Group
+2cb56d03-4417-4b60-afe3-be819ecde8ac,FLYBAR,FLYBAR,7edff699-fba2-4514-8de0-94db1978b34f,Blackbird Labs
+211e83eb-5506-4049-b2bd-2c4072c99290,FLYBAR (FSR - demo),FLYBAR,c5cce5b7-6655-4007-a983-a02047a8e537,FLYBAR - Demo
+85c1271f-c8a7-4304-ae4b-900238a7ddc7,FLYBAR (Square - demo),FLYBAR,c5cce5b7-6655-4007-a983-a02047a8e537,FLYBAR - Demo
+20dcc852-4148-462d-b42a-f0738c876bf8,FOOD,Lower East Side,18311039-9705-45ce-8d95-8c59bd34acb5,FOOD
+77360a1a-a371-4ca7-a7ce-222e5ba0b794,Foolproof Whiskey Bar,Williamsburg,c2688ff1-7306-4b7c-ac63-908136010e21,Foolproof
+3d0550ad-cc9c-4fcb-9273-635dbd33b36e,Forget Me Not,Cherry Creek,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+1e2dc6f8-aea9-446c-9339-590bd86e4fc3,Formosa,Bushwick,63d404e2-cac8-4db4-bb4d-fefe5c1afb37,Formosa
+a402fa9e-847c-4d28-9f48-74083e47850e,Fornino,Greenpoint,1b26f4b6-67ed-4643-82c0-3295224ee5b2,Fornino
+dea0b762-3fbd-4a3e-a8d3-55cd295db7a0,Forsyth x Nom Wah x Complex,Industry City,e3682250-2c01-46f1-a08e-5ab1631aa93d,Forsyth Fire House x Nom Wah
+2706f008-38a7-406d-a464-144c6ecadaa4,Fossetta,Lower East Side,ef7a56d1-6809-4982-bd39-031d1bd7bdc4,Fossetta / Cafe Colette
+29088512-c0f4-4bcd-92bb-f5ecd550803c,Foul Witch,Alphabet City,c3d4c1ab-acc3-45be-b318-18ae9f680470,Roberta's
+1239a0e2-8091-4dd5-8da6-782a6c8d5eed,Founding Member,324 Lafayette Street,2cf14d16-9a58-49cf-b78a-091c1bf6516a,Blackbird Founding Member
+789638df-2b48-45d9-bdc2-8d7e958a790f,Fox And The Hen,Fox And The Hen,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+9a49372a-3508-4b1a-8951-817659bb3006,Frances,The Castro,052e04f5-b43a-4785-9b9c-f19fb472352b,Frances / Octavia
+ae38ae11-0deb-40a5-8536-8db89646b101,Frankies 457 Spuntino,Carroll Gardens,35847c15-4fa8-4b3c-857f-c1e013f056de,Frankies 457
+cf0dda93-b7a8-4c17-bf12-bea8f8c9bd41,Frannie & The Fox,Downtown,3b3b5f97-45a0-451f-bdd4-9c221a041538,Hotel Emeline
+e0ccc49d-042c-4833-88fe-1b6d7b930187,Frasca,Pearl Street,69c8aaf5-9553-43c5-be69-e6dcc12ecf10,Frasca
+0444ad46-2269-464e-b722-8d63fe938a2c,Freemans,East Village,0a061081-19d9-4457-ada4-823b7f4be0ed,Banzarbar / Freemans
+0aa3d172-3abb-4298-98b3-2f06830996a8,Fresco's Cantina,Astoria,4c4977c8-4739-46a3-8a02-e0abd73427ae,Fresco's Cantina
+7e7c8b1c-e839-4e64-ba13-f51504e47901,Fresco’s Grand Cantina,Astoria,272a9049-5302-46a7-820e-b3c04c23274e,Fresco's Grand Cantina
+972efb7a-24ca-43be-85fa-fed9e55f7cef,Fresno,East Hampton,7df051ff-5f7c-4e09-8432-af7a074a5e7e,Fresno Restaurant
+365f2175-2f96-4296-9ab2-47d250e2898f,Friedman's Chelsea Market,Friedmans Chelsea Market,fcab5650-6899-4643-912b-ac602728d0e0,Friedman's
+69f7c198-2057-4e1a-827a-ac5ee227423a,Friend of a Farmer,Gramercy,fe9bb7bb-683f-4241-aff1-3359b075d8b1,Friend of a Farmer
+69f7c198-2057-4e1a-827a-ac5ee227423a,Friend of a Farmer,Upper West Side,fe9bb7bb-683f-4241-aff1-3359b075d8b1,Friend of a Farmer
+e70cf566-d2ff-443e-b833-e2756e1e01f0,Frijoleros,Greenpoint,7244963c-cb61-4454-9014-38afa293b2bc,Frijoleros
+41a7c815-6009-40eb-84e4-5114f03948ef,Fulgurances,Greenpoint,31b7ce7c-acf9-4926-b538-e83c224ec489,Fulgurances
+549049ed-b142-4fc8-bf97-461d93b6eeda,gab's,West Village,568c5d89-c368-4423-a0c2-43c5c2a63d2e,gab's
+ac2ab9f4-cd36-4cd7-aac2-85b8d289c347,Gair,Dumbo,69dc2a30-938e-444c-97df-4d644cf9d08b,Gair
+9912b5ec-ad8a-4802-bf15-9263aa813de3,GERTIE,Williamsburg,7bdb427e-e93a-4813-9bd7-9deec256fa33,GERTIE
+990808af-9549-4fec-adda-eb91ba9cecc4,gertrude's,Prospect Heights,e0b5d0cb-f61b-44e1-b82e-f56f716a7fbc,Gertrude's
+f459084b-3576-4fac-a9de-768a376c6103,Ggiata Delicatessen,Highland Park,802b0ee3-6de7-4ce0-9e9e-ccc7f1cb7175,Ggiata
+f459084b-3576-4fac-a9de-768a376c6103,Ggiata Delicatessen,Venice,802b0ee3-6de7-4ce0-9e9e-ccc7f1cb7175,Ggiata
+f459084b-3576-4fac-a9de-768a376c6103,Ggiata Delicatessen,West Hollywood,802b0ee3-6de7-4ce0-9e9e-ccc7f1cb7175,Ggiata
+52bc2538-3578-4e1d-86d4-c33b2c82cd6b,Gin Rummy,Marina Del Rey,3533b1c9-af5f-45b2-af93-0a71fa1284a2,Jared Meisler Restaurant Group
+442752dd-b0a8-4f3d-979a-fa2223d17c1d,Gjelina,NoHo,2e3d7ebe-1e97-4b7f-be9b-df56ae5536f5,Gjelina
+442752dd-b0a8-4f3d-979a-fa2223d17c1d,Gjelina,Venice,2e3d7ebe-1e97-4b7f-be9b-df56ae5536f5,Gjelina
+2e7d2b64-1e40-4e37-aff3-f28e53b95c45,Gnarwhal Coffee Co.,Santa Monica,ade565e1-0360-48f8-92b3-c42e394e9790,Gnarwhal Coffee
+97b8e759-0935-4d27-9be0-ed88c12e18f1,Gnocco,East Village,23ffa30e-2f8a-4a6e-b0c1-16e5b476873c,Gnocco
+7142a743-5fc5-45c0-9818-f325a6e24f4d,Golden Diner,Golden Diner,d032ab32-9948-4791-9818-ebbc7f491dc8,Golden Food Group
+66e309d2-6787-4f07-9fc7-360dc2303a33,Golden Hof - Korean Bar & Grill,Midtown East,d032ab32-9948-4791-9818-ebbc7f491dc8,Golden Food Group
+db146718-fa00-4bdb-8e1a-c2978c523b2f,Goldie's Tavern,Chelsea,c6198d66-7c44-4e7c-a1fe-a61a21f5179f,Goldies/Little Dipper
+9bcb976d-3076-4224-abc7-edca83504f16,Good Bar,Greenpoint,73e8327b-9b60-452c-b55b-77ba74c586ab,Good Bar
+09f48233-5991-4df0-a192-231a4650225b,Good Guys,Lower East Side,67829338-bc96-4832-8038-8bddb2b47ca6,Attaboy
+ff51d2df-ff2d-4477-b092-be8205e15961,Good Thanks,Williamsburg,ca87e91a-d4dc-4f68-81f3-41b977629a68,Good Thanks
+bfa5de6d-a3f3-473d-bdac-1ef5c5169344,Gotham Burger Social Club,Greenpoint,7a19ca0e-21c9-4246-925f-9593b96d5b72,Gotham Burger Social Club
+bfa5de6d-a3f3-473d-bdac-1ef5c5169344,Gotham Burger Social Club,Lower East Side,7a19ca0e-21c9-4246-925f-9593b96d5b72,Gotham Burger Social Club
+5d1af680-c3c3-4fb9-862f-fa0a652ca05a,Graft Wine Bar,Uptown Charleston,d66ae6e1-a457-4e77-8a95-f67d14edc686,Graft Wine Bar / Tutti
+e1a46199-b61a-486b-b12c-59e7650256bf,Grandma's Home 外婆家,Grandma's Home 外婆家,2446562f-a954-4560-b370-50efad01d164,Grandma's Home
+0b3c1ea7-b808-42f8-9455-7c1cccf26f11,Greenwood Park,Park Slope,ed70f6ef-0c98-4e9d-a77c-55c2fb2b5aab,Greenwood Park
+485f70c7-dfcd-4e4a-99ba-a860e370ca73,Greywind,Hudson Yards,1c7eda20-2e5c-49e4-b91e-d2ca036cbfcb,Greywind
+29d7e844-ad1d-4707-a724-d566dc8ef9e2,Grimm Artisanal Ales,Williamsburg,f9124d24-ea29-4b6b-94b5-1ef6091000fc,Grimm Artisanal Ales
+58b2b03a-493e-4f66-864d-112af76a4a32,Gus's,Cobble Hill,977b415e-7dea-49aa-a76e-3dc2e48e8d18,Gus's
+3863fe98-9379-4228-b770-e5864ada47fa,HAAM x Complex,Industry City,90ea37be-095d-4be6-b983-438bc03fa324,HAAM
+f603e1c0-a378-49ce-adb8-07494c0a2d34,Hags,East Village,1a32f2c7-4f94-4e36-a9c0-0e41185d3ced,Hags
+d7a78887-da0d-413f-9e86-6c4d5becebd9,Hair of the Dog,Lower East Side,7842c853-cd64-4e82-a24e-7b40eb8eae6b,Eat Drink & Be Merry
+272f9715-e55a-4ac3-a9f9-268c07ad1d7e,Hank's Seafood Restaurant,Radcliffborough,3b3b5f97-45a0-451f-bdd4-9c221a041538,Hotel Emeline
+61e57bf3-9d9e-4457-8fc8-ee4a4b489c22,Hanoi House,East Village,e408f689-bea3-4b63-9484-0284f55a32d1,Hanoi House
+d6b16e38-0f35-4b28-8d9b-600144c7963f,Harborview Restaurant & Bar,Embarcadero,ec9c0ce2-9d24-4b07-b685-ba91f89eeb72,Harborview Restaurant And Bar
+3ff2a32d-6dee-4533-9c91-53e59abf0491,Hard to Explain,East Village,8aa9b958-4fb1-4bdb-828a-595131e2f13a,Hard to Explain
+259fc69b-d59b-4d3a-8c8e-dc24dcb9b8c5,Hart Bar,Bushwick,4bd71557-6081-4b3f-92b4-f8ca7857fa1f,Hart Bar
+29bb7f0d-921e-4617-acdb-3fd834dc333a,HaSalon,Hell's Kitchen,911dfde3-a6f0-461c-bc3e-5cc82ff9c0ce,The Good People Group
+441043af-7b4d-4f89-ab90-f92ac63a1940,Hazie's,Hayes Valley,dcf5d720-6296-4355-a33f-225a2747bef6,Hazies
+c9994018-3633-4c06-91f3-136beef8c634,Hearty & Healthy,Lower East Side,57677bdc-c1e2-4766-8aef-e66f90afa555,Hearty & Healthy
+406343e0-197f-42d4-a3e3-ca0d09af1cf6,Heavy Woods,Bushwick,25f324f0-6fbd-4441-9a30-da52aba598a8,Heavy Woods
+902d8852-5df2-4215-81ff-81f24a134133,HED 11,Japantown,2c2a0d74-8916-4726-8e5f-640fcbf9beda,HED 11
+2be9b955-a820-48f5-ab73-52cb3b36a94d,Heirloom Cafe,Mission,dafae53b-b994-4e7e-be3d-09037e72cf0e,Heirloom Cafe
+eba024e7-4d6c-4390-83c2-3e66124a98d4,Hellbender,Ridgewood,f204faf9-4964-4be0-b729-c748ffc1e43b,Rolo's
+11e8a495-1830-45d5-a558-c683109f118b,Hello Hello Bar & Cafe,Chelsea,d084a821-95b3-4760-ab84-b58ecc8f330e,"Bathtub Gin, Stone Street, and Hello Hello"
+a546c8a0-ec58-4267-80d7-396db8fceee4,Herd Provisions,East Central,d19f4ae6-7b6d-4c9f-91da-7feb760b185f,Herd Provisions
+ce45e1bd-4dbc-4cdb-86bc-7e5a0f4757c9,High Tide,Dumbo,d578bd05-9453-42d4-b1a8-1fd1e70acd19,Crew Hospitality
+bc84f38b-99c1-4de5-a54f-103c65f66e4c,Hilda and Jesse,Hilda and Jesse,1b9d37c4-99d8-4da1-839b-29a99cc33722,Hilda and Jesse
+3078055a-09c1-468c-823e-e1d92af28a1f,Hinodeya Ramen Bar,Marina,aad7a165-2d5a-46bf-8bdd-644d9d11a2a2,Hinodeya Ramen Bar
+3fa212fd-b877-48de-81f8-9fff8ae56fa3,Hirohisa,SoHo,ed6ae953-9421-4369-b274-7bdca46451e7,Hirohisa
+4a59b916-e73d-4829-a525-be21555752dd,Hoexters,Hoexter's,f0063fba-b986-48ca-b8fd-15c536e6d124,Wonderful Restaurant Group
+df5a24d4-8d57-4d63-ae57-e1e7de784984,Holy City Brewing,Park Circle - Charleston,430ff391-27e1-41ed-abac-f3d4b82642a3,Holy City Brewing
+4c2208b9-f40d-4278-a557-c24703556ea9,Holywater,Tribeca,d578bd05-9453-42d4-b1a8-1fd1e70acd19,Crew Hospitality
+c1d52751-46bc-47d2-b54d-885c18511bc6,Honey's,East Williamsburg,6b8d9f61-da35-42fa-983a-12ee4cdd4d67,Honey's
+15360206-4b64-48bc-aa78-dc02def1c45a,Hortus,NoMad,d9c8f70e-2dee-4ed6-9a0d-eade3421ce8b,Hortus
+e31a4b1a-c388-4c99-b249-2d4cbf96a582,Hoseki,Midtown,f353c94a-c4fb-4eb9-bb53-edc46de8a985,Hoseki
+37d49a59-2281-42bf-bad1-62ebd5ba10ac,Hotel Delmano,Williamsburg,7aae3d59-4003-4879-b446-357ef17729d8,Hotel Delmano
+d1c13efa-6495-472d-be13-1e71d2166195,Howells,Marina,7fa791c8-db0b-48fa-832f-dd13b6b9d4a3,Howells
+fb9002f8-4b9d-44ae-ac4b-78b5e1c38812,Huckleberry Bakery & Cafe,Santa Monica,f8ea8df0-0efa-4441-bcdd-5fda2649352a,Rustic Canyon Family Group
+deea7def-04d6-4c6d-b764-f310395d7619,Hudson Club,Midtown,01415935-9b26-4591-92e3-27c67b539b8a,Hudson Club
+c802413d-37a5-48ea-ab89-5a69c99b727c,Hungry Llama,West Village,902aa9c6-1e3b-4de0-b87a-061738875c64,Hungry Llama
+87cfb4b0-57a4-49df-9657-00a324034758,Huriyali,Downtown,37cf4b00-51ce-43be-a594-ba87c014a209,Huriyali
+87cfb4b0-57a4-49df-9657-00a324034758,Huriyali,Riverland,37cf4b00-51ce-43be-a594-ba87c014a209,Huriyali
+bd4acd44-4abf-42cd-a93a-50af3df2f340,Hutong New York,Midtown,7d1ad92a-844d-4507-9246-6a05a8507ecc,Aqua
+684ca17c-5d33-4292-990a-7851c45b97cf,Idaho,East Village,2689e5cd-8f44-47ca-a2dc-e8e38b66eb19,Idaho
+d8590470-d6c8-4646-b3a8-f53be4a00991,Iggy's Place,Richmond,698094a9-eecf-4d6b-b2a1-ab29701fb366,Iggy's Place
+497c337c-7be8-41c8-bcad-54a00ed64201,Il Buco Alimentari & Vineria,NoHo,d68883ce-351a-4253-8a6e-47f81c76c2cf,Il Buco Alimentari & Vineria
+07851573-fc20-4730-afb8-79caa8dd1627,Il Corallo Trattoria,SoHo,0e1d0873-7edb-493f-a5de-e91fa767bc97,Il Corallo Trattoria
+1a8906d6-8b8f-4197-b28f-2cc60f97c050,ILIS,ILIS,cebaad7f-c139-46e9-81da-3eb16cb0a751,Ilis
+8f227eea-26af-4212-93ab-45c6e2e50952,Inday All Day,Williamsburg,6f8e354d-4c3f-4722-891a-5e0d6316e5c2,Inday
+5db01ae4-bfa5-4778-95f9-9f25163b3ecc,Indian Accent,Indian Accent,8cc30cdd-6088-4491-a023-95f5d21edc95,Indian Accent
+6d54ae82-f4a0-478e-bc9f-88f78d46283e,Indigo,Marina,3e08432a-dd35-4918-bd5e-0c5b1b02a225,Indigo
+7bfa14c8-038b-432e-b879-94b9f1c74286,Insa,Gowanus,8d8b6814-d688-462e-942e-0e568dc448e5,Insa
+1bba2c5f-cfab-4687-a69f-77ef1713b33a,Iron Horse Cocktails,Iron Horse Cocktails,3838d2ef-a228-400a-bb4b-d5002376b7bc,Pleiades Enterprises
+8b9c6b2b-717f-4db3-a08f-0889c76cd292,Isa Restaurant,Marina,68bb94b3-5f41-49a8-b200-9619d0c27536,Isa Restaurant
+8b0c805a-c0f5-4637-9a71-b292328794b4,Isshiki,East Village,fbe98c2b-d2e0-4464-9be5-545b9d14a658,Isshiki
+aa42dddf-77d8-4a94-b9f5-62e1ee93e0b1,Itria,Mission,2867c7c1-0dac-48a1-8f90-e80a6c254995,Itria
+cbf7da26-6e02-4a8c-9629-8075ce01538b,Ivan Ramen,Lower East Side,60f7b359-20f8-4b9b-a1bd-c7e5e3d9d9dd,Ivan Ramen
+6b46f002-cb72-45d4-99a3-c84bdd701029,Jacob's Pickles,Upper West Side,a27c0275-dd54-4f86-82d4-0f9aaa10ecfa,Pickle Hospitality
+fb85d96b-5c95-4433-9910-1c9d7f7da4b3,Jane on Fillmore,Pacific Heights,90c8df23-203f-4040-a896-68555f5f2fac,Jane
+ac4dbf42-2a07-43d5-915d-3367aa75d1a1,Jane on Larkin,Nob Hill,90c8df23-203f-4040-a896-68555f5f2fac,Jane
+5b70acf9-3ae6-4c63-bf91-f77bd39ef65a,Jane the Bakery,Geary - Jane the Bakery,90c8df23-203f-4040-a896-68555f5f2fac,Jane
+27e6df88-376f-41b7-9009-f39c39925d13,Jax Fish House & Oyster Bar,LoDo,4c95e835-b319-4260-bd1d-0626e1e06b2d,Big Red F
+f11b3d2e-977b-45f8-a5e2-57288728e120,Joey Roses,LES,cdf74ab2-3413-423f-9e7e-5f3c22d370c8,Joey Roses
+3d35421a-2876-4c64-a2de-ca89d8089314,Juanita Greenberg's Nacho Royale,Mt. Pleasant,b3fa622e-587c-4e02-83ec-941e3df9a9d2,Juanita Greenberg's Nacho Royale
+3d35421a-2876-4c64-a2de-ca89d8089314,Juanita Greenberg's Nacho Royale,Radcliffeborough,b3fa622e-587c-4e02-83ec-941e3df9a9d2,Juanita Greenberg's Nacho Royale
+4aaabc08-22be-463d-93af-8f08426da1bf,Judy Z’s Sports Tavern & Kitchen,West Village,24a64c9a-7d72-4b2f-9d7c-a79b56fd41e7,Judy Z's
+2d13e050-bf7a-42cd-a514-e24fe843d0f9,Kabin,Hudson Square,61408152-1b6b-4a66-bb8f-afd31a099903,Kabin
+a6980af2-03ce-4921-8bea-c25537ff426b,Kachina Cantina,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+cadcd7ae-49fa-4f26-a5ef-f29ee6d2be29,Kaiyo,Soma,30e44979-d7c5-418c-a297-99e99c38d3e8,BXB Hospitality
+6203dda7-0a5c-47cf-8523-6096e665785b,KAIYŌ Rooftop,SOMA,30e44979-d7c5-418c-a297-99e99c38d3e8,BXB Hospitality
+7364f087-4e30-4c0a-a238-85b80dc0a17f,Kalye,Kalye,ab45030a-0c43-4569-9902-173fdc969d88,Kalye
+7364f087-4e30-4c0a-a238-85b80dc0a17f,Kalye,Lower East Side,ab45030a-0c43-4569-9902-173fdc969d88,Kalye
+35760695-2af7-4ed2-b906-b4a8043ec1a5,Kanyakumari,Union Square,3eff8a74-e098-446d-95d6-7dcd3b016a34,Fungi Hospitality
+c42a58c0-f974-4e5c-adcb-87dc2ecdbef8,Kato Sake Works,Bushwick,1c40d1fb-5e4f-47eb-93de-8f6f78f76ca1,Kato Sake
+68a713b3-0f32-4555-890f-74d5eabe0290,Katsubō,Park Circle - Charleston,099fd19a-35b9-46a0-bdfc-74c31e0d67b8,Katsubo Ramen
+07ac5949-95e7-4249-911d-6ab4b5efdab4,Katz's Delicatessen x Complex,Industry City,0e88b2b4-b14e-4af2-a223-d62f8a6b2afb,Katz's Delicatessen
+4943d1d7-5894-4feb-ada1-4ae69ee9a9a9,Kellogg's Diner,Williamsburg,179f6f85-51bb-41c9-9329-63870ab46516,Kellogg's Diner
+955e451d-a2fe-46f5-98ef-1d5c19c864db,Ketchy Shuby,Soho,02a906c7-87e3-4ed8-abda-2d791e265974,Ketchy Shuby
+b0942e16-add0-45e4-8c89-4a70b76ad022,Kid,Chelsea,72c59172-c95c-4316-a06c-b5f1be080a61,Motel Morris
+b0dd9886-db8a-4260-86c1-06775cee4778,Kilo Bravo,Williamsburg,8811acd7-a0a0-43e4-b411-d5567f4844ab,Bravo Bar Party
+0c431b84-6b95-4947-9cff-a29fdc263314,Kings County Brewers Collective,Bushwick,f301ecff-566b-444f-ae0d-35efaf3fcb59,Kings County Brewers Collective
+395a2eb2-61b2-4d50-ab88-5d758f69b2d9,Kings County Distillery,Vinegar Hill,33faa07b-58cc-4e6e-b6e0-ce715ef96dda,Kings County Distillery
+cae15e54-dbee-429d-98f2-1b32c62123c3,Kings of Kobe - Wagyu Kitchen & Bar,Hell's Kitchen,d76ba82d-6695-4ce6-baa0-bdc83d648f7f,Kings of Kobe
+2478834a-12d0-4d97-8ca4-07c8002f299c,Kirimachi Ramen,Financial District,b0113f00-7807-44f0-b52d-38d5cf83083d,Kirimachi
+ab40ace1-0a06-429f-a3bd-164b642e8f9c,Kiwami,Brooklyn Heights,d21c66ac-3326-4fe3-b87c-24e6fc8deca6,Kiwami
+31cd84b4-3641-4192-8bb6-9cedc1b3fac6,Kokomo,Greenpoint,ee9c19fd-e312-438b-81b4-e6e638f1b3d1,Kokomo
+0a6c42a8-6ce8-4620-b6d8-79fa0528e003,Komaaj,Mission,117dcc78-9e39-4dd2-b54c-72bf7913f17a,Komaaj
+99b13cfb-ebea-45bf-ba9f-e243391e013c,Kothai Republic,Inner Sunset,02fe1afa-5ffb-497d-9cba-f69a50d9a99f,Kothai Republic
+55ac659b-bd1b-4fa2-8be5-6196e5dd1ce4,K Pasa,Sag harbor,b934c7d1-235a-4871-905d-5c00d7945f45,Tip Top Hospitality
+31311388-b626-4a70-bf02-899b51ca2e09,Kraam,NoMad,a61258e7-06b4-42d9-8190-3cf7eb1cd7ca,Kraam Thai
+46ba3006-d043-4b98-94b0-078d2c0f2e3f,Kru,Williamsburg,12fbe034-8809-47fc-90e6-2c4140ef479f,Kru
+2ae1b8ba-07e3-4b95-867b-9abc5cb37ef8,Krupa Grocery,South Slope,82b5c34e-771f-4457-aed0-0888ce6fe911,Krupa Grocery
+e545b0c3-ab94-46f3-a3d1-4c12e1ef92f3,Kultura,267 Rutledge Ave,1b1a0dc7-797c-49a2-bfcd-3d6a3a388e82,Baguette Magic / Kultura
+db6e61cc-0c59-412b-9d8e-2f3d5ffb21d3,KUMISO,East Hampton,b934c7d1-235a-4871-905d-5c00d7945f45,Tip Top Hospitality
+9c38c8a7-2b2a-412a-bc81-957161060439,Kwei Fei,Riverland Terrace,8b292448-3d3e-4133-9448-c3857bd27da2,Always Awkward Hospitality
+74edbb68-94af-4d4c-a4ef-42557590813c,KYU NYC,Noho,817cb83e-5ad8-4bb3-867f-87e6ace2e1a8,KYU
+ec8c0bdc-3d94-4c28-a033-81f3f2c68bb6,L'abeille,Tribeca,de9fe8cd-4f6c-4a6d-850e-cded27f07130,Kuma Hospitality
+68d2c560-ffef-46dd-8403-e244e5ec691f,L'abeille à côté,Tribeca,de9fe8cd-4f6c-4a6d-850e-cded27f07130,Kuma Hospitality
+36d6c31a-b9ff-4377-ae14-dab006053dfd,Lafayette Grand Café & Bakery,NoHo,5ef43215-f93d-420f-9bb0-266151d1be1f,Noho Hospitality Group
+b5d6809b-bd08-49c3-a668-4aa8ff1beffc,La Fondita,Amagansett,d350c077-3db0-48a5-9cde-874d9aa93044,Honest Man Hospitality
+442e7b94-46ec-4bf8-a43b-544160965eed,La Fromagerie Cheese Shop,Marina,1bc4b6ac-85e8-4fc3-afcc-f2923b57c9e6,La Fromagerie
+214ba742-7953-447e-a181-872b5872918d,Lagos TSQ,Midtown,7a17b7aa-5b59-4265-903b-d80f3c26cf1e,"Lagos TSQ, Native Harlem, Native Brooklyn"
+cef6cae2-05bd-4a77-aeee-cc8c823d53c0,Laliko,West Village,b12fd644-82e2-43c3-90fe-4ee357f2ee9d,Laliko
+12f6b968-ef3d-42bc-8a3a-365def88f167,La Newyorkina,Meatpacking,9eaddf20-157d-40fd-a46d-e5d17aef26ee,La Newyorkina
+2b67f007-6509-4ceb-8fbe-15ddf3a9d004,La Noxe,Chelsea,fdb1b8f8-2658-4e6d-8cc8-04f9438cbf7d,La Noxe
+ed83e904-ede7-46eb-bea2-81c8f4efe64b,L’Apéro by 4F,Brooklyn Heights,793110b9-447a-4914-9e81-aa0a9ad256b0,L'Appartement 4f
+e61cfcf8-74b8-4c1f-ac85-799a615fff8f,LaRina Pastificio e Vino,Fort Greene,64ce2401-7a33-4400-8cad-683078ad24fc,LaRina
+99c82101-68c0-41b1-932d-258da1395386,La Tete D'Or,Flatiron,36e7ed88-dd55-4088-82ac-b77f241f710a,Dinex Group
+63db4db3-73e7-4352-8208-633f2ad0fa11,La Travesia,Lower Nob Hill,17fd8beb-bf42-4724-8229-86cef99b2d6e,La Travesia
+2d59daaf-9b5e-4485-b775-3e73565428d4,Laut,Laut,3eff8a74-e098-446d-95d6-7dcd3b016a34,Fungi Hospitality
+2aa519af-21d9-4f60-93da-2f6c22151586,L'avion Café,Upper East Side,cdf44869-a089-4f5c-8148-785f697f21d0,L'Avion Cafe/The Drunken Munkey
+1b5e590a-2f9c-474c-a2f6-23b67dc53fb1,Layla,Williamsburg,5529a130-4c08-420b-a74f-3af957d86889,Layla
+f0889ee9-ea92-4c3d-b6db-58762ef662b8,Lazy Sundaes,DUMBO,c87c0ba5-3e3c-4662-a433-20a45dddcf38,Lazy Sundaes
+f0889ee9-ea92-4c3d-b6db-58762ef662b8,Lazy Sundaes,Greenwich Village,c87c0ba5-3e3c-4662-a433-20a45dddcf38,Lazy Sundaes
+f0889ee9-ea92-4c3d-b6db-58762ef662b8,Lazy Sundaes,Lower East Side,c87c0ba5-3e3c-4662-a433-20a45dddcf38,Lazy Sundaes
+2f016071-7fc3-4f7a-a394-95f9cc7b1e31,Leadbetter's Bake Shop,The Castro,3db23672-d3ed-4078-b91b-3820af369293,Leadbetter's Bake Shop
+31bd1fa1-f53c-47e8-b773-3bb50c7e22bc,Le Farfalle,Harleston Village,7d086e0c-ddb9-4f29-a68f-e9a69c036384,Le Farfalle / Porchetta Shop
+1d296ab6-d857-4d01-9b70-52db62409ca4,Left Door,Pacific Heights,6bffc2b4-1771-4f8b-94da-ebc8219c8f0f,Joe Wallace Group
+c16ff93b-8112-46b6-abbd-70c30f686f34,Left Hand Coffee,Montauk,821a478c-ef94-47d7-aead-470462644bc7,Montauk Coffee Company
+2289b2d2-cb8b-41a8-aaee-3ed9fafe9999,Legami,Radcliffborough,bbca6711-d3be-4276-822f-abb3f1ef2877,Easton Porter Group
+9002a8e5-f8c8-4c33-9715-7d2d5e2f9bec,Le Gratin,FiDI,36e7ed88-dd55-4088-82ac-b77f241f710a,Dinex Group
+0123e72b-478d-4c8a-982b-3f05081b5017,Léon 1909,Shelter Island,14033f57-e462-4042-9493-54bc2a7a6ae1,Leon 1909
+19e480cf-e8f9-4ce5-94f8-19eeca178207,Leon's,Union Square,bd0a2b6c-d052-4656-871c-d6b6067b6aee,Anton's
+afed496c-fef0-4412-be07-d41184aa3867,Leon's Oyster Shop,Downtown Charleston,03e8295a-6cb4-483b-9c53-ffa2b8ec1ec8,Rerun Restaurants
+5342e38a-87e5-48b6-9790-d2544f991cd8,Le Pavillon,Midtown,36e7ed88-dd55-4088-82ac-b77f241f710a,Dinex Group
+98fbd965-a442-421e-bf5c-189e51ae1e94,Le Petit Paris 75,North Beach,7f7960f0-28ce-45f0-bcd1-b26b4d16d390,Le Petit Paris 75
+d5793ad2-5cea-4300-8d94-55f8858342d2,Le Pistol Bar & Cafe,Prospect Heights,8dcddb86-0ed4-4d3f-b22b-6c11e9d4833a,Le Pistol
+5982e2e3-6016-4827-86e4-f08e288e0c22,Le Rivage,Le Rivage,16506bec-1acc-4bd3-a3a5-30a259bcce26,Le Rivage
+f0392e8f-779d-4bfa-9af2-2a563a39c874,Levantine,East Williamsburg,a69e38cb-d31c-42eb-b057-2672ea1e2b58,Levantine
+08e133cb-9550-42d3-b99e-d3547c49461f,Lewis Barbecue,NoMo,44e3a16a-01b5-4878-9f0b-33d8121351bb,Lewis Barbecue / Rancho Lewis
+d60b7fe9-864d-4536-8179-92ed5b50332d,Lewis Barbecue Bar,Lewis Barbecue Charleston,44e3a16a-01b5-4878-9f0b-33d8121351bb,Lewis Barbecue / Rancho Lewis
+b5dd166a-f9a6-487a-a624-b48f31508b24,L'Express,Gramercy,c9624c7b-359f-4a4b-a985-86ff849e4e7b,Chef Driven Hospitality
+eed9ccdf-9cf7-4f44-bb66-1d02eaabe570,Lighthouse,Williamsburg,086c8b9d-0969-49cf-a82a-5b0e9affdd03,Lighthouse
+e949ad29-247f-4783-9dcc-f51be1e9439c,Lilia,Williamsburg,53e0ab26-afb7-4936-94e8-b752b77dc4b6,Grovehouse Hospitality Group
+3c270700-c79b-4e13-b745-332bf0625f2d,Lillian's Market & Cafe,Hampton Park Terrace,5ebb6cfa-091f-4ea4-807b-22cbe4a15f3a,Rudy Royale / Stars / Lillian's
+8c05651e-9800-4645-8c55-ceab9a8ec52d,Lillian's Restaurant,Hampton Park Terrace,5ebb6cfa-091f-4ea4-807b-22cbe4a15f3a,Rudy Royale / Stars / Lillian's
+8cd8fae8-47ee-45e4-9ea1-2cff5cb7e98d,Little Charli,Greenwich Village,112418bd-eb05-46f1-9780-3d20b85b7809,DAE Crew
+7a93301c-1e75-4133-a641-c65f689dcc16,Little Dipper,Chelsea,c6198d66-7c44-4e7c-a1fe-a61a21f5179f,Goldies/Little Dipper
+0d4a3241-b57f-47f4-9dab-76665e1e627d,Little Egg,Prospect Heights,0a43ba4e-a991-491a-8206-46c79057fd0b,Little Egg
+c7f699c0-d285-4181-be18-2126ecd29c7d,Little Grenjai,Bedford-Stuyvesant,2978199a-a695-4148-ab2d-b680e3c831b1,Little Grenjai
+68b28e2e-daf6-48de-8eb3-ad2ed7d648da,Little Honey,South Slope,fc92f358-1b36-43a7-82c1-bb3c8327f5f3,Little Honey
+793c73aa-2e8c-4607-b7b3-8f90fd1c90ad,Little Jack's Tavern,Downtown Charleston,03e8295a-6cb4-483b-9c53-ffa2b8ec1ec8,Rerun Restaurants
+1beb5e73-f808-45b9-81dc-4da8bfac3b14,Little Line Kitchen & Provisions,Cannonborough Elliotborough - Charleston,1f739f87-29aa-427a-93f5-744dc6df94f1,Little Line
+bce9d870-a1b2-4750-80b5-050dd82dfe2f,Little More,Little More,c7ce4471-e490-493b-8c85-d2709b648ce0,Little More
+83ea0413-0dc9-4991-afab-eb0dfb7b24c4,Little Original Joe's,Marina,617e2307-6c12-45e1-962b-b6497fab3a60,Original Joe's Group
+7bca934c-6934-40d1-8b8d-eece287cfba3,Little Palm,Downtown,3b3b5f97-45a0-451f-bdd4-9c221a041538,Hotel Emeline
+b235b265-d944-49b0-96d9-101ba4f75e1f,Little Prince,South Village,0d46938c-5d07-46e6-aa9c-487bc163ea2b,Prince Street Hospitality
+47612c2f-3e7e-4fb9-ba41-8d7310191c88,Little Rascal,Greenpoint,87f2c447-ad1d-42a1-a06c-981284da77a6,Little Rascal
+47612c2f-3e7e-4fb9-ba41-8d7310191c88,Little Rascal,Nolita,87f2c447-ad1d-42a1-a06c-981284da77a6,Little Rascal
+011c6320-bd4a-4550-99fa-07211b731f0a,Live Sushi Bar,Potrero Hill,c8b06155-43af-43a2-94ea-2df364c4c190,Omakase Restaurant Group
+62b2c5bc-7c46-470b-9596-f9078a05d724,Lobster Roll Restaurant,Amagansett,b974a961-4dae-48bd-8699-9bbfa4719cf4,Lunch Lobster Roll
+62b2c5bc-7c46-470b-9596-f9078a05d724,Lobster Roll Restaurant,Southampton,b974a961-4dae-48bd-8699-9bbfa4719cf4,Lunch Lobster Roll
+1d7eaafa-7c75-42cb-b165-bebb690a09bf,Local 42,Hell's Kitchen,3a9693f2-736b-4fff-8195-1d6490f95dcb,Local 42
+807f80d5-b3aa-4a64-99fa-5261c9590b20,Lola Taverna,South Village,0d46938c-5d07-46e6-aa9c-487bc163ea2b,Prince Street Hospitality
+75e60c2a-08da-49cc-a8df-ffe9a9cdf770,Loring Place,Greenwich Village,6550de77-eda0-40e9-800d-1b3d44f92dec,Loring Place
+179f8614-efa3-4bd9-9661-4828372be344,Lost Cat Bar & Bites,Lost Cat Bar & Bites,415d4e91-9bb8-43f0-88fa-6cd5e3fe2379,Lost Cat Bar & Bites
+bae41c14-58e1-48b9-bedf-78671087ff43,Lost Isle,Johns Island,febf234c-427a-4723-8d5e-0be15a95d483,Lost Isle / Lowlife
+20d0ee42-c80f-42e4-b959-d3bf1c844b4d,Lovely's Old Fashioned,Hell's Kitchen,a7438125-afaf-476b-b166-3e00cd618f36,Lovely's Old Fashioned
+8c0bd0a8-1aca-48f0-9a7d-330e01c7ba5d,Lowland,French Quarter,03ebd4e9-ae20-4413-97fa-3cd8f9958b02,Lowland Charleston
+2302e1f8-a19f-4f05-a84a-700d74902647,Lowlife,Folly Beach,febf234c-427a-4723-8d5e-0be15a95d483,Lost Isle / Lowlife
+0d3fd15d-989a-4f70-9bb7-fb9f13df7fb5,Luce,Union Square,4b922061-e137-4d33-be6e-7c560c87a12e,Luce
+b87c417e-0cb8-4f22-ac0c-1a809ab85157,Lucky Tiger,Financial District,0f098ffe-79ba-424b-a13d-92bdd1123556,Lucky Tiger
+7c4cb28d-d4c8-4f80-b029-33645dc9728e,Lula Mae,Fort Greene,40da68d1-e88b-413e-80e6-f454e67b0585,Lula Mae
+d8fe4259-b6f3-4515-8353-8dbd4d852e83,Lume,West Village,ef45e2f2-a15f-41e0-8971-133189a8ae25,Lume
+329e0e6e-14e4-4c7e-b913-0253ebead0a4,L&W Market,Bridgehampton,4f4eac88-d4a2-4a1a-89cc-646d0c331f1a,Almond Restaurants
+f360f42c-1102-4781-b547-e119e26ea543,Ma'am Saab,Downtown Charleston,4200ac00-aaa0-40bb-bc1b-48d8de85ad9a,Ma'am Saab / Malika Canteen
+03ca282c-06e8-42b8-8fa4-b89122173ad3,Macario,Park Slope,9c7e31c0-6ec7-4a99-9482-2e81c3a9e137,Macario
+fd3d8f7c-60ad-4b5d-ad38-e71a10434268,Madeline's,Greenpoint,9c48382c-87c9-4a53-8d6b-589a7e3c2056,Madeline's
+6617651d-3365-4a4d-a602-b05bd96e2c66,Magna Kainan,RiNo,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+a9eba89d-4f7f-4939-9aee-d9ae77850acc,Mah-Ze-Dahr,Battery Park City,0718bd4b-6d7a-4ce4-a2d3-6b16e1252d63,Mah-Ze-Dahr
+a9eba89d-4f7f-4939-9aee-d9ae77850acc,Mah-Ze-Dahr,Midtown,0718bd4b-6d7a-4ce4-a2d3-6b16e1252d63,Mah-Ze-Dahr
+a9eba89d-4f7f-4939-9aee-d9ae77850acc,Mah-Ze-Dahr,West Village,0718bd4b-6d7a-4ce4-a2d3-6b16e1252d63,Mah-Ze-Dahr
+6a87ade1-c33e-4152-9d5e-77e868d968de,Maison May Kitchen,Fort Greene,03b3c095-2087-4115-a073-908ef412ef2d,Maison May
+c7cf67f3-568f-4f45-8313-94fd594508af,Maison Pickle,Upper West Side,a27c0275-dd54-4f86-82d4-0f9aaa10ecfa,Pickle Hospitality
+143a0b2c-f211-4567-a26c-140c16cf088a,Maison Premiere,Williamsburg,aebef3f4-8377-4e0c-b671-9151f62e032a,Premiere Enterprises
+f2d7148d-9b66-4700-b217-c2666a27e70e,Maison Sun,Boerum Hill,9c109e39-3f34-46bb-98a7-30587fb06427,Maison Sun
+d52da048-d51d-4d20-8c94-452011134bdd,MáLà Project,Bryant Park,7d3e4a75-46ec-4a68-a915-4ea17e5f6c25,MáLà Project
+d52da048-d51d-4d20-8c94-452011134bdd,MáLà Project,East Village,7d3e4a75-46ec-4a68-a915-4ea17e5f6c25,MáLà Project
+d52da048-d51d-4d20-8c94-452011134bdd,MáLà Project,Greenpoint,7d3e4a75-46ec-4a68-a915-4ea17e5f6c25,MáLà Project
+d52da048-d51d-4d20-8c94-452011134bdd,MáLà Project,Midtown East,7d3e4a75-46ec-4a68-a915-4ea17e5f6c25,MáLà Project
+11a14b06-7d71-4ee4-b3ff-1543ed814471,Malika Canteen,Mt. Pleasant,4200ac00-aaa0-40bb-bc1b-48d8de85ad9a,Ma'am Saab / Malika Canteen
+562ed5dd-747c-4a4e-a157-8b72badf3fe3,Malka - Dumbo,Dumbo,911dfde3-a6f0-461c-bc3e-5cc82ff9c0ce,The Good People Group
+1e6e8113-6449-45e5-a6e4-159b210468e1,Malka UWS,Upper West Side,911dfde3-a6f0-461c-bc3e-5cc82ff9c0ce,The Good People Group
+d4128f71-784a-44bb-8cd1-850c772a4751,Maloya,Bushwick,ff52dd1a-20b8-4c53-a33b-6bc9a934e9be,Maloya
+c0e8bd5f-b341-489f-a7f4-41922b5f3445,Manchego,Santa Monica,11376cdc-b583-4e25-abf2-019ccbc6c7c5,Manchego
+ad89e1a2-b22a-49b4-98e6-78ba70d5403d,Mandarin Coffee Roastery,Greenwich Village,3cb2a97b-b26c-41a0-b59e-4eb8b70a63fc,Mandarin Coffee Roastery
+10b0ac38-1a01-4163-8776-1154d90ce6dd,Mano a Mano,Logan Square,b8d1188d-8e54-4544-9fae-252d6369e027,Eat Well Hospitality
+f70bc0ea-406a-407f-a684-94c2e6f46e68,Manuela,SoHo,ccd0361b-3cde-4a64-81b8-b5c640848270,Manuela
+4888b7d4-21db-4b20-9d82-f1005f76fc69,Marie's,Bushwick,01df5c5f-b0e5-40e4-9947-7e159626a6cb,Marie's
+ec313343-16a7-49ad-9985-301224a0033d,Marseille,Hell's Kitchen,c9624c7b-359f-4a4b-a985-86ff849e4e7b,Chef Driven Hospitality
+8116cde9-d4f6-4833-b3bd-523e44f9399d,Masala Dosa,Inner Sunset,d1053b88-5ec2-4553-9c97-89dab8927cf4,Masala Dosa
+0b1d6257-fa8b-485e-935c-36d6ede0a6f2,Mattina,Mattina,f3ca57b5-e4b9-4afd-8143-dad828d049c4,Mattina / SPQR
+a6de9666-8a3a-4b22-8e14-b26d1ac9a47a,Maybank Public House,James Island,3c41006c-8c75-4a37-894b-deea870ee0e8,Coleman Maybank Public House
+b127eebc-f3eb-48d9-bad1-d98639b84e90,Meadowsweet,Williamsburg,36e8d9be-948e-44c8-8f51-6718960c54f7,Meadowsweet
+e1d3bc0b-fdbf-48c4-9d8f-2145e1a1f208,Mecha Noodle Bar,RiNo,d698dd90-37e1-40c2-b08f-f97e9a9e0744,Mecha Noodle Bar
+805497dc-254c-44ea-ba6a-4bcc9114f411,Meeting House,Amagansett,15cbb311-5b2d-49ae-8aa5-33634c6f9d26,Meeting House
+bc5f8b4e-fde3-4243-b9d4-65fb1e3aa41d,MEILI 沉香,Williamsburg,a1c46bdd-6b2e-4808-8241-9c277f075323,Meili
+4dc5d242-2bcd-4195-ad34-ea80909de740,MEILI 沉香 Rooftop,Williamsburg,a1c46bdd-6b2e-4808-8241-9c277f075323,Meili
+f649ca79-f27c-450f-a287-41b0af2b0a30,Melfi's,Downtown Charleston,03e8295a-6cb4-483b-9c53-ffa2b8ec1ec8,Rerun Restaurants
+288c833d-65de-477f-b61f-1d0501b2f42f,Menya Kanemaru Golden Ramen,Mission,d5a1e277-5ea5-4cd4-ae04-f87a77e341f7,Menya Kanemaru - Golden Ramen
+c8fa2d50-c154-4057-a6c2-41d6985d1c0c,Meraki,Williamsburg,a689d476-39a8-4e57-a89d-01f61968b56a,Meraki Bistro
+21f3a498-c3ff-4eb8-925e-19cc3d07fc93,Mercantile,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+f4a71817-f784-4528-9d66-59a4e12ab2af,Messy,SoHo,086c8b9d-0969-49cf-a82a-5b0e9affdd03,Lighthouse
+8ecd4055-b816-4055-a1b7-b275c7182151,Miatzil,Park Slope,de687acf-1845-4b2e-919f-e85b03b90e52,Miatzil
+41078c6c-8d25-4906-90aa-8f43a1d6e9dd,Midnights,Williamsburg,58db2dc6-dcf9-4f42-8caa-9f0d6b3f290e,Vantage Point Hospitality
+b8394332-0f79-4269-bd6e-b43df155ae79,Mijo,Chelsea,9eaddf20-157d-40fd-a46d-e5d17aef26ee,La Newyorkina
+b8394332-0f79-4269-bd6e-b43df155ae79,Mijo,Meatpacking,9eaddf20-157d-40fd-a46d-e5d17aef26ee,La Newyorkina
+4c513a09-f56b-47aa-bd1e-bbd34b426d93,Mile End Deli,Boerum Hill,b04b3531-39e2-410a-8a86-3df7a2c62e25,Mile End Deli
+198efc70-de8e-45a5-bafb-baa561cd870f,Milk Bar,Nolita,2b0a9f84-145b-4733-8498-d1dc35f37d4e,Milk Bar
+198efc70-de8e-45a5-bafb-baa561cd870f,Milk Bar,NoMad,2b0a9f84-145b-4733-8498-d1dc35f37d4e,Milk Bar
+198efc70-de8e-45a5-bafb-baa561cd870f,Milk Bar,Upper West Side,2b0a9f84-145b-4733-8498-d1dc35f37d4e,Milk Bar
+198efc70-de8e-45a5-bafb-baa561cd870f,Milk Bar,West Village,2b0a9f84-145b-4733-8498-d1dc35f37d4e,Milk Bar
+198efc70-de8e-45a5-bafb-baa561cd870f,Milk Bar,Williamsburg,2b0a9f84-145b-4733-8498-d1dc35f37d4e,Milk Bar
+2b62abb4-88d4-486a-8974-e50bdc0dc8cc,Milk & Hops,Chelsea,848c3259-7354-4214-a010-8964c4a77cd0,Milk & Hops
+8dd1cf59-20b4-4522-b538-da4496b26ea0,Milo & Olive,Santa Monica,f8ea8df0-0efa-4441-bcdd-5fda2649352a,Rustic Canyon Family Group
+6c8a4d64-c257-4587-b691-2efb5c31b807,Milos Meze,Marina,8aea9180-bfe8-4da3-ab9a-5e5f67b9f1e9,Milos Meze
+529bc07a-836c-47de-86fc-dc1390146b86,Mino Brasserie,West Village,fbd84774-ee20-4d50-ac98-9a6fc13a4962,Mino Brasserie
+acd4cafb-7794-4094-8c58-04531443208c,Mishik,Hudson Square,85f68972-fb9a-4c6e-b79f-f4f0b112ad69,Mishik
+7a99172c-833d-4a15-92fe-71e89cb17ba6,Misi,Misi,53e0ab26-afb7-4936-94e8-b752b77dc4b6,Grovehouse Hospitality Group
+5c3801b4-8f5c-46c6-a39f-dedb8fccb972,Miss Nellie's,Hell's Kitchen,06607574-8659-4072-896d-c834a0763a87,Miss Nellie's
+19cbca2a-0310-4604-b8ca-7c72e6707bf5,Mister Jiu's,Chinatown,c5f94f5c-9795-49b4-8ce2-6121d2241a52,Mister Jiu's / Moongate Lounge
+617a497d-01d6-4bc3-a112-34c0122d8454,Mister Oso,Boulder Area,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+617a497d-01d6-4bc3-a112-34c0122d8454,Mister Oso,RiNo,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+617a497d-01d6-4bc3-a112-34c0122d8454,Mister Oso,Washington Park,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+6c782b7d-5481-4a9a-91f8-60967697797d,Mitsuru,Greenwich Village,e8b3b1d6-929c-4ee6-8457-9740a8290d9c,Parcelle
+cd06137b-e9df-4264-9f52-001541f8593e,Mixteca,West Village,e980b406-51b3-4292-96d5-d0134418a95a,Tacos 1986
+8cd3c015-bb67-4639-999c-9a75e064287b,Miznon,Chelsea,911dfde3-a6f0-461c-bc3e-5cc82ff9c0ce,The Good People Group
+4de85a0b-da9d-4c88-b611-b0f7580154e8,Moby's,Amagansett,4a0e264d-bc32-4718-8053-ac0a183defb0,Brass / Moby's
+7c7e3999-754f-4f77-b2c5-86073780b52d,Mokyo,East Village,21fafd0a-8e9e-4b60-8c5d-b4486d7a90e8,Mokyo / Thursday Kitchen
+5cb6f568-0368-42c6-8703-5d3311736ec4,Momofuku Noodle Bar,Columbus Circle,0d4c2d41-3a42-4c06-8f32-99694c2cb06a,Momofuku Noodle Bar
+5cb6f568-0368-42c6-8703-5d3311736ec4,Momofuku Noodle Bar,East Village,0d4c2d41-3a42-4c06-8f32-99694c2cb06a,Momofuku Noodle Bar
+480790b6-58b6-4782-9868-db510a127de3,Momoya,SoHo,6cf6a366-c460-4972-82c1-4f8e79bc17b8,Momoya
+480790b6-58b6-4782-9868-db510a127de3,Momoya,Upper West Side,6cf6a366-c460-4972-82c1-4f8e79bc17b8,Momoya
+5edf3487-1084-424d-af6c-fb3efe576be1,Montauk Beach House Bar & Grill,Montauk,98b0a2c1-b5a8-47f2-96de-be07e47a5528,Montauk Beach House
+6e0a2a22-dc18-45a1-84aa-6795a0ecd304,Montesacro,Marina,3e585419-301a-4283-b7d9-071d24b18b56,Montesacro
+6e0a2a22-dc18-45a1-84aa-6795a0ecd304,Montesacro,SOMA,3e585419-301a-4283-b7d9-071d24b18b56,Montesacro
+ec3d6f02-3a02-40b8-8b53-8d2ee5748665,Monte's At the Manor,Montauk,c89ef993-26d0-40f2-8f4f-fbb576d690ae,Monte's At the Manor
+87b5d34c-531e-4e47-bc01-46eb65db9692,Moody Tongue Pizza,East Village,9aa582d3-403f-4461-b02f-48c27b60d543,Moody Tongue
+7b24148b-998e-40e7-8bac-450924a291eb,Moody Tongue Sushi,West Village,9aa582d3-403f-4461-b02f-48c27b60d543,Moody Tongue
+8da46023-a30c-4d13-a04c-5cc15a4808b1,Moongate Lounge,Chinatown,c5f94f5c-9795-49b4-8ce2-6121d2241a52,Mister Jiu's / Moongate Lounge
+818c18d5-b98a-4ace-9b76-6ee29b5962a4,Mosto,Mission,ef897494-78f5-428a-88f0-54f85e80729b,Tacolicious Group
+c4d00281-8359-4f5c-b7e3-4b0b6dc3f055,Motel Morris,Chelsea,72c59172-c95c-4316-a06c-b5f1be080a61,Motel Morris
+c9eea9a2-6eb8-464c-aad7-b2984de9dfb8,Mother's Ruin,Nolita,085cd134-d3c6-411c-8486-1d7e3320ade2,Mother's Ruin
+76e3467d-9807-4460-90cc-6ec746a2eb17,Muku,Hudson Square,16f46142-28e3-461e-bb8c-8b7db3dc24c8,muku
+1dfed8c4-54c8-48a3-a25a-18b67e947c7b,Nabila's,Cobble Hill,31752af2-1fec-41fe-9d1d-dc81fc9b0594,Nabila's
+d57a3190-b7c0-43b0-8fea-820d186e7754,Naks,East Village,a7a4315a-eca8-4644-9b79-66a6df0989d5,Naks
+0212cb41-11ab-4b68-b7fd-5d52fc0c8b43,Native Brooklyn,Bushwick,7a17b7aa-5b59-4265-903b-d80f3c26cf1e,"Lagos TSQ, Native Harlem, Native Brooklyn"
+6fb8a702-ce51-47bc-87e8-d77ef4194761,Nat's on Bank,West Village,499294d0-d648-4009-b55b-5c0598bd333b,Nat's
+0da22f33-e8c0-4f81-a2fa-7bbfd1a78c27,Nick's Pizza,Upper East Side,27b2a2a0-1ea0-418c-b074-7e87eb5dda23,Nick's
+c1c31d69-0c37-4695-a50a-b6d55449aa7c,Nick & Toni's,East Hampton,d350c077-3db0-48a5-9cde-874d9aa93044,Honest Man Hospitality
+08462d10-17f9-4640-bfc4-39a20217ef2d,Night + Market Sahm,Venice,a73937ff-555e-425b-86e5-4e687ce88f85,NIGHT+MARKET SAHM
+5ee6e21b-e3ec-4441-82d4-61a5dec82c37,Niku,Design District,c8b06155-43af-43a2-94ea-2df364c4c190,Omakase Restaurant Group
+588b2773-de2e-4344-a579-d200a3f45f99,Nisei,Russian Hill,9b9f9222-b9a9-433e-a85a-89cfa6b8d037,Nisei / Bar Iris
+7911e70b-5214-4ad2-ac4b-e6c0e56fa91a,Nº. 79 Bar & Terrace,Nº. 79 Bar & Terrace,2d137033-a0d3-4b67-a145-661dc58fc55d,No. 79
+54f88077-da0e-412d-8ef6-010905a37f7d,No. 7 Restaurant,Prospect Heights,17d4d915-e9a7-4dae-a2b3-94d6eac006e2,No. 7 Restaruant
+43152d4b-e189-4bdf-ad5f-c9243e14b85d,Nom Wah,Nolita,87c766f4-c157-4850-8b24-34f834ca0e06,Nom Wah
+43152d4b-e189-4bdf-ad5f-c9243e14b85d,Nom Wah,Pier 57,87c766f4-c157-4850-8b24-34f834ca0e06,Nom Wah
+239d8bc3-3032-497c-a5a7-bc120956f75b,Nopalito,NOPA,754ed423-da05-45a2-bd0c-98c6d14bc8ff,Nopalito
+47db36a1-f7c5-4686-aab4-2a59b0d5c441,No Sleep Cafe @ Thief,Williamsburg,782ab5dc-d147-4f09-b5f3-4140ad575e98,Thief
+daee93d3-8090-4e57-8166-7a9cfb10a924,Novita,Flatiron,35919a6a-91e5-4307-b610-0f831ef795b9,Novita
+74764720-94b0-4be2-a50e-b358dda5b45d,Nowon - Bushwick,Bushwick,8c8ffae7-7b2e-4679-95f1-7393e05db05b,Nowon
+187b348e-cbac-415f-8a3e-22505b38305e,Nowon - East Village,East Village,8c8ffae7-7b2e-4679-95f1-7393e05db05b,Nowon
+1874c89b-b7ea-414c-8e0e-e80dfa76b250,Nowon x Complex,Industry City,8c8ffae7-7b2e-4679-95f1-7393e05db05b,Nowon
+57b4eca8-80d0-47fb-bc72-2d1d23677307,Nudibranch,East Village,5a558210-f841-4983-9e86-bfc4a92bc0de,Nudibranch
+d5fef23d-c3e4-47ba-827b-dc7eac7931f8,Nuyores,West Village,c20ea424-4bee-47a9-a533-74fd3ed62c98,Nuyores
+144a1338-00ca-4066-a099-93a07981ad52,Ocean Beach Cafe,Outer Richmond,04f98669-4f95-4f01-8fbe-1436ee3b5a5d,Ocean Beach Cafe
+15cc087f-3108-458e-ac4c-aff79aa919ce,Octavia,Pacific Heights,052e04f5-b43a-4785-9b9c-f19fb472352b,Frances / Octavia
+89368c64-4de7-4021-8812-8e18f8fa4d73,Off the Wagon,Greenwich Village,7842c853-cd64-4e82-a24e-7b40eb8eae6b,Eat Drink & Be Merry
+2724470d-8d98-420b-ac57-d4bc95715e15,Okaeri Japanese Bistro,Okaeri,646b44f0-6286-46aa-a56c-54e9834f7e12,Okaeri Japanese Bistro
+a986d76e-ba67-4390-8deb-9e50e22cfe3d,Okane,Okane,c8b06155-43af-43a2-94ea-2df364c4c190,Omakase Restaurant Group
+329f8a98-7907-4ca0-91ca-b1adc3e0f2b7,Olmo,Bedford-Stuyvesant,572be120-7036-403e-98ce-43d0d9fabae2,Olmo
+1bd6f61f-06b5-447a-bc02-06f8a09e73b1,Omakase SF,Design District,c8b06155-43af-43a2-94ea-2df364c4c190,Omakase Restaurant Group
+4697cb35-7771-4cca-b56d-7499946b2032,One Fifth,Noho,67e70efd-12d0-4761-8268-a0eee7b51f6d,One Fifth
+7de53bf8-4028-4518-9fdb-d4a784d5522c,Only The Wild Ones,Venice,9cbb2dd6-d26c-4e96-8e9d-d9da7f08b6c0,Butcher's Daughter
+e271e43a-92cc-4468-a5f8-ebdc37c1bc70,Ornithology Jazz Club,Bushwick,3070361d-5bd6-42b0-a3cc-d3026babbbd3,Cafe Ornithology
+98515073-d39b-42c0-8f0f-88f567a72401,Osteria Alberico,DU,69c8aaf5-9553-43c5-be69-e6dcc12ecf10,Frasca
+3d7055dc-acb5-4e31-8b18-cc5f1c904e1d,Other Half,Gowanus,55fb9cdf-aff9-4bc0-af31-c015e608ee09,Other Half Brewing
+3d7055dc-acb5-4e31-8b18-cc5f1c904e1d,Other Half,Rockefeller Center,55fb9cdf-aff9-4bc0-af31-c015e608ee09,Other Half Brewing
+3d7055dc-acb5-4e31-8b18-cc5f1c904e1d,Other Half,Williamsburg,55fb9cdf-aff9-4bc0-af31-c015e608ee09,Other Half Brewing
+4b4b34e5-58f2-447c-8811-eeab2f20749c,Overstory,Financial District,7c435f30-a2ba-4393-83ee-86aff33a72e1,Saga Hospitality Group
+30b349e1-b522-495b-86e9-d6a01bfe1adb,Owlbear Cafe,Mt. Pleasant,fa46954f-bae3-4d46-b2fe-be82c26ea576,Owlbear Cafe
+5d1410f3-69ed-4fbb-8b39-ba02ac3b949e,Oxomoco,Greenpoint,921df105-4fab-4b8c-82ba-7ef8e55db0e7,Speedy Romeo
+dd8f7548-9316-4bd9-9d84-5e889accccd6,Padoca Bakery - 67,Lenox Hill,a8b2f212-bc66-4c26-80a0-d26f6a7ead08,Padoca Bakery
+531feb75-1f0f-4efb-a7f1-3eaac3c78615,Padoca Bakery - 86,Upper East Side,a8b2f212-bc66-4c26-80a0-d26f6a7ead08,Padoca Bakery
+46fffa85-8c40-43e8-b468-50310af27d77,Palette Tea House,Noma,2e599ee1-c332-4fed-9077-17d53cfb09ca,Palette Tea House
+8871540f-f620-4c8e-9bcc-1b475ddbfb95,Palm House,Marina,dc1adc04-37a8-48c1-9942-e687dc2d81f7,Palm House Hospitality
+05c5ef58-e4a0-4ce5-98d5-0ed7356ca3d7,Panzón,Greenpoint,fec5730b-01c7-4ac6-891e-64d524c8d3bb,Panzón
+f6390d91-7b7f-4947-bee7-d696a764f755,Paper Son Coffee,Paper Son Coffee - Dogpatch,2d290afb-ae46-46d0-86df-39cee641ab8f,Paper Sons Coffee
+f6390d91-7b7f-4947-bee7-d696a764f755,Paper Son Coffee,SOMA,2d290afb-ae46-46d0-86df-39cee641ab8f,Paper Sons Coffee
+a062875e-042f-436b-ba44-e2f02a571f77,Pappardella,Upper West Side,745ffb67-d06e-429d-a511-b9a97fd40e08,Pappardella
+62a0a8e0-d3cf-491c-90a4-37cad3ed4b2e,Paradise Lost,East Village,6b54b271-d263-494e-ac4d-d3420b0a7808,Paradise Lost
+d5ad1506-6d2c-4d88-a006-05f83b4c9898,Paradiso Restaurant + Bar,Park Circle,7be3c897-6406-44f2-b7dd-e40c82d3f1a1,Paradiso
+2511acb4-1b18-4cdb-89d7-d9a82fddd055,Parcelle,Chinatown,e8b3b1d6-929c-4ee6-8457-9740a8290d9c,Parcelle
+2511acb4-1b18-4cdb-89d7-d9a82fddd055,Parcelle,Greenwich Village,e8b3b1d6-929c-4ee6-8457-9740a8290d9c,Parcelle
+3b1d0c00-8e4a-4fd7-82a1-130f7fcbfb44,Park & Grove,Downtown,dcd6fd21-f7ef-481d-ad65-ba20ebce56d8,Taco Boy / Park & Grove
+7b84ad1b-0f50-4bf3-9f0f-c91dba5cfe44,Park Slope Ale House,Park Slope,0d55d652-b931-4072-8c74-dd2114063b36,Park Slope Ale House
+e4ff4096-1a94-44c7-829d-349a7b69f74d,Passerine,Flatiron,eb2da6b9-70d1-4d35-b36d-4b1d9d84b69b,Passerine
+8a94ebb5-5e7c-4673-baa7-4665ebe0a56a,Pastai,Chelsea,50319939-f1e3-4bc6-b2a5-bc2e54b02831,Pastai
+54047fdf-bc8c-4652-8423-98d481ba60a6,Pasta Louise Cafe,Park Slope,827ebed0-698b-47f5-b16b-1ce0fa5dae77,Pasta Louise
+382b4cce-a76a-48f4-9c3f-a63d5d259cbf,Pasta Louise Restaurant,Park Slope,827ebed0-698b-47f5-b16b-1ce0fa5dae77,Pasta Louise
+d1245bb7-2a72-40fb-b100-9a1781165090,Patisserie Fouet,Midtown,6b297b5a-219a-4c74-955c-75a55994b07e,Patisserie Fouet
+d1245bb7-2a72-40fb-b100-9a1781165090,Patisserie Fouet,Union Square,6b297b5a-219a-4c74-955c-75a55994b07e,Patisserie Fouet
+73e37f3e-0724-4cc3-953b-532de6e9ebeb,Paulie Gee's,Greenpoint,997068c5-e53e-4e55-ba11-ab4b1165aae6,Pauile Gee's
+1f27acf7-bbb7-4855-b423-9721ff613d50,Peasant,Nolita,4f0b4f64-1d1e-4af3-b88f-14e93240eacb,Apres Cru
+5ada383a-1811-403e-b824-eb6002a337bd,Pecking House,Chinatown,62f0bfe6-9e0e-45d7-810f-56e7914c3ca7,Pecking House
+5ada383a-1811-403e-b824-eb6002a337bd,Pecking House,Prospect Heights,62f0bfe6-9e0e-45d7-810f-56e7914c3ca7,Pecking House
+94e4cac5-87f9-4b62-b9ff-62976dc21f37,Peck Slip Social,Seaport,eb09048f-88c6-4891-9325-1cd54a741c7a,Peck Slip Social
+77cfc927-a8c6-4b3a-ac63-ed2514cffa36,Penelope's Coffee & Tea,Embarcadero,406fcc1d-da50-4182-ba12-35f940278a45,Penelope's Coffee & Tea
+bec8ddda-3174-4543-8016-c394463cea77,Perry's,Pacific Heights,fe675d46-bb6a-4d5f-ae1a-64c9577bacb0,Perry's
+75a07bf3-8fbf-4d25-9b10-b1193c713dce,Petit Merle,SoHo,c5cce5b7-6655-4007-a983-a02047a8e537,FLYBAR - Demo
+e27412c6-e083-41d3-9aca-e2821f8e7600,Phat Thai,Marina,3fb59169-8eac-4683-af64-0764f50d9802,Phat Thai
+d043113b-e73c-4a05-afd1-b0c00068b9b4,Phil’s,Bushwick,0f1672cf-031b-4894-bef0-d32209899196,Phil's
+4474908c-853e-41f7-a5fe-0eb1bc6ac8b5,Phoenix Palace,Phoenix Palace,5b122662-fa85-4540-b20d-9505932bafbc,Phoenix Palace
+3f35c4e1-a8a0-4180-ab1e-4980937aaab0,Phoenix Palace x Complex,Industry City,5b122662-fa85-4540-b20d-9505932bafbc,Phoenix Palace
+ae35e805-4058-41b8-af12-ad0766cb83a0,Pilot,Brooklyn Heights,d578bd05-9453-42d4-b1a8-1fd1e70acd19,Crew Hospitality
+41c27a90-a52a-4238-b059-e89003ce79ff,Pil Pil,Upper East Side,78319e9b-40c9-4291-9936-0b1f96e3f9eb,Pil Pil
+6383328e-1f9e-4fa8-ad4a-973bf4ef6bf3,Pineapple Club,East Village,445ebece-4b3c-4791-828d-350e2f47122b,Pineapple Club
+649b1b24-6582-4639-88be-5f0351ffabb8,Pizzeria Alberico,Pearl Street - Boulder,69c8aaf5-9553-43c5-be69-e6dcc12ecf10,Frasca
+5e476598-04c9-40e9-af04-d623ae785abd,Pizzette,Williamsburg,62de990a-110c-4fcf-966a-573c01d1258e,Pizzette
+822c74c0-5584-45bd-9bf7-46fed69949df,Place des Fêtes,Clinton Hill,852a5364-150b-40d4-89f4-0fe1c42077d9,Redwood Hospitality
+3f175455-4796-4da2-be80-ae1028283486,Please Don't Tell,East Village,2034c9f8-f71f-489f-937d-206e3718ea82,PDT/Crif Dogs
+fbb0b0cc-ec2e-48b2-871e-2827586f4369,Poka Lola Social Club,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+1a3827bb-d692-4e53-809f-426131bff5ad,Polly's Cafe,Crown Heights,3df55958-2e40-45a2-b1d3-1712c72f2a00,Polly's Cafe
+1a3827bb-d692-4e53-809f-426131bff5ad,Polly's Cafe,Prospect Heights,3df55958-2e40-45a2-b1d3-1712c72f2a00,Polly's Cafe
+0746cff5-6e53-4a93-bda8-cbe4cde51128,Popi's Oysterette,Marina,626a183b-fbc1-426e-ad7e-592368ed5fe7,Popi's Oysterette
+2be3f420-464e-4077-a5f4-039cd9e53165,Poppy's,Brooklyn Heights,1442a002-37da-4b5e-a838-934d8cc849e0,Poppy's
+2be3f420-464e-4077-a5f4-039cd9e53165,Poppy's,Cobble Hill,1442a002-37da-4b5e-a838-934d8cc849e0,Poppy's
+ecaf6ee6-918e-4a2d-8c88-7116449e7798,Porter House,Columbus Circle,f774ff15-9e88-4e16-a22b-cabdb4199168,Porter House / Center Bar
+70c50876-4a28-41d0-9497-65f80f85e35c,Port Sa'id,Hudson Square,911dfde3-a6f0-461c-bc3e-5cc82ff9c0ce,The Good People Group
+73b0cd74-b84e-4bbc-9252-9bd76c4a3124,Postcard,West Village,f9e2e4c6-d17e-4839-931d-68ccdc14e082,Nami Nori and Postcard
+4baadc40-8d69-4c1c-a7b5-12623032938f,Post House,Mt. Pleasant,14513b97-63b2-4874-8b17-e69a089d2dfc,Basic Projects
+9bbbbafe-8d65-42dd-99d5-d3823ffcb115,Prelude,Financial District,c8b06155-43af-43a2-94ea-2df364c4c190,Omakase Restaurant Group
+7bd05cfc-eec8-4886-87ef-1719d66dee46,Propagation,Lower Nob Hill,10735256-c8ca-4d11-ae80-f8ce41293777,Propagation
+68fdefe6-4df5-4833-add8-7460eece8977,Public Display of Affection,Park Slope,dc3db7f5-0e84-4c3f-b444-7d40229183c1,Public Display of Affection
+47d3eb20-d12c-4e21-98d5-9a42fd38d14d,Quality Italian,Cherry Creek,e4d2c913-5f09-47c9-85b9-f05766f6bba5,Quality Branded
+2930e5f4-cf35-40f6-9646-ee4927727a56,Quatorze,Upper East Side,f99a9497-8caa-4a6c-86f7-a84ea6d25247,Quatorze
+312c9dbe-b18d-4c1c-826c-66904f1a1b5b,Queue Beer,Carroll Gardens,aa55e2c7-a9d9-4db7-9a6f-216e07eddca5,Queue Beer
+1c8c294f-2170-464b-812e-67d13100c413,Quick Eternity,Financial District,7067953b-2074-433e-8240-4f2a85814e5c,Quick Eternity
+00f58a8c-58b1-4382-a04f-453c2f85af18,R40,Long Island City,15eb9118-f76c-4941-9f1c-9551b2518314,R40
+ec95786b-6de4-4a58-9e06-dc03b5de7f64,Radio Kwara,Clinton Hill,71b83629-ffb8-40ca-a458-6520a3ddb4c6,Radio Kwara
+cce866d9-80d0-41db-a320-83242190be69,Raf's,SoHo,22a8a95d-7cf3-48d0-91a6-601204255504,Raf's
+b40170aa-5423-42ca-8b55-2de03889ffc1,Raku,East Village,6b297b5a-219a-4c74-955c-75a55994b07e,Patisserie Fouet
+b40170aa-5423-42ca-8b55-2de03889ffc1,Raku,Hell's Kitchen,6b297b5a-219a-4c74-955c-75a55994b07e,Patisserie Fouet
+b40170aa-5423-42ca-8b55-2de03889ffc1,Raku,SoHo,6b297b5a-219a-4c74-955c-75a55994b07e,Patisserie Fouet
+e1ac129c-1c1e-4e94-9328-096b48080e3e,Rancho Lewis,NoMo,44e3a16a-01b5-4878-9f0b-33d8121351bb,Lewis Barbecue / Rancho Lewis
+3d2df8bc-707e-4f89-8de4-ca20df058197,Randolph Beer,Dumbo,2a986d8c-f763-4c1d-985c-b70ac04cdfa6,Randolph Beer
+f30ef22f-8b6c-442a-b53c-6a0b3f6cf88d,Renzo,Hampton Park Terrace,0b776456-7396-48ec-8d90-8757ecaa2cec,Renzo
+a2948da2-e5a9-4eca-90df-5566e1ea3324,Restaurant Olivia,Washington Park,79f59f75-554b-4e03-9629-f4c26348bd43,Restaurant Olivia
+f9c1282a-c181-4f95-bab9-8814e0876e84,Ricco Mediterranean Restaurant,Marina,29e61425-e0ab-4ed6-9bf6-362b873e5eaf,Ricco Mediterranean
+f339d34f-81e8-47d4-99a9-8e173e9baff6,Richmond Republic Draught House,Inner Richmond,e31e3aa6-14b0-4d1b-8027-e67509e5bcc7,Richmond Republic Draught House
+3db65045-237f-4b31-8bc3-72ffa182ef34,Rintaro,Mission,89b26cdf-ac95-423d-8eed-44dcfbc9966d,Rintaro
+d580a4de-2eb0-43d4-a120-03c6bb49fac4,Rioja,LoDo,0c4159a8-110b-4401-a1bc-7b0e48d8f8ba,Crafted Concepts
+71589b44-776c-4060-a986-d85733deafac,Ristobar,Marina,4ee3bcfa-5e01-40da-9b76-ad1ae1eae943,Ristobar / EMPORIO RULLI
+a8f69933-6251-4f11-9c71-7d67e8e3b5b2,Rita's Pizza & Provisions,Greenpoint,5154a05b-4fae-4ee3-aceb-3c60ba492e84,Rita's Pizza & Provisions
+b64099f4-72a5-4a72-81ca-179da80b9fc0,Ritual,Radcliffborough,5b805922-ea2b-4fe3-8a4a-87c3610f583e,Ritual
+d161e167-d58d-4124-a1bd-068e1df3459c,River and Woods,Pearl Street,0f4eff05-a11b-4ea7-8192-c0fa2a8be9c7,River and Woods
+ad248d48-8f51-4f00-83f5-4771f1926f8a,Roberta's,Bushwick,c3d4c1ab-acc3-45be-b318-18ae9f680470,Roberta's
+ad248d48-8f51-4f00-83f5-4771f1926f8a,Roberta's,Midtown,c3d4c1ab-acc3-45be-b318-18ae9f680470,Roberta's
+ad248d48-8f51-4f00-83f5-4771f1926f8a,Roberta's,Williamsburg,c3d4c1ab-acc3-45be-b318-18ae9f680470,Roberta's
+fcdbdc43-4009-4194-a743-08425308137b,Rocco's Cafe,SOMA,f0fc1ba6-dba1-4a0c-a210-10318445d78a,Rocco's Cafe Group
+f0b33e38-c21a-4c61-be60-bb4f65409509,Rocco's Sports & Recreation,Noho,3765dc1e-07e7-43a0-882c-e1776ad4e834,The Garrett Group
+9d961155-ff3e-45b4-b453-a02fab32559a,Rokstar Chicken x Complex,Industry City,ee268c5c-2b90-4b21-a04a-6fbb13b6a4ed,Rokstar Chicken
+062c9193-eaad-460d-b865-4dacdce07353,Rolo’s,Ridgewood,f204faf9-4964-4be0-b729-c748ffc1e43b,Rolo's
+7ef0cd96-a987-41a2-9191-b68faeb0d075,Romeos,East Village,25fcd306-abc0-46ae-9182-144917c7e5c9,Romeos
+f5619e42-2f65-471f-8155-9465b0c9d305,ROOH,ROOH SF,d6282b9f-97d6-487b-a067-73bfbeafa765,Alora
+ade810f4-30d1-43cc-9b0d-c827140264c0,Rook Rooftop,RiNo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+f908e82f-1213-40b9-bdb3-83280c6c99c1,Rosalind Bakery,Financial District,e1e11769-dc9c-4434-8c95-88a8fbe0fd6d,Rosalind Bakery
+d6a34837-33df-41a9-be56-92026ee39890,Roscioli NYC,West Village,1fa17aa8-82ef-43a4-b92d-9286deb639bf,Tokyo Record Bar
+65727bdc-bb21-4ecd-bc2c-57140bc34b18,Rosemary & Pine,Design District,c8b06155-43af-43a2-94ea-2df364c4c190,Omakase Restaurant Group
+6b67c6a1-1f69-4dbd-842c-dafe8601a26d,Rosevale Cocktail Room,Midtown,b6bd8332-ccba-4ec8-ac5d-5382e7602b21,Carver Road Hospitality
+cd79e10c-6583-4085-95a7-38cc0592a628,Rosevale Kitchen,Midtown,b6bd8332-ccba-4ec8-ac5d-5382e7602b21,Carver Road Hospitality
+ce1a2ff4-e569-4168-8511-f88ff4d5452f,Rosticceria Evelina,Clinton Hill,717bf5fe-eb99-4341-8b5a-5036ac967054,Evelina
+348ace9a-6bff-4fbf-9788-fed386badc0f,Rowdy Hall,Amagansett,d350c077-3db0-48a5-9cde-874d9aa93044,Honest Man Hospitality
+7afe1000-0045-45bc-baa1-824e964c749b,R.Slice,Midtown,c3d4c1ab-acc3-45be-b318-18ae9f680470,Roberta's
+fa29c8d1-5137-4c1a-815b-01015c303d9b,Rudy Royale,Downtown,5ebb6cfa-091f-4ea4-807b-22cbe4a15f3a,Rudy Royale / Stars / Lillian's
+4919c15f-d530-4a39-9c51-ebb54176779f,Ruffian,East Village,4bc55c31-d326-434c-a324-cdf9fbb49569,Ruffian
+b94c1554-cde2-42c7-90a4-e90c00e273f7,Runner Up,Park Slope,1cabc93b-e8ad-47e9-b085-5a2bca564b18,WINNER
+ec9daba8-65b8-4b98-b047-41a12adac2e1,Sabai Thai,NoMad,939208cb-3fb8-476d-a3e8-94bc5b7a09aa,Sabai Thai
+9e58d5bd-c87a-411e-994d-1aa177a893ea,Sacred Taco,Pacific Heights,edcfc5e3-7948-4f28-a767-4d23c6113f5e,Sacred Taco
+16911b17-65e8-43e8-902f-23c2be8e82c4,Saga,Financial District,7c435f30-a2ba-4393-83ee-86aff33a72e1,Saga Hospitality Group
+03019740-a621-424f-b435-afadf9ed9690,Sagaponack,Flatiron,b98499f8-e47f-4b4a-a68c-afc56d892372,Sagaponack
+c3512340-0603-45a0-9cc9-be47ad367e0d,Sagaponack General Store,Sagaponack,892c9372-e7d0-403d-8d24-28d129f275fe,Sagaponack General Store
+0f64f499-8416-4829-8970-d6e44993d355,Saint Theo's,West Village,34a667c5-7f8f-4b25-a49f-619a8d8ac183,Saint Theo's
+7c9cbda3-631a-423e-ad02-2efcaea14e2e,Saison Cellar & Wine Bar,Saison,11d2cfb4-6808-4303-b6b9-41ac4af77ea2,Saison Hospitality Group
+e304d33e-9036-48d9-9ccb-17080057dd32,Salad Don,Lower East Side,6409179b-eeab-493f-8678-ebe0cc2dcf48,Don Ceviche
+8d8d6aec-d000-4dc0-9475-8b81a458d5e3,Sami & Susu,Lower East Side,4cc8e2f2-f801-4928-a8b4-8ab50a9fac98,Sami & Susu
+d6a0e1df-aef7-450b-aa68-c20a037d6fd8,Sandro's,Upper East Side,cb7b4aec-18b1-455e-b2a5-8aac059e9496,Sandro's
+5b28569d-dc4c-4abb-8768-44e81ed0475d,Santa Panza,Bushwick,c762b374-85b4-4408-b464-634caca66d66,Santa Panza
+20aa10a7-feac-4f5c-8c5c-fd46bc5d621b,Saturn Road,Cobble Hill,c24cc730-2233-4931-b698-36e34ec43d27,Saturn Road
+69a69019-48a4-4989-b0b6-c973507fdc10,Seamore's,Brookfield Place,8ca9a27e-2954-414d-b43a-62e4bf673e13,Seamore's
+b8a3b236-fa16-4e68-b521-c3f83a9f0972,Sea Wolf,Bushwick,f09911a2-de72-484a-8d03-476f77805e55,Monstera Hospitality Group
+07fba989-5431-4ef1-be55-3d377ed37650,Semma,Greenwich,62e4b303-3e1d-4eea-bada-bdc776405e33,Semma
+39d85d9e-e0e4-4e15-a8e7-beb6d215b447,Sen,Sag Harbor,b934c7d1-235a-4871-905d-5c00d7945f45,Tip Top Hospitality
+b78d6ee7-851a-40b4-b0f7-c153f6c49414,Senor Bear,LoHi,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+dbf34048-0a4c-441d-8e37-9555a4f19feb,Sereneco,Greenpoint,114296c6-a1ce-4c68-8f1e-aed7e333cca2,Sereneco
+54008180-589f-474e-b1e7-f7ac3854ecf4,Sereneco Cafe,Greenpoint,114296c6-a1ce-4c68-8f1e-aed7e333cca2,Sereneco
+2a2d5b7a-9589-4dd3-83c8-5f51dcbfb520,Sesame Burgers and Beer,Mt. Pleasant,5da42aa8-f3cf-4f61-9962-4dbc31bb6776,Glowfisch Hospitality
+2a2d5b7a-9589-4dd3-83c8-5f51dcbfb520,Sesame Burgers and Beer,Park Circle,5da42aa8-f3cf-4f61-9962-4dbc31bb6776,Glowfisch Hospitality
+fe88d204-3237-42d1-b7b9-8941a296914b,Seven Hills,Russian Hill,86a695ec-2916-4119-be7e-b7151187d8f3,Collina / Seven Hills
+98b1eb53-c9c8-422d-8178-7c38817d52f9,Shinji's,Flatiron,74e1c40f-2c8a-4c5a-83b4-e0fb7abbfeb4,Shinji's
+0fc0ac72-9ee3-4b11-888d-4656addf3aa8,Shirubē,Santa Monica,35156cbb-82ac-4ef3-8ac6-a9968d14f6eb,Shirube
+8f8af1ee-865a-4e5f-80f1-90fdc52f6b76,Shmackwich x Complex,Industry City,2b184ca9-53e6-44fd-8a44-03006215c0b9,Shmackwich
+f6220233-6527-4d12-aef2-b3e5cfa47095,Shmoné,Greenwich Ave,911dfde3-a6f0-461c-bc3e-5cc82ff9c0ce,The Good People Group
+772eeb6c-0090-45b6-bdda-e5ba2e9c44bc,Shmoné Wine,Greenwich Village,911dfde3-a6f0-461c-bc3e-5cc82ff9c0ce,The Good People Group
+f33e9018-a18a-4e0c-951c-00f6525dc67f,Shuggie’s Trash Pie + Natural Wine,Shuggie’s Trash Pie + Natural Wine,0be0e84b-8aa3-40d9-b95a-0f55fa31b342,Shuggie’s Trash Pie + Natural Wine
+ea557dd0-48ad-45e2-bcfe-10cefe406bc6,Shuko,Greenwich Village,99950b28-c006-409d-850c-58d2934bdd3e,Shuko
+f93cecd8-463d-40d1-ae4e-4957ad6ec9a9,Shy’s Burgers at Blackbird Club at Parcelle,Greenwich Village,b42470b9-18e3-45f5-8692-0b05b5e6bd98,Blackbird Club
+e615ebaf-2194-4225-8b46-5aac4eb8132b,Sip&Guzzle,West Village,841b03d5-0e53-4fe6-9d2e-c650ed4474e1,Sip&Guzzle
+0f4b2d6c-96f4-473c-95bf-3b29cc46f17b,Sissy Bar,Park Circle,d6b1c6a9-ad42-4bb7-960b-eb597db7f1c2,Sissy Bar
+6c57f28a-d6d8-48e1-8ab4-ee98e6fae542,Slicehaus Pizzeria,Slicehaus Pizzeria,65314168-7b91-4984-b335-97a72c264bfa,Slicehaus
+27c20ee3-181d-45ac-977c-6986218bd2bf,Smokey Buns,East Hampton,b934c7d1-235a-4871-905d-5c00d7945f45,Tip Top Hospitality
+1a21d1a0-72fb-4d83-8591-1ffb96c748cd,Sobre Masa,Bushwick,25761659-c2bb-4c0b-81d1-4da857285774,Sobre Masa
+72235518-aa75-4a17-bd48-23cdea67e7d0,Sofreh,Prospect Heights,000e48ba-b955-4080-bddc-628ab43a8db6,Sofreh / Sofreh Cafe
+58cc2959-2a9e-4951-b354-06e9b42f96e5,Softside,Soho,83195eeb-f5c9-4cca-93b7-5e7c44ef24a2,Upside
+b57391e7-e994-475a-b40f-656b09dc48a7,Sol Et Soleil,East Williamsburg,a46ab496-88ce-4ec3-a056-6b4ac9f0b4cd,Sol Et Soleil
+c52f3ae0-fea3-44c6-83af-6c02c6f7963c,Someday Bar,Brooklyn Heights,37182181-5a5e-4cbc-aeb8-afa26c134b50,Someday Bar
+902100a7-303e-4626-85ff-919052281e2d,Sona,Flatiron,7461a93d-51fa-47e3-a6a4-e27ed99fab5f,Sona
+ad697872-f789-4895-9af6-f2227c6f13a7,Sorry Gorgeous,RiNo,9bae59e8-836d-4de4-b7a7-3dccdde5103a,Culinary Creative Group
+aa7f0142-54f0-4bba-9315-8c65ec58fec4,Sound + Fury Brewery and Kitchen,Downtown Brooklyn,b73dcbf9-825c-44e7-895a-83dc9839111a,Sound + Fury Brewery and Kitchen
+d2382dcb-ec46-42fb-b009-ff15098bc213,South Edison,Montauk,793b743d-4970-4f23-ad48-aa3ab3234461,South Edison
+8be26e1d-a385-46d4-9d6e-68c5f5209eba,Spaghetti Incident,Lower East Side,2b018c1d-b043-448d-885d-4c1609cf7d9e,Spaghetti Incident
+940d8c0d-0f52-4fce-a3dc-1c82e5a28bee,Speedy Romeo,Clinton Hill,921df105-4fab-4b8c-82ba-7ef8e55db0e7,Speedy Romeo
+6f0e2833-d311-44ad-8f46-0929d46f7996,Spicy Moon,Chelsea,da935a47-f1c3-4491-af5d-c23fcd3b563f,Spicy Moon
+6f0e2833-d311-44ad-8f46-0929d46f7996,Spicy Moon,East Village,da935a47-f1c3-4491-af5d-c23fcd3b563f,Spicy Moon
+6f0e2833-d311-44ad-8f46-0929d46f7996,Spicy Moon,Greenwich Village,da935a47-f1c3-4491-af5d-c23fcd3b563f,Spicy Moon
+6f0e2833-d311-44ad-8f46-0929d46f7996,Spicy Moon,Lower East Side,da935a47-f1c3-4491-af5d-c23fcd3b563f,Spicy Moon
+f4d71985-b946-435b-8494-f09da8e1551d,Spike's Coffees and Teas,The Castro,3cd5c8e0-2e2c-4a78-88b4-9f28d8d41aa1,Spike's Coffee & Teas
+e64bdd8b-db29-47a6-a119-ee287a7d5a91,SPQR,Pacific Heights,f3ca57b5-e4b9-4afd-8143-dad828d049c4,Mattina / SPQR
+669f25e4-0f7f-47e5-bfba-58b8f7fc6bad,Spring Cafe Aspen,Greenwich Village,e6338b5f-832e-4e31-84d9-6e008b083002,Spring Cafe Aspen
+4d967458-220d-45d0-8630-5f2e8d5944c7,Springs Tavern and Grill,East Hampton,63039c23-dd46-487f-a7eb-dbb1310cf76b,Springs Tavern and Grill
+f65fbd34-b997-4fba-9748-34ffd6043df7,Spygold,Husdon Yards,87dddb02-caea-4530-bc33-7bd1baa412a8,Spygold
+0c123787-86f1-47dc-bdb2-5c87a6b7cee0,Starchild Rooftop,Midtown,b6bd8332-ccba-4ec8-ac5d-5382e7602b21,Carver Road Hospitality
+cf4d5678-3f71-4d7d-b805-513297ceca24,Stars Rooftop,Radcliffborough,5ebb6cfa-091f-4ea4-807b-22cbe4a15f3a,Rudy Royale / Stars / Lillian's
+6cc3d952-c50f-4e9c-8691-6e9db761f6b1,Steak Frites Bistro,Hell's Kitchen,95daf746-7174-4e83-8eff-b8eaa9a94bf9,Steak Frites
+29dd5fea-8346-462e-8aa7-9ab742129369,Steuben's Uptown,Uptown,5dea68d3-e858-447e-ae16-c1eec8003090,Secret Sauce
+72922ae4-a0cd-43c8-883c-a0b01ea1ceaa,St. Mazie,Williamsburg,c6117fbc-97da-48c0-8a25-b299546494ef,St. Mazie
+696e3754-4f72-4ebc-9f6b-4e37bbff9ac1,Stone Park Cafe,Park Slope,4e6d4858-62f4-4717-ab49-04a573f4e86f,Stone Park Cafe
+2151aa6d-c90a-41eb-9dde-66c6ee223464,Stone Street Coffee Company,Chelsea,d084a821-95b3-4760-ab84-b58ecc8f330e,"Bathtub Gin, Stone Street, and Hello Hello"
+b1891c01-ea5d-43ae-b62b-42415bb9eb7d,Strange Delight,Fort Greene,6652a146-669f-4c02-88d7-a91ded4bacf9,Strange Delight
+9d97ccac-ad36-4890-9289-71a14bb182a6,Stretch Pizza,Flatiron,2761cf00-15c1-4555-b587-69efb88fc441,Stretch Pizza
+f0525e6c-f2bb-4936-9c5a-ce5eea7b0097,St. Tropez,West Village,bd842b88-ecb3-47c5-ac08-6164601d5f0e,St. Tropez
+2b12b886-05c3-477c-8a2e-fabb6a432f32,Subject: A Cocktail Bar,Lower East Side,f1a2492c-8e80-4797-9df8-df54c79b9eb5,Subject Bar
+a5681ef2-6bcf-4885-a75e-0f56d677a6e9,Sukh,Fort Greene,cef90b52-787e-4ea6-af26-9990b79fa455,Sukh
+468e1b25-205a-45b7-a942-cb426f245f4a,Sullivan's Seafood & Bar,Sullivan's Island,14513b97-63b2-4874-8b17-e69a089d2dfc,Basic Projects
+3f27a4f2-8958-4387-a8cc-b13b96ae19ff,Sunday in Brooklyn,Williamsburg,6b53ecec-94e9-4914-88a3-18a2175b0a46,Bin Bin Sake / Rule of Thirds
+99b0ea4f-0677-4a74-9918-d207262ff9a6,Sunday To Sunday,Lower East Side,765fd549-2351-4c62-b7d7-ed28896d390a,Sunday To Sunday
+bee1919a-16f7-4639-8b50-33ddb38d3283,Sunday Vinyl,LoDo - Denver,69c8aaf5-9553-43c5-be69-e6dcc12ecf10,Frasca
+aa6eab74-7572-430b-9673-ee740b8fffff,Sunn's,Sunn’s,e8b3b1d6-929c-4ee6-8457-9740a8290d9c,Parcelle
+0f86a1e3-5e23-4392-b30b-3c59a94a21ee,SuperMegaBien,RiNo,4b2bd5bc-0a25-421e-a039-526b35c36c8e,Super Mega Bien
+e7d17bb4-9370-47f7-80ae-bbc48ec5b03b,Suprema Provisions,West Village,c59888c4-4410-4fae-a3a9-27aea8d55b98,Suprema
+e0b084b8-e15d-4b95-9edf-f15f5d7936e4,Sushi Hakko,Pacific Heights,92bf9d77-67db-40d5-86c8-60eded6874ef,Mins Group
+bf92739b-8402-43f2-b47b-59a654040469,Sushi Ikumi,SoHo,0f0a3542-8572-4621-9477-719be0080a24,Sushi Ikumi
+b5ee7f11-e5c8-4ac0-aa99-d33654804dd2,Sushi of Gari,Hell's Kitchen,e8b7517c-5060-4d96-909d-22ba724fb7b6,Sushi of Gari
+b5ee7f11-e5c8-4ac0-aa99-d33654804dd2,Sushi of Gari,Upper East Side,e8b7517c-5060-4d96-909d-22ba724fb7b6,Sushi of Gari
+b5ee7f11-e5c8-4ac0-aa99-d33654804dd2,Sushi of Gari,Upper West Side,e8b7517c-5060-4d96-909d-22ba724fb7b6,Sushi of Gari
+1009238d-0c55-416c-895d-f25c12fd0f08,Sweet Afton,Astoria,c1cf9744-ac53-4fa7-b19d-9e1af3e72330,Sweet Afton
+40f76c62-3995-4698-a029-1b82843130ba,Sweet Rose Creamery,Brentwood Country Mart,f8ea8df0-0efa-4441-bcdd-5fda2649352a,Rustic Canyon Family Group
+d086f164-4518-4e22-99ca-94c54711cc9b,Tabaré,Bushwick,d53a311f-4f73-4623-85c6-0d012cf4f321,Tabare
+d086f164-4518-4e22-99ca-94c54711cc9b,Tabaré,Williamsburg,d53a311f-4f73-4623-85c6-0d012cf4f321,Tabare
+3a2fe785-392b-4dfd-ac37-b58f06693fe5,Taco Boy,Downtown,dcd6fd21-f7ef-481d-ad65-ba20ebce56d8,Taco Boy / Park & Grove
+3a2fe785-392b-4dfd-ac37-b58f06693fe5,Taco Boy,Folly Beach,dcd6fd21-f7ef-481d-ad65-ba20ebce56d8,Taco Boy / Park & Grove
+3a2fe785-392b-4dfd-ac37-b58f06693fe5,Taco Boy,Summerville,dcd6fd21-f7ef-481d-ad65-ba20ebce56d8,Taco Boy / Park & Grove
+a31cd0b5-bdd7-4d26-b8c5-8ce4c187d247,Tacolicious,Marina,ef897494-78f5-428a-88f0-54f85e80729b,Tacolicious Group
+a31cd0b5-bdd7-4d26-b8c5-8ce4c187d247,Tacolicious,Mission,ef897494-78f5-428a-88f0-54f85e80729b,Tacolicious Group
+a31cd0b5-bdd7-4d26-b8c5-8ce4c187d247,Tacolicious,Noe Valley,ef897494-78f5-428a-88f0-54f85e80729b,Tacolicious Group
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Financial District,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Flatiron,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Forest Hills,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Fort Greene,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Greenwich Village,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Long Island City,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Midtown,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Nolita,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Upper East Side,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Upper West Side,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Westbury,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,West Loop,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Wicker Park,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e8885919-1c59-488a-8fb9-943b33ac508b,Tacombi,Williamsburg,b448af3d-5c91-40c4-b344-1fb000d39cfa,Tacombi
+e802cafc-72be-48b5-b02f-9361c13c7a9e,Tacos 1986,West Village,e980b406-51b3-4292-96d5-d0134418a95a,Tacos 1986
+51c57d2c-2317-4dda-9800-baf4aeb96e0e,Tacos Tequila Whiskey,LoHi,09be19c2-8471-499c-8dc5-8b2f0f29d5af,Fish N Beer
+07f6ea4c-bedd-4042-8d8f-a80e09901d5e,Talea,Bryant Park,6783c48c-c9ff-4af8-a0b8-410cb72d7bd1,Talea
+07f6ea4c-bedd-4042-8d8f-a80e09901d5e,Talea,Cobble Hill,6783c48c-c9ff-4af8-a0b8-410cb72d7bd1,Talea
+07f6ea4c-bedd-4042-8d8f-a80e09901d5e,Talea,Midtown,6783c48c-c9ff-4af8-a0b8-410cb72d7bd1,Talea
+07f6ea4c-bedd-4042-8d8f-a80e09901d5e,Talea,West Village,6783c48c-c9ff-4af8-a0b8-410cb72d7bd1,Talea
+07f6ea4c-bedd-4042-8d8f-a80e09901d5e,Talea,Williamsburg,6783c48c-c9ff-4af8-a0b8-410cb72d7bd1,Talea
+5c75368d-ee7f-4594-b172-b5e5d162cb11,Tamarind,Tribeca,7f35a4ac-8f01-4a34-9380-0b61e1baf66e,Tamarind
+33cb0360-16bd-4e04-a84a-4519cab0a367,Taquería el Chato,Greenpoint,c7ef5bf9-743e-4caf-ac6d-50bfe39e523b,Taqueria El Chato
+33cb0360-16bd-4e04-a84a-4519cab0a367,Taquería el Chato,West Village,c7ef5bf9-743e-4caf-ac6d-50bfe39e523b,Taqueria El Chato
+be6207bb-36eb-4132-ad90-fd375f88c469,Tasca NYC,Upper West Side,8c712abe-9d3f-45c1-8d5f-75cd4604ea57,Tasca
+a714f374-3818-43bd-8942-8f12caf5f4af,Tavernetta,LoDo,69c8aaf5-9553-43c5-be69-e6dcc12ecf10,Frasca
+756eb990-0fe7-47c8-a59c-37895771f63d,Tempest,French Quarter,43e75779-3cb0-4565-9c89-c8e7b20ffb31,Tempest
+b4926aec-6b75-4eb1-a6d9-43f3e239bfc7,Temple Bar,Temple Bar,9f4338fd-d67c-4a12-bf59-e7adc4df9b2b,Temple Bar
+5d9d32c5-dcc0-4402-ba5b-eb86448eb6f6,Tha Phraya,Upper East Side,f9e2cf03-72d3-40db-8c61-8a6a1542d333,Tha Phraya
+d9f9d998-9a58-4820-8617-3524a96acf0f,The Archer,East Central,d4e624dd-a966-4c3a-a78d-8deb5da66271,The Archer / Berkeley's
+b879e26a-9df1-4ba6-ad85-50ea040628e6,The Bakery at Greywind,Hudson Yards,581afa6a-d5c5-406a-84b9-6e331b13d461,The Bakery at Greywind
+ada67010-2589-4cc8-9a69-91899ec7f35c,The Bar at The Spectator,French Quarter,716f1d94-de89-49f2-9da1-369c0b1e54fa,The Spectator Hotel
+0c4e6db3-48a0-4ea3-9e0d-55ac60936214,The Blue Light,Pacific Heights,b28abd69-96c1-4dc2-abbe-5d44d7685fdb,Johnny Love Group
+c7418178-d7ba-4a8b-adc7-f6ec8854c53b,The Bonnie,Astoria,92fd8300-3238-48ab-ab50-bda2adf78a72,The Bonnie
+966132a1-7e87-4f6d-922f-46eb7f4571bb,The Brig,Venice,3533b1c9-af5f-45b2-af93-0a71fa1284a2,Jared Meisler Restaurant Group
+5bf39fab-f382-4e69-9e71-9a0538da1cbc,The Brixton,Marina,8587afbb-b2e0-4d49-ac78-0c961481eaa4,The Brixton
+798cf174-4e40-4348-accb-586be9806f0d,The Bronze Owl,Midtown,df81e19f-5e49-495a-85a1-1d3d00c07031,Bronze Owl
+136ac5ad-cbc4-4ce8-852d-75ba6045cddc,The Cactus Shop,Williamsburg,60b5c873-4bef-4725-b076-6a7f25ed6b2b,The Cactus Shop
+510438bf-9ac5-4276-9ebd-9bb6b62db65f,The Churro Spot by Tortazo,Midtown,be81aa3b-c9d4-407b-ac46-7c0c64b96b99,Tortazo
+d8d12dfa-d7d3-40c1-ab9d-cdbbc61f9ede,The Commons Chelsea,Chelsea,72c59172-c95c-4316-a06c-b5f1be080a61,Motel Morris
+6d48be33-c492-427e-8206-da871f4bd997,The Corner Office Restaurant + Martini Bar,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+68ed6686-6b47-4644-9ab3-8a4b963fd9ae,The Counter at Odell's,West Highlands,a8de3514-97d0-4e0c-97de-782b2a3cd0d9,Odell's
+b29fb7c4-a28f-47c3-bdda-cb9438bfc417,The Daily,Cannonborough,01ca53a2-d031-4289-b6c7-f13243eb75e3,The Daily
+b29fb7c4-a28f-47c3-bdda-cb9438bfc417,The Daily,West Midtown,01ca53a2-d031-4289-b6c7-f13243eb75e3,The Daily
+de0e8955-1b10-4350-bb27-7b57e7c51fe4,The Drunken Munkey,Upper East Side,cdf44869-a089-4f5c-8148-785f697f21d0,L'Avion Cafe/The Drunken Munkey
+b0e93539-a280-409e-93cd-28436c4cb1eb,The Dutch,SoHo,5ef43215-f93d-420f-9bb0-266151d1be1f,Noho Hospitality Group
+e372c3ef-376d-48fc-856d-319b715c1a10,The Factory 380,Midtown,e1cf8bad-118e-47b9-a365-6566efbe8dad,The Factory 380
+f134527b-90cd-4a1e-af39-59ff3a109976,The Garret West,West Village,3765dc1e-07e7-43a0-882c-e1776ad4e834,The Garrett Group
+4310c92b-b4b6-463d-9022-3b1a429b5d2a,The Gin Mill,Upper West Side,7842c853-cd64-4e82-a24e-7b40eb8eae6b,Eat Drink & Be Merry
+23f34fd9-7679-4c05-a634-56c9d2813feb,The Greats of Craft,LIC,93ae0fe1-50c7-42ef-bf81-d894f4c6e069,The Greats of Craft & Bar Enzo
+23f34fd9-7679-4c05-a634-56c9d2813feb,The Greats of Craft,Midtown East,93ae0fe1-50c7-42ef-bf81-d894f4c6e069,The Greats of Craft & Bar Enzo
+fcc2453e-a0f6-4c99-a0fc-ff9f75e2d42c,The Green Room,Sag Harbor,b934c7d1-235a-4871-905d-5c00d7945f45,Tip Top Hospitality
+33cf2c29-1142-4ec2-9870-4bfbd1464245,The Hamilton,Upper West Side,8c4ba9d5-2607-4669-9978-3a6c648679cc,The Hamilton
+c396f294-a9b9-4f21-a26a-c700af124aec,The Harlow,James Island,83d3f742-f48d-4ff4-8130-33406ff427e0,The Harlow
+3cf65b38-2cd4-4f49-b9bf-c87541153207,The Homestead,Mission,0096b31c-c92c-4d5d-87a6-441327809bdb,The Homestead
+56ff064e-38eb-4af4-a386-8a33e136604a,The House Of Shields,The House Of Shields,3838d2ef-a228-400a-bb4b-d5002376b7bc,Pleiades Enterprises
+331011d5-2d85-4f45-95f1-3e8a847d5ab4,The Hunterian,Upper East Side,1a337757-ce35-4b06-b894-61c234ea1973,The Hunterian
+9c577e12-e0fc-46df-b8b7-7e543226ae1e,The Liberties,The Liberties,345998d8-5739-41e1-a575-05a9bf976b69,The Liberties
+c8f80562-4eec-41e1-9250-aa00330f2570,The Little Pig,Boerum Hill,a56edc29-606f-44e6-b3da-146b6054a54c,The Little Pig
+d0bef1e2-80cc-4d9b-92f0-71e062cad4e7,The Lobby,LoDo,b83424cd-645b-4e39-a8b0-9c70dc643499,The Lobby
+8c908c7d-900c-4db9-9fbd-547daaa18ccc,The Lonesome Club,South Slope,2a2ca591-04bd-492e-8b17-eeae4ef57906,The Lonesome Club
+0aab4275-662c-43e9-b7bb-869281bed196,The Lost Draft,SoHo,5207e700-b580-44f6-9769-c98717abe1f4,The Lost Draft
+252977ca-124b-47b4-9fa7-7d9c4f20c208,The Market at Paradiso,Park Circle,7be3c897-6406-44f2-b7dd-e40c82d3f1a1,Paradiso
+31ece492-eb0a-4946-8fed-7fa9bb05fe34,The Mary Lane,West Village,8093a865-0fb0-4489-8c24-88eeb5c9036f,Blackfoot Hospitality
+a3f8b6fa-be64-4a9f-bbda-a1bbc23d0fda,The Morris,The Morris,3b318d71-8e10-4121-b134-0c872493be04,The Morris
+9b42e58a-73e0-4c79-8c67-eb15a636cc89,The MOUTH Bar + Restaurant,Williamsburg,0ebb9154-b017-47c2-9894-fb7561778ef5,The Mouth
+21429244-ae0d-41fa-b485-7c4f657aa2cd,The Musket Room,Nolita,22a8a95d-7cf3-48d0-91a6-601204255504,Raf's
+3b9d28c2-6b3e-4b7e-88cc-46921c729756,The Nickel,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+1736934b-b572-4beb-926e-5a60bc86325c,The OG,The Original,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+94fa4e70-a899-4c2a-af75-3e521d593afa,The Pass,Cannonborough,9db1b13e-1312-4f9d-a436-e673c793ec3f,The Pass
+b66507fb-b33e-4a15-bf74-3e86763d8f41,The Patio,Marina,03c491dc-48ac-45bc-8a42-58a3091d9a43,The Patio
+1412bfd7-4df9-4b9e-b8df-8368b936065a,The Press,Cannonborough,04b17536-7766-446f-80bc-415e11cacd28,The Tippling House / The Press
+8fd45637-7545-45d5-9ad2-f0bbfaca9ac3,The Purple Tongue Wine Bar,Hell's Kitchen,603bfa27-50d2-4182-992e-f51e42f1b5e3,The Purple Tongue Wine Bar
+8bcf6e01-b14d-4b11-9e2b-2d8827bbaa19,The Puttery,Rory's Rooftop,03a03852-63ad-4ab2-a9a5-12941abb6187,The Puttery
+5deb6019-72a6-46b1-9272-0467df4b0164,The Refuge,Isle of Palms,5b015f38-7a83-47d6-b852-5a55d4bb2624,The Refuge
+8ad0e185-e3bd-4e05-832a-eb1ae601134a,The Restaurant at Zero George,The Restaurant at Zero George,bbca6711-d3be-4276-822f-abb3f1ef2877,Easton Porter Group
+fa4ec6ee-9d88-42f6-8674-a75069ea1c51,The Roll,Pacific Heights,92bf9d77-67db-40d5-86c8-60eded6874ef,Mins Group
+a988cdb8-38da-4f95-955f-e318b0f9f15e,The Rutherford,Midtown,d53f41c7-d561-4c90-9154-9a606c7effe3,Host Restaurants
+4dbd4cfd-5a2b-44f4-8880-626faefd9231,The Sandwich Board x Complex,Industry City,4a9fa8aa-87eb-4173-b955-95dc817a6e6b,The Sandwich Board
+66e705e9-bfa2-4fb3-8773-3225a5edcb7c,The Sentinel,The Sentinel,3838d2ef-a228-400a-bb4b-d5002376b7bc,Pleiades Enterprises
+717a7e9a-cb97-4d32-a2d9-b10711097353,The Shakespeare,Midtown East,dcfeec79-2011-400f-821e-070151b86b5f,The Shakespeare
+0f2e00fe-dc35-4cab-9899-f0f32e362f9b,The Stand - Comedy Club,The Stand: Comedy Club,946d0060-decc-4062-83ae-faf4a4be57c3,The Stand
+a94287ed-6e71-4168-9533-cb52f408b65f,The Stumble Inn,Upper East Side,7842c853-cd64-4e82-a24e-7b40eb8eae6b,Eat Drink & Be Merry
+d1b9ca4e-4015-4d25-bca8-ee4ef34a803e,The Ten Bells,Lower East Side,0ce33b30-08bd-470d-96b6-40084f69f35d,The Ten Bells
+35717456-7460-406a-8539-1da01cfc8603,The Ten Bells Brooklyn,Bushwick,b7490668-bb8c-42ac-a22c-1ea92feee4ba,The Ten Bells
+be6b996e-acd9-48e6-8579-024e5692b071,The Test Brewery,Williamsburg,a93c6c12-d402-4f43-8970-f232713e1401,Test Brewery
+6a849093-9b3d-49c6-9db4-f22e586387db,The Third Floor,Financial District,c8b06155-43af-43a2-94ea-2df364c4c190,Omakase Restaurant Group
+f222e2e0-dbf2-4495-8495-9da9cd41edf1,The Tippling House,Cannonborough,04b17536-7766-446f-80bc-415e11cacd28,The Tippling House / The Press
+291de563-d482-4646-b2c8-e3632544caa1,The Tusk Bar,NoMad,4a0e264d-bc32-4718-8053-ac0a183defb0,Brass / Moby's
+7cca16ca-d0eb-44ef-8051-779caf4b7111,The Wooly,Nolita,8a14d5b5-d59d-4d4d-bff8-38b760c69e8c,The Wooly
+92b7f55d-e3f2-4237-bc1e-6f5edae0edbb,The Wren,NoHo,d0028359-dfc0-4e98-95ff-cb0b74952b9c,The Wren
+0d75ba43-3e1d-4297-a4e7-dec6a6802dea,Thief,Williamsburg,782ab5dc-d147-4f09-b5f3-4140ad575e98,Thief
+c02983c1-c7d1-4c07-af7f-9ad689dfbec6,Thierry Atlan Soho,SoHo,df344fa5-80a1-4541-85ee-7dee8a004772,Thierry Atlan
+e5bd4a78-f07f-447a-85de-131b37c7532b,Third Falcon,Fort Greene,2af6ec42-9fd8-4606-afdf-8600f089342c,Third Falcon
+aff2dceb-35c0-4f5e-ac2e-5e3c1727ad1b,Threes Brewing,Gowanus,70d75be6-7dfc-473c-88af-ce69229d48bd,Threes Brewing
+aff2dceb-35c0-4f5e-ac2e-5e3c1727ad1b,Threes Brewing,Greenpoint,70d75be6-7dfc-473c-88af-ce69229d48bd,Threes Brewing
+b658ed23-401b-4251-b7b8-8cf4d85e1f78,Thursday Kitchen,East Village,21fafd0a-8e9e-4b60-8c5d-b4486d7a90e8,Mokyo / Thursday Kitchen
+61e0d60f-b30f-48b1-9350-74860d193935,Thyme Bar,Chelsea,f835b1d6-a842-4a42-a0ab-8a56589145cb,Thyme Bar
+ef5c94c4-1622-4d83-8fe0-09cbccfcf3ed,Tia Pol,Chelsea,04cbebdf-5d79-45bf-a86e-8501c8f331db,Tia Pol
+0814af12-f6dd-4913-ab0f-3b932bd3f082,Tiki Chick,Upper West Side,a27c0275-dd54-4f86-82d4-0f9aaa10ecfa,Pickle Hospitality
+7933ff85-12bd-4d62-8f81-2a167c9079fc,Tio Pepe,West Village,ea2589e9-797b-4391-afda-95200fafb492,Tio Pepe
+554dd5e3-cb3c-415b-8d8f-23973373a903,Tolo,Lower East Side,e8b3b1d6-929c-4ee6-8457-9740a8290d9c,Parcelle
+c04b0e3d-82a7-48d7-bb54-ea595cc3baf3,Tonchin,Midtown,925a9c78-ed64-4df0-bd4a-124b8f64947b,Tonchin
+c04b0e3d-82a7-48d7-bb54-ea595cc3baf3,Tonchin,Williamsburg,925a9c78-ed64-4df0-bd4a-124b8f64947b,Tonchin
+22d34078-4f7b-4622-84b2-99271a984d45,Torch & Crown Brewing Company,SOHO,f0855294-7200-4baa-a3ec-a6db0b5ba520,Torch and Crown
+9992d42e-e543-4bf4-afea-6e8f0bac3446,Toro,Cherry Creek,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+1c12ace2-9cf2-4e7e-b6be-1908f26577a0,Tortazo,Times Square,be81aa3b-c9d4-407b-ac46-7c0c64b96b99,Tortazo
+dcc090f5-c42f-4552-a2e0-a85fd93d859c,Townline BBQ,Sagaponack,d350c077-3db0-48a5-9cde-874d9aa93044,Honest Man Hospitality
+618fc8b4-9e56-49c7-be79-e4835ac0ad62,Toy Soldier,Financial,b28abd69-96c1-4dc2-abbe-5d44d7685fdb,Johnny Love Group
+a6c1f38c-b8de-428b-ba27-0196b7f026cd,Tradesman,Tradesman,abe6277c-0a00-4bd7-82ed-ce5df0dca829,Tradesman
+bf5f63fe-aa4e-49de-b304-f5b335ac121e,Trad Room,Bedford-Stuyvesant,4cee774d-4b22-4bc3-82bb-d6cc13e11ed8,Trad Room
+c263cf16-b050-49cb-95af-19ceebef03e4,Trapizzino,Trapizzino,4a0e264d-bc32-4718-8053-ac0a183defb0,Brass / Moby's
+5355de75-2868-45d4-941d-91a71a2863a7,Trellis Cafe & Bar,SOMA,10484f2b-184a-4077-a563-1d3f3ed159fa,Trellis
+65f3ffa4-c8dc-4794-9795-73c6ac308083,Trick Dog,Mission,dd208dc7-d20c-40e7-9430-4268a2627058,Trick Dog
+d9ce1a3d-86da-4186-ba0d-68a6f3a460f5,Trinity,Pacific Heights,b28abd69-96c1-4dc2-abbe-5d44d7685fdb,Johnny Love Group
+2c4935a5-9694-43fa-abaa-648a2086b563,Tropisueno,SOMA,ecd626f9-af78-4466-a183-942928997856,YBL Restaurant Group LLC
+6fce883d-a3fe-4411-8298-5bd662fa31a2,Troya,Pacific Heights,43086d71-9f16-4587-bc05-665625cc7700,Troya
+62ba6ec7-931c-48ea-b6f1-05b5aa0d5b20,Tutti,Downtown,d66ae6e1-a457-4e77-8a95-f67d14edc686,Graft Wine Bar / Tutti
+f66ec3ab-1d83-42da-bf17-6e7c9cfda345,Twin Tails,Columbus Circle,e4d2c913-5f09-47c9-85b9-f05766f6bba5,Quality Branded
+ae472edd-4137-474b-86cf-75d5fe4a1109,Twist Bar,Chelsea,848c3259-7354-4214-a010-8964c4a77cd0,Milk & Hops
+642cd866-441c-476d-b002-37a3c6ba0c18,Twisted St. Cafe,Marina,89923d9c-9aff-44e2-add3-439475b5cc69,Twisted St. Cafe
+9d824b25-86c3-4f02-b2a2-697241f1d6f0,Ultreia,LoDo,0c4159a8-110b-4401-a1bc-7b0e48d8f8ba,Crafted Concepts
+fb0aa451-3dc6-4f36-9ba2-178f344376cf,Umbra,Bushwick,63b806b8-2f0e-4fb7-9b6c-9b1f7d08d788,Umbra
+a72a954c-c1b3-414c-a943-89d274562e45,Uncork,Wraggborough,4c716f92-75dd-4378-a83b-b44958de1aaa,Uncork
+a0074e2e-c12d-43c4-b07f-f7eba58fa86e,Unregular Bakery,Union Square,0bae5bc6-3581-4784-8ddc-9d83f59777fe,Unregular Bakery
+8679d471-40a0-46b8-b41b-7d18c249226b,Unregular Pizza,Lower East Side,8cf91e48-faf9-4df5-9552-f46a0bd0d1cd,Unregular Pizza
+8679d471-40a0-46b8-b41b-7d18c249226b,Unregular Pizza,Midtown,8cf91e48-faf9-4df5-9552-f46a0bd0d1cd,Unregular Pizza
+8679d471-40a0-46b8-b41b-7d18c249226b,Unregular Pizza,Union Square,8cf91e48-faf9-4df5-9552-f46a0bd0d1cd,Unregular Pizza
+8679d471-40a0-46b8-b41b-7d18c249226b,Unregular Pizza,Upper East Side,8cf91e48-faf9-4df5-9552-f46a0bd0d1cd,Unregular Pizza
+9d51d220-a4fd-44c7-a183-138e0d20e00c,Upside,Nolita,83195eeb-f5c9-4cca-93b7-5e7c44ef24a2,Upside
+b88e03d2-f19c-441f-b10f-9c5ee077fc44,Upstate Stock,Williamsburg,f0fbfccb-af1c-48a5-acff-e764b57b61ef,Upstate Stock Cafe
+71718bda-61aa-493f-9a76-35458d3dbbfd,Urban Farmer Denver,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+e143974f-c441-4edb-80fb-fdf7c1ecbf3a,Ursula Brooklyn,Bedford-Stuyvesant,61bf961b-296d-4991-a2ef-3f284c0a7865,Ursula
+2945d50e-6dde-4280-b90f-b6d9698ff05d,Valla Table,Hell's Kitchen,c2de6ed5-67c3-4b06-a747-24b327a995da,Valla Table
+0ceaec1a-8823-4c1f-812c-0d5630b05200,Venhue,Lower East Side,5690d3da-bd63-4672-990d-cd329f92c734,Venhue
+ee85c66a-268f-4809-8482-bd7eaa382908,Veranda Lounge,Downtown,10e7177e-51af-4dd8-b6e2-ca7298891c8a,The Loutrel / Veranda Lounge
+dde66a49-1671-44a5-96a5-73b1f8c6cac1,Verde,Avondale,2fc1aa71-b3ff-475b-86bb-b1578d0b6f1e,Verde
+dde66a49-1671-44a5-96a5-73b1f8c6cac1,Verde,Belle Hall,2fc1aa71-b3ff-475b-86bb-b1578d0b6f1e,Verde
+dde66a49-1671-44a5-96a5-73b1f8c6cac1,Verde,King Street,2fc1aa71-b3ff-475b-86bb-b1578d0b6f1e,Verde
+dde66a49-1671-44a5-96a5-73b1f8c6cac1,Verde,Mount Pleasant,2fc1aa71-b3ff-475b-86bb-b1578d0b6f1e,Verde
+dde66a49-1671-44a5-96a5-73b1f8c6cac1,Verde,Park Circle,2fc1aa71-b3ff-475b-86bb-b1578d0b6f1e,Verde
+97fd500a-b86c-4daa-be1e-c1931120a71c,Veselka,East Village,a5197cd6-00a1-408a-9e6e-a2669e1c6417,Veselka
+97fd500a-b86c-4daa-be1e-c1931120a71c,Veselka,Williamsburg,a5197cd6-00a1-408a-9e6e-a2669e1c6417,Veselka
+5a02aa66-fc07-4b42-b412-c13515a47316,Veselka Williamsburg,Williamsburg,a5197cd6-00a1-408a-9e6e-a2669e1c6417,Veselka
+24c98bbf-f3df-473f-ae3e-bf6285172a5d,Victoria Pastry Company,North Beach,b0ff2c56-77cc-488f-9bbd-ab0bbec0ab3d,Victoria Pastry Company
+0f6244d8-19cd-446c-8b81-d3144d198070,Vineapple,Brooklyn Heights,43f3e1d2-7092-4c6e-8af5-d14c6239d111,Vineapple Cafe
+b9c373d0-698a-423b-8b0c-2944eab5bdb5,Virginia's,East Village,010a9119-7241-4a29-af85-6c69246336d5,Virginia's
+00bd6b49-8faf-48d0-8917-54a09c34464b,Wabi Nori Hand Roll Bar,Lower East Side,ae67dcaa-a874-4b4d-b2b8-0d45f6f26592,Wabi Nori Hand Roll Bar
+8c1861cc-f802-41ae-87c9-44e0584b1e5b,WarrenPeace,Tribeca,d62abb00-a045-415e-af64-5426ee81e4c0,Warrenpeace
+928af9cc-aa56-4ce8-adf4-9daa555b7b82,WAU,Upper West Side,3eff8a74-e098-446d-95d6-7dcd3b016a34,Fungi Hospitality
+417d4e02-fd69-4dd7-bab3-1fd73a909a9a,Wenwen,Greenpoint,7a00f980-5ed0-4542-9aa1-4c041595876a,eighteightsix
+4f0ab25f-67e0-431b-9bee-41772e1e29ca,White Horse Tavern,West Village,ed4de604-df43-4ac3-b3ea-001e4fcd566a,White Horse Tavern
+e3580df5-979d-4792-80f8-570b38795a54,Wild Common,Cannonborough Elliotborough,89679855-d936-4802-8688-8a77f2135f8d,Wild Common
+e0db1162-fc1f-4181-ae6a-cefd84462c2a,Wild East Brewing Co.,Gowanus,373ffc56-801d-4ce4-aaf1-bc479a51a7cc,Wild East Brewing Co.
+5f0ce86b-ebc3-48ee-b224-2fb78599efff,Wildflower,Chelsea,9cc9e631-41ba-4de9-a22b-1bc287ba4b3e,Madam Mikette's / Wildflower
+2ff633ea-6567-4b26-857a-6b04ff9d882d,Wild Taco Denver,Berkeley,030b5adc-214b-45d9-8a8e-275f599243b5,Wild Taco
+2ff633ea-6567-4b26-857a-6b04ff9d882d,Wild Taco Denver,Cap Hill,030b5adc-214b-45d9-8a8e-275f599243b5,Wild Taco
+4e2e487b-ff97-42b4-b152-7ad5d4525f3f,Wine:30,Nomad,48234d43-a7ba-4a22-9bef-c2cf894cc373,Wine:30
+f6c0131d-c225-44d6-8546-efc904931217,WINNER Bakery,Bakery,1cabc93b-e8ad-47e9-b085-5a2bca564b18,WINNER
+e27fc881-0557-4398-a743-f6648c485ede,WINNER Butcher,Park Slope,1cabc93b-e8ad-47e9-b085-5a2bca564b18,WINNER
+52ef0d2f-01a1-45e7-b3ab-d1fefe6d5e3e,WINNER in the Park,Park Slope,1cabc93b-e8ad-47e9-b085-5a2bca564b18,WINNER
+d50901b8-2f09-4b56-b17e-3392269857ed,Witching Hour,Bushwick,aa945cf0-d75e-467e-9609-7f293a990bcf,Witching Hour
+022bac2c-eab9-4fdc-bb40-4df8fd5e5631,Woodie Fisher,LoDo,0e195f5d-f3a4-4111-9b72-9525deca5707,Sage Hospitality Group
+c9d0ee21-2e7a-46f8-82dd-fe7176963483,Work & Class,DU,6d9c2232-b436-4e58-a229-c695d4d607c9,SuperLoca
+c9d0ee21-2e7a-46f8-82dd-fe7176963483,Work & Class,RiNo,6d9c2232-b436-4e58-a229-c695d4d607c9,SuperLoca
+5c1c017f-b7eb-4337-ac87-80de8beb7873,X-Golf,Williamsburg,7d2d65ca-ed3d-47d2-aa37-445183aec9bb,X-Golf
+69b7efc0-3041-40bd-b58e-97eaeb27bb84,XUNTOS,Santa Monica,2c175a87-764a-4aa9-8053-a6110c681fe6,Xuntos
+23c4bff0-a54c-48dd-82c8-579627dec615,Yao,Financial District,c39cc542-b3d4-453a-8722-8501fb0a351c,August Gatherings
+6af13a72-bf3c-49cd-90f2-61d800576193,Yingtao,Hell's Kitchen,cfa18872-9c8c-4b42-bc12-47b28dba2f7e,Ying Tao
+62d51cc7-69bd-4527-934f-b1573cb5fe57,Za-Ya,Bushwick,0b5cef84-2e09-45c7-b04b-3033b605fdd5,Za-Ya
+cd7a7152-adf8-4fb2-b6d8-1a47e467d22e,Zillions Pizza,Hell's Kitchen,f0c6801b-de71-4244-a482-2d4f1d61fd0d,Zillion's Pizza
+0c9e9135-1751-4703-8a7e-b95562c93da0,Zoller's,South Slope,dc96a46e-b8e6-42de-9f95-ca4d33b2639d,Zoller's
+408df3a0-6aa1-4dcb-88d2-6a79dd2c0ee8,Zou Zou's,Hudson Yards,e4d2c913-5f09-47c9-85b9-f05766f6bba5,Quality Branded
