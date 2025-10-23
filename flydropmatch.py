@@ -9,6 +9,7 @@ Uses Claude Haiku for semantic location matching when uncertain
 import csv
 import re
 import os
+import sys
 from difflib import SequenceMatcher
 from pathlib import Path
 from anthropic import Anthropic
@@ -98,63 +99,177 @@ def reasoning_match_boost(str1, str2):
     
     return min(boost, 0.25)  # Cap boost at 25%
 
-def check_location_match_with_claude(deal_name, restaurant_name, location_name, client):
+def extract_unique_terms(name):
     """
-    Use Claude Haiku to check if the deal name and location are related
-    Returns a boost score (0.0 to 0.3) if location seems relevant
+    Extract unique/distinctive terms from a name for exact matching
+    Removes common words, locations, and keeps the distinctive restaurant name
     """
-    if not location_name or not client:
-        return 0.0
+    if not name or not isinstance(name, str):
+        return []
+    
+    # Common location words to remove
+    location_words = {
+        'east', 'west', 'north', 'south', 'upper', 'lower', 'midtown', 'downtown',
+        'village', 'side', 'heights', 'hill', 'square', 'district', 'quarter',
+        'soho', 'noho', 'tribeca', 'chelsea', 'murray', 'financial', 'fidi',
+        'brooklyn', 'manhattan', 'queens', 'bronx', 'staten',
+        'street', 'avenue', 'road', 'boulevard', 'new', 'york', 'city', 'nyc',
+        'park', 'slope', 'williamsburg', 'greenpoint', 'bushwick'
+    }
+    
+    # Split into words
+    words = name.lower().split()
+    
+    # Filter out location words and very short words
+    unique_words = [w for w in words if w not in location_words and len(w) > 2]
+    
+    # Try to find multi-word phrases (2-3 words)
+    phrases = []
+    
+    # Get all 3-word combinations
+    for i in range(len(unique_words) - 2):
+        phrase = ' '.join(unique_words[i:i+3])
+        phrases.append(phrase)
+    
+    # Get all 2-word combinations
+    for i in range(len(unique_words) - 1):
+        phrase = ' '.join(unique_words[i:i+2])
+        phrases.append(phrase)
+    
+    # Also include individual unique words
+    phrases.extend(unique_words)
+    
+    return phrases
+
+def find_exact_substring_match(deal_name, restaurants):
+    """
+    Find restaurants where unique terms from deal_name appear as exact substrings
+    This is a fallback when fuzzy matching fails
+    """
+    unique_terms = extract_unique_terms(deal_name)
+    
+    matches = []
+    for restaurant in restaurants:
+        restaurant_name = restaurant.get('Restaurant Name', '').strip().lower()
+        
+        if not restaurant_name:
+            continue
+        
+        # Check if any unique term appears in restaurant name
+        for term in unique_terms:
+            if term in restaurant_name:
+                # Calculate a confidence based on how much of the name matches
+                confidence = len(term) / max(len(deal_name), len(restaurant_name))
+                matches.append({
+                    'restaurant': restaurant,
+                    'matched_term': term,
+                    'confidence': confidence
+                })
+                break  # Only count once per restaurant
+    
+    # Sort by confidence (longer matches = better)
+    matches.sort(key=lambda x: x['confidence'], reverse=True)
+    
+    return matches[:3]  # Return top 3
+
+def verify_match_with_claude(deal_name, restaurant_name, location_name, client):
+    """
+    Use Claude Sonnet to verify if the deal and restaurant are actually the same place
+    Returns (is_match: bool, confidence_adjustment: float, reasoning: str)
+    """
+    if not client:
+        return (True, 0.0, "Claude not available")
     
     try:
-        print(f"     🤖 Asking Claude about location: '{location_name}'...", end=" ", flush=True)
+        print(f"     🤖 Asking Claude Sonnet to verify match...", end=" ", flush=True)
         
-        prompt = f"""Looking at this FLY deal name and restaurant location:
+        prompt = f"""You are helping match FLY deal names to restaurant entries in a database.
 
 Deal Name: "{deal_name}"
-Restaurant Name: "{restaurant_name}"
-Location Name: "{location_name}"
+Matched Restaurant: "{restaurant_name}"
+Restaurant Location: "{location_name}"
 
-Does the deal name contain any reference to the location name, or do they seem to refer to the same place? Consider neighborhood names, street names, or location descriptors.
+Question: Are these referring to the SAME restaurant location? 
 
-Answer with just: YES, NO, or MAYBE"""
+IMPORTANT CONSIDERATIONS:
+1. Do the restaurant names match (allowing for location suffixes)?
+2. Location names can vary - use your knowledge to determine if locations refer to the same area:
+   - "North Side" might include "Logan Square" in Chicago
+   - "Downtown" might mean "Financial District" in SF
+   - Neighborhoods can have overlapping or informal names
+   - If uncertain about locations, consider if they could reasonably be the same area
+3. Only reject if restaurant names are clearly DIFFERENT or locations are definitively separate areas
+
+Examples of SAME restaurant:
+- "Crave Fishbar Upper West Side" vs "Crave Fishbar" @ "Upper West Side" → SAME (exact match)
+- "Joe's Pizza Soho" vs "Joe's Pizza" @ "Soho" → SAME (exact match)
+- "Andros Taverna North Side" vs "Andros Taverna" @ "Logan Square" → SAME (Logan Square is in North Side of Chicago)
+- "Crown Shy FiDi" vs "Crown Shy" @ "Financial District" → SAME (FiDi = Financial District)
+
+Examples of DIFFERENT restaurants:
+- "Crave Fishbar Upper West Side" vs "Criollas West Village" → DIFFERENT (completely different restaurant names)
+- "Albert's Bar Murray Hill" vs "Montauk Beach House" → DIFFERENT (different restaurant names)
+- "Local 42 Hell's Kitchen" vs "Criollas Hell's Kitchen" → DIFFERENT (only location matches, names totally different)
+
+If you're unsure whether locations are the same area, assume they COULD be and mark as MATCH with medium/low confidence rather than rejecting.
+
+Answer in this exact format:
+MATCH: YES or NO
+CONFIDENCE: (high/medium/low)
+REASON: (one sentence why)"""
 
         message = client.messages.create(
-            model="claude-3-haiku-20240307",
-            max_tokens=10,
+            model="claude-sonnet-4-20250514",  # Using latest Sonnet for better reasoning
+            max_tokens=150,
             messages=[{
                 "role": "user",
                 "content": prompt
             }]
         )
         
-        response = message.content[0].text.strip().upper()
+        response = message.content[0].text.strip()
         
-        if "YES" in response:
-            print("YES (boosting +20%)")
-            return 0.20  # Strong location match boost
-        elif "MAYBE" in response:
-            print("MAYBE (boosting +10%)")
-            return 0.10  # Moderate location match boost
+        # Parse response
+        is_match = "MATCH: YES" in response.upper()
+        
+        # Determine confidence adjustment based on Claude's assessment
+        if is_match:
+            if "CONFIDENCE: HIGH" in response.upper():
+                adjustment = 0.30  # Strong boost
+                result = "MATCH (high confidence)"
+            elif "CONFIDENCE: MEDIUM" in response.upper():
+                adjustment = 0.15  # Moderate boost
+                result = "MATCH (medium confidence)"
+            else:
+                adjustment = 0.05  # Small boost
+                result = "MATCH (low confidence)"
         else:
-            print("NO")
-            return 0.0
+            # Not a match - heavily penalize
+            adjustment = -0.90  # Essentially reject the match
+            result = "NOT A MATCH"
+        
+        print(result)
+        
+        # Extract reason if present
+        reason = ""
+        if "REASON:" in response:
+            reason = response.split("REASON:")[1].strip()
+        
+        return (is_match, adjustment, reason)
             
     except Exception as e:
         print(f"ERROR: {e}")
-        # If API fails, return no boost
-        return 0.0
+        return (True, 0.0, f"Error: {e}")
 
-def find_best_restaurant_match(deal_name, restaurants, claude_client=None):
+def find_best_restaurant_match(deal_name, restaurants, claude_client=None, max_retries=3):
     """
     Find the best matching restaurant for a FLY deal name
-    Always returns the best match (no threshold - every deal gets matched)
-    Uses Claude Haiku for location matching ONLY on the best candidate when uncertain
+    If Claude rejects the best match, tries the next best candidates
+    Uses Claude Sonnet for verification when uncertain
     """
-    best_match = None
-    best_confidence = 0.0
+    # First pass: Find top N candidates using fuzzy matching (no API calls)
+    candidates = []
     
-    # First pass: Find best match using only fuzzy matching (no API calls)
     for restaurant in restaurants:
         restaurant_name = restaurant.get('Restaurant Name', '').strip()
         location_name = restaurant.get('Location Name', '').strip()
@@ -171,33 +286,118 @@ def find_best_restaurant_match(deal_name, restaurants, claude_client=None):
         # Base confidence from name matching only
         confidence = min(fuzzy_score + reasoning_boost, 1.0)
         
-        # Track best match (no Claude yet - just fuzzy matching)
-        if confidence > best_confidence:
-            best_confidence = confidence
-            best_match = {
-                'restaurant_id': restaurant.get('Restaurant ID', '').strip(),
-                'restaurant_name': restaurant_name,
-                'location_name': location_name,
-                'restaurant_group_id': restaurant.get('Restaurant Group ID', '').strip(),
-                'restaurant_group_name': restaurant.get('Restaurant Group Name', '').strip(),
-                'confidence': confidence,
-                'used_location_boost': False
-            }
+        candidates.append({
+            'restaurant_id': restaurant.get('Restaurant ID', '').strip(),
+            'restaurant_name': restaurant_name,
+            'location_name': location_name,
+            'restaurant_group_id': restaurant.get('Restaurant Group ID', '').strip(),
+            'restaurant_group_name': restaurant.get('Restaurant Group Name', '').strip(),
+            'confidence': confidence,
+            'used_location_boost': False
+        })
     
-    # Second pass: If best match has low confidence AND has location, try Claude boost
-    if best_match and best_match['confidence'] < 0.90 and best_match['location_name'] and claude_client:
-        location_boost = check_location_match_with_claude(
-            deal_name, 
-            best_match['restaurant_name'], 
-            best_match['location_name'], 
-            claude_client
-        )
+    # Sort candidates by confidence (best first)
+    candidates.sort(key=lambda x: x['confidence'], reverse=True)
+    
+    if not candidates:
+        return None
+    
+    # Second pass: Try top candidates with Claude verification
+    attempts = 0
+    for candidate in candidates[:max_retries]:
+        attempts += 1
         
-        if location_boost > 0:
-            best_match['confidence'] = min(best_match['confidence'] + location_boost, 1.0)
-            best_match['used_location_boost'] = True
+        # Skip Claude verification for very high confidence matches
+        if candidate['confidence'] >= 0.95:
+            return candidate
+        
+        # Use Claude to verify if available
+        if claude_client:
+            if attempts > 1:
+                print(f"\n     🔄 Trying candidate #{attempts}: \"{candidate['restaurant_name']}\" @ {candidate['location_name']}...", end=" ", flush=True)
+            
+            is_match, confidence_adjustment, reason = verify_match_with_claude(
+                deal_name, 
+                candidate['restaurant_name'], 
+                candidate['location_name'], 
+                claude_client
+            )
+            
+            # Apply Claude's assessment
+            new_confidence = candidate['confidence'] + confidence_adjustment
+            new_confidence = max(0.0, min(new_confidence, 1.0))
+            
+            candidate['confidence'] = new_confidence
+            candidate['used_location_boost'] = True
+            candidate['claude_reasoning'] = reason
+            
+            # If Claude approves this match, return it
+            if is_match:
+                candidate['retry_attempt'] = attempts if attempts > 1 else 0
+                return candidate
+            else:
+                # Claude rejected - mark and try next candidate
+                candidate['rejected_by_claude'] = True
+                if attempts < min(len(candidates), max_retries):
+                    print(f" Rejected, trying next...")
+                    continue
+        else:
+            # No Claude - return first candidate
+            return candidate
     
-    return best_match
+    # All fuzzy candidates rejected - try exact substring matching as fallback
+    if claude_client:
+        print(f"\n     🔍 All fuzzy matches rejected. Trying exact substring search...")
+        
+        substring_matches = find_exact_substring_match(deal_name, restaurants)
+        
+        if substring_matches:
+            for idx, match_info in enumerate(substring_matches):
+                restaurant = match_info['restaurant']
+                matched_term = match_info['matched_term']
+                
+                print(f"\n     💡 Found exact match for '{matched_term}': \"{restaurant.get('Restaurant Name', '')}\" @ {restaurant.get('Location Name', '')}...", end=" ", flush=True)
+                
+                candidate = {
+                    'restaurant_id': restaurant.get('Restaurant ID', '').strip(),
+                    'restaurant_name': restaurant.get('Restaurant Name', '').strip(),
+                    'location_name': restaurant.get('Location Name', '').strip(),
+                    'restaurant_group_id': restaurant.get('Restaurant Group ID', '').strip(),
+                    'restaurant_group_name': restaurant.get('Restaurant Group Name', '').strip(),
+                    'confidence': 0.70,  # Start with moderate confidence
+                    'used_location_boost': False,
+                    'found_via_substring': True,
+                    'matched_substring': matched_term
+                }
+                
+                # Verify with Claude
+                is_match, confidence_adjustment, reason = verify_match_with_claude(
+                    deal_name, 
+                    candidate['restaurant_name'], 
+                    candidate['location_name'], 
+                    claude_client
+                )
+                
+                new_confidence = candidate['confidence'] + confidence_adjustment
+                new_confidence = max(0.0, min(new_confidence, 1.0))
+                
+                candidate['confidence'] = new_confidence
+                candidate['used_location_boost'] = True
+                candidate['claude_reasoning'] = reason
+                
+                if is_match:
+                    candidate['retry_attempt'] = 99  # Special marker for substring match
+                    print(f" ✓ Confirmed via substring search!")
+                    return candidate
+                else:
+                    print(f" Still not a match...")
+                    continue
+    
+    # All candidates rejected including substring search - return best rejected one
+    best_rejected = candidates[0]
+    best_rejected['rejected_by_claude'] = True
+    best_rejected['all_candidates_rejected'] = True
+    return best_rejected
 
 def load_restaurant_groups(filepath):
     """Load restaurant groups from SQL query output CSV"""
@@ -232,17 +432,28 @@ def main():
     rest_groups_file = 'rest_groups.csv'
     fly_alloc_file = 'fly_drop.csv'
     
+    # Check for test mode
+    test_mode = False
+    test_limit = 100
+    
+    if '--test' in sys.argv or os.environ.get('TEST_MODE') == '1':
+        test_mode = True
+        print("🧪 TEST MODE ENABLED - Processing first 100 deals only")
+        print()
+    
     # Initialize Claude client
     claude_client = None
     api_key = os.environ.get('ANTHROPIC_API_KEY')
     if api_key:
         claude_client = Anthropic(api_key=api_key)
-        print("✓ Claude Haiku API initialized for location matching")
+        print("✓ Claude Sonnet API initialized for match verification")
     else:
         print("⚠ ANTHROPIC_API_KEY not found - location matching disabled")
     
     print("=" * 70)
-    print("Restaurant to FLY Deal Matcher (with Claude Haiku)")
+    print("Restaurant to FLY Deal Matcher (with Claude Sonnet)")
+    if test_mode:
+        print("🧪 TEST MODE - First 100 deals only")
     print("=" * 70)
     
     # Load data
@@ -255,16 +466,27 @@ def main():
     
     print(f"\n📁 Loading FLY allocations from {fly_alloc_file}...")
     fly_allocations = load_fly_allocations(fly_alloc_file)
-    print(f"   ✓ Loaded {len(fly_allocations)} FLY deal allocations")
+    
+    # Apply test mode limit if enabled
+    if test_mode:
+        fly_allocations = fly_allocations[:test_limit]
+        print(f"   ✓ Loaded {len(fly_allocations)} FLY deal allocations (TEST MODE - limited to {test_limit})")
+    else:
+        print(f"   ✓ Loaded {len(fly_allocations)} FLY deal allocations")
     
     if fly_allocations:
         sample_deals = [d['deal_name'] for d in fly_allocations[:3]]
         print(f"   Sample deals: {', '.join(sample_deals)}")
     
     # Perform matching - iterate through DEALS and find matching restaurants
-    print(f"\n🔍 Matching FLY deals to restaurant names (no threshold - all deals matched)...")
+    if test_mode:
+        print(f"\n🔍 Matching FLY deals to restaurant names (TEST MODE - {len(fly_allocations)} deals)...")
+    else:
+        print(f"\n🔍 Matching FLY deals to restaurant names (no threshold - all deals matched)...")
     print(f"{'='*80}")
     print("\nLegend: ✓ = High confidence (≥92%)  |  ○ = Medium (80-92%)  |  ⚠ = Low (<80%)")
+    if test_mode:
+        print("🧪 TEST MODE: Processing first 100 deals only")
     print()
     
     # Define field names for CSV output
@@ -273,6 +495,8 @@ def main():
         'restaurant_name',
         'location_name',
         'match_confidence',
+        'claude_verified',
+        'claude_rejected',
         'restaurant_id',
         'restaurant_group_id',
         'restaurant_group_name',
@@ -329,13 +553,37 @@ def main():
                 if match.get('used_location_boost', False):
                     location_boost_count += 1
                 
-                # Show match result with confidence indicator
-                confidence_icon = "✓" if match['confidence'] >= 0.92 else "○" if match['confidence'] >= 0.80 else "⚠"
-                location_info = f" @ {match['location_name']}" if match['location_name'] else ""
-                claude_used = " [+Claude boost]" if match.get('used_location_boost', False) else ""
+                # Check if Claude rejected the match
+                if match.get('rejected_by_claude', False):
+                    if match.get('all_candidates_rejected', False):
+                        confidence_icon = "❌"
+                        status_text = "ALL CANDIDATES REJECTED by Claude"
+                    else:
+                        confidence_icon = "❌"
+                        status_text = "REJECTED by Claude"
+                else:
+                    confidence_icon = "✓" if match['confidence'] >= 0.92 else "○" if match['confidence'] >= 0.80 else "⚠"
+                    status_text = "Matched to"
+                    if match.get('retry_attempt') == 99:
+                        status_text = f"Matched to (via substring search)"
+                        confidence_icon = "💡"  # Special icon for substring matches
+                    elif match.get('retry_attempt', 0) > 0:
+                        status_text = f"Matched to (attempt #{match['retry_attempt'] + 1})"
                 
-                print(f"  {confidence_icon} Matched to: \"{match['restaurant_name']}\"{location_info}")
+                location_info = f" @ {match['location_name']}" if match['location_name'] else ""
+                claude_used = " [Claude verified]" if match.get('used_location_boost', False) else ""
+                
+                print(f"  {confidence_icon} {status_text}: \"{match['restaurant_name']}\"{location_info}")
                 print(f"     Confidence: {match['confidence']:.1%}{claude_used}")
+                
+                # Show Claude's reasoning if available
+                if match.get('claude_reasoning'):
+                    print(f"     Claude: {match['claude_reasoning']}")
+                
+                # Show if found via substring search
+                if match.get('found_via_substring'):
+                    print(f"     Found via substring: '{match.get('matched_substring', '')}'")
+                
                 print(f"     Group: {match['restaurant_group_name']}")
                 print(f"     FLY Amount: {fly_allocation}")
                 
@@ -344,6 +592,8 @@ def main():
                     'restaurant_name': match['restaurant_name'],
                     'location_name': match['location_name'],
                     'match_confidence': f"{match['confidence']:.1%}",
+                    'claude_verified': 'YES' if match.get('used_location_boost', False) else 'NO',
+                    'claude_rejected': 'YES' if match.get('rejected_by_claude', False) else 'NO',
                     'restaurant_id': match['restaurant_id'],
                     'restaurant_group_id': match['restaurant_group_id'],
                     'restaurant_group_name': match['restaurant_group_name'],
@@ -357,6 +607,8 @@ def main():
                     'restaurant_name': 'NO_MATCH_FOUND',
                     'location_name': '',
                     'match_confidence': '0.0%',
+                    'claude_verified': 'NO',
+                    'claude_rejected': 'NO',
                     'restaurant_id': '',
                     'restaurant_group_id': '',
                     'restaurant_group_name': '',
@@ -393,24 +645,34 @@ def main():
     print(f"\n   ✓ Processed {results_count} FLY deals")
     print(f"   ✓ High confidence (≥80%): {high_confidence_count}")
     if claude_client:
-        print(f"   ✓ Used Claude location matching: {location_boost_count} times")
+        print(f"   ✓ Used Claude verification: {location_boost_count} times")
     
     # Count high confidence results (already written)
     high_conf_count = high_confidence_count - review_count
     
     # Summary
     print(f"\n" + "=" * 70)
-    print("📊 MATCHING SUMMARY")
+    if test_mode:
+        print("📊 MATCHING SUMMARY (TEST MODE)")
+    else:
+        print("📊 MATCHING SUMMARY")
     print("=" * 70)
     print(f"Total FLY deals:                {results_count}")
-    print(f"All deals matched:              {results_count} (100%)")
+    if test_mode:
+        print(f"All deals matched:              {results_count} (100% of test set)")
+    else:
+        print(f"All deals matched:              {results_count} (100%)")
     print(f"")
     print(f"High confidence (≥92%):         {high_conf_count}")
     print(f"Review needed (80-92%):         {review_count}")
     print(f"Low confidence (<80%):          {results_count - high_confidence_count}")
     print(f"Used location boost:            {location_boost_count}")
     print(f"")
-    print("✅ Done! All results saved incrementally to CSV files.")
+    if test_mode:
+        print("✅ Test complete! Results saved to CSV files.")
+        print("   To process all deals, run without --test flag")
+    else:
+        print("✅ Done! All results saved incrementally to CSV files.")
     print(f"")
     print(f"Output files:")
     print(f"  • restaurant_fly_matches_all.csv ({results_count} rows)")
