@@ -1,1 +1,4 @@
 deal_name,restaurant_name,location_name,match_confidence,claude_verified,claude_rejected,restaurant_id,restaurant_group_id,restaurant_group_name,fly_allocation
+Melfi's Downtown Charleston,Melfi's,Downtown Charleston,91.2%,YES,NO,f649ca79-f27c-450f-a287-41b0af2b0a30,03e8295a-6cb4-483b-9c53-ffa2b8ec1ec8,Rerun Restaurants,"250,000"
+Empellon Taqueria Waterline Square,Empellón Taqueria & Bar,Greenwich Village,84.1%,YES,NO,d09d72da-e46e-4917-82ff-eaa3df1d75bf,e26a097a-c63b-40e0-a29d-19b0d36b0c0e,Empellon,"250,000"
+Mishik Hudson Square,Mishik,Hudson Square,91.2%,YES,NO,acd4cafb-7794-4094-8c58-04531443208c,85f68972-fb9a-4c6e-b79f-f4f0b112ad69,Mishik,"1,000,000"
