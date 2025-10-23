@@ -40,9 +40,20 @@ python3 flydropmatch.py
 
 ## How It Works
 
-1. **Fuzzy Matching**: Compares deal names to restaurant names using sequence matching
-2. **Location Intelligence**: When confidence is below 90%, Claude Haiku checks if the deal name mentions the location
+1. **Fuzzy Matching (First Pass)**: Compares deal names to ALL restaurant names using sequence matching to find the best candidate
+2. **Location Intelligence (Second Pass)**: ONLY if the best match has confidence < 90%, Claude Haiku checks if the deal name mentions the location
 3. **Always Matches**: Every deal gets matched to the best available restaurant (no threshold)
+
+### Efficiency
+- **Without Claude optimization**: Would make ~970 API calls per deal = 1.3 million API calls total 😱
+- **With optimization**: Makes maximum 1 API call per deal, only when needed = ~900 API calls total ✅
+- **Cost savings**: ~99.9% fewer API calls!
+
+### Incremental Writing
+- Results are written to CSV files **immediately** after each match
+- If the script crashes or is interrupted (Ctrl+C), **no progress is lost**
+- You can resume or restart without losing already-processed deals
+- Files are properly closed even if an error occurs
 
 ## Output Files
 

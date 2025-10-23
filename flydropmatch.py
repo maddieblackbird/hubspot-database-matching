@@ -107,6 +107,8 @@ def check_location_match_with_claude(deal_name, restaurant_name, location_name, 
         return 0.0
     
     try:
+        print(f"     🤖 Asking Claude about location: '{location_name}'...", end=" ", flush=True)
+        
         prompt = f"""Looking at this FLY deal name and restaurant location:
 
 Deal Name: "{deal_name}"
@@ -129,13 +131,17 @@ Answer with just: YES, NO, or MAYBE"""
         response = message.content[0].text.strip().upper()
         
         if "YES" in response:
+            print("YES (boosting +20%)")
             return 0.20  # Strong location match boost
         elif "MAYBE" in response:
+            print("MAYBE (boosting +10%)")
             return 0.10  # Moderate location match boost
         else:
+            print("NO")
             return 0.0
             
     except Exception as e:
+        print(f"ERROR: {e}")
         # If API fails, return no boost
         return 0.0
 
@@ -143,11 +149,12 @@ def find_best_restaurant_match(deal_name, restaurants, claude_client=None):
     """
     Find the best matching restaurant for a FLY deal name
     Always returns the best match (no threshold - every deal gets matched)
-    Uses Claude Haiku for location matching when uncertain
+    Uses Claude Haiku for location matching ONLY on the best candidate when uncertain
     """
     best_match = None
     best_confidence = 0.0
     
+    # First pass: Find best match using only fuzzy matching (no API calls)
     for restaurant in restaurants:
         restaurant_name = restaurant.get('Restaurant Name', '').strip()
         location_name = restaurant.get('Location Name', '').strip()
@@ -161,18 +168,10 @@ def find_best_restaurant_match(deal_name, restaurants, claude_client=None):
         # Add reasoning boost
         reasoning_boost = reasoning_match_boost(deal_name, restaurant_name)
         
-        # Base confidence from name matching
+        # Base confidence from name matching only
         confidence = min(fuzzy_score + reasoning_boost, 1.0)
         
-        # If confidence is uncertain (below 90%), check location with Claude
-        location_boost = 0.0
-        if confidence < 0.90 and location_name and claude_client:
-            location_boost = check_location_match_with_claude(
-                deal_name, restaurant_name, location_name, claude_client
-            )
-            confidence = min(confidence + location_boost, 1.0)
-        
-        # Track best match (no threshold - always find the best one)
+        # Track best match (no Claude yet - just fuzzy matching)
         if confidence > best_confidence:
             best_confidence = confidence
             best_match = {
@@ -182,8 +181,21 @@ def find_best_restaurant_match(deal_name, restaurants, claude_client=None):
                 'restaurant_group_id': restaurant.get('Restaurant Group ID', '').strip(),
                 'restaurant_group_name': restaurant.get('Restaurant Group Name', '').strip(),
                 'confidence': confidence,
-                'used_location_boost': location_boost > 0
+                'used_location_boost': False
             }
+    
+    # Second pass: If best match has low confidence AND has location, try Claude boost
+    if best_match and best_match['confidence'] < 0.90 and best_match['location_name'] and claude_client:
+        location_boost = check_location_match_with_claude(
+            deal_name, 
+            best_match['restaurant_name'], 
+            best_match['location_name'], 
+            claude_client
+        )
+        
+        if location_boost > 0:
+            best_match['confidence'] = min(best_match['confidence'] + location_boost, 1.0)
+            best_match['used_location_boost'] = True
     
     return best_match
 
@@ -251,62 +263,11 @@ def main():
     
     # Perform matching - iterate through DEALS and find matching restaurants
     print(f"\n🔍 Matching FLY deals to restaurant names (no threshold - all deals matched)...")
+    print(f"{'='*80}")
+    print("\nLegend: ✓ = High confidence (≥92%)  |  ○ = Medium (80-92%)  |  ⚠ = Low (<80%)")
     print()
     
-    results = []
-    high_confidence_count = 0
-    location_boost_count = 0
-    
-    for idx, deal in enumerate(fly_allocations):
-        deal_name = deal['deal_name']
-        fly_allocation = deal['fly_allocation']
-        
-        # Show progress every 100 deals
-        if (idx + 1) % 100 == 0:
-            print(f"   Processing... {idx + 1}/{len(fly_allocations)} deals")
-        
-        # Find best matching restaurant for this deal (always returns best match)
-        match = find_best_restaurant_match(deal_name, rest_groups, claude_client)
-        
-        if match:
-            if match['confidence'] >= 0.80:
-                high_confidence_count += 1
-            if match.get('used_location_boost', False):
-                location_boost_count += 1
-            
-            result = {
-                'deal_name': deal_name,
-                'restaurant_name': match['restaurant_name'],
-                'location_name': match['location_name'],
-                'match_confidence': f"{match['confidence']:.1%}",
-                'restaurant_id': match['restaurant_id'],
-                'restaurant_group_id': match['restaurant_group_id'],
-                'restaurant_group_name': match['restaurant_group_name'],
-                'fly_allocation': fly_allocation
-            }
-        else:
-            # This should never happen now, but keep as fallback
-            result = {
-                'deal_name': deal_name,
-                'restaurant_name': 'NO_MATCH_FOUND',
-                'location_name': '',
-                'match_confidence': '0.0%',
-                'restaurant_id': '',
-                'restaurant_group_id': '',
-                'restaurant_group_name': '',
-                'fly_allocation': fly_allocation
-            }
-        
-        results.append(result)
-    
-    print(f"\n   ✓ Processed {len(results)} FLY deals")
-    print(f"   ✓ High confidence (≥80%): {high_confidence_count}")
-    if claude_client:
-        print(f"   ✓ Used Claude location matching: {location_boost_count} times")
-    
-    # Write outputs
-    print(f"\n💾 Writing output files...")
-    
+    # Define field names for CSV output
     fieldnames = [
         'deal_name',
         'restaurant_name',
@@ -318,59 +279,143 @@ def main():
         'fly_allocation'
     ]
     
-    # 1. All results
-    output_file = 'restaurant_fly_matches_all.csv'
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(results)
-    print(f"   ✓ {output_file} ({len(results)} rows)")
+    # Open output files for incremental writing
+    print(f"💾 Opening output files for incremental writing...")
+    all_file = open('restaurant_fly_matches_all.csv', 'w', newline='', encoding='utf-8')
+    review_file = open('restaurant_fly_matches_review.csv', 'w', newline='', encoding='utf-8')
+    high_conf_file = open('restaurant_fly_matches_high_confidence.csv', 'w', newline='', encoding='utf-8')
     
-    # 2. Review needed (80-92% confidence)
-    review_needed = []
-    for r in results:
-        if r['match_confidence'] and r['match_confidence'] != '0.0%':
-            conf_str = r['match_confidence'].strip('%')
-            conf_val = float(conf_str) / 100
-            if 0.80 <= conf_val < 0.92:
-                review_needed.append(r)
+    all_writer = csv.DictWriter(all_file, fieldnames=fieldnames)
+    review_writer = csv.DictWriter(review_file, fieldnames=fieldnames)
+    high_conf_writer = csv.DictWriter(high_conf_file, fieldnames=fieldnames)
     
-    output_file = 'restaurant_fly_matches_review.csv'
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(review_needed)
-    print(f"   ✓ {output_file} ({len(review_needed)} rows)")
+    # Write headers
+    all_writer.writeheader()
+    review_writer.writeheader()
+    high_conf_writer.writeheader()
     
-    # 3. High confidence (≥92%)
-    high_confidence = []
-    for r in results:
-        if r['match_confidence'] and r['match_confidence'] != '0.0%':
-            conf_str = r['match_confidence'].strip('%')
-            conf_val = float(conf_str) / 100
-            if conf_val >= 0.92:
-                high_confidence.append(r)
+    # Flush to ensure headers are written
+    all_file.flush()
+    review_file.flush()
+    high_conf_file.flush()
     
-    output_file = 'restaurant_fly_matches_high_confidence.csv'
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(high_confidence)
-    print(f"   ✓ {output_file} ({len(high_confidence)} rows)")
+    print(f"   ✓ Files opened and ready for incremental writing")
+    
+    results_count = 0
+    high_confidence_count = 0
+    review_count = 0
+    location_boost_count = 0
+    
+    try:
+        for idx, deal in enumerate(fly_allocations):
+            deal_name = deal['deal_name']
+            fly_allocation = deal['fly_allocation']
+            
+            # Show progress header every 50 deals
+            if idx % 50 == 0:
+                print(f"\n{'─'*80}")
+                print(f"Processing deals {idx + 1}-{min(idx + 50, len(fly_allocations))} of {len(fly_allocations)}")
+                print(f"{'─'*80}")
+            
+            # Show current deal being processed
+            print(f"\n[{idx + 1}/{len(fly_allocations)}] Matching: \"{deal_name}\"")
+            
+            # Find best matching restaurant for this deal (always returns best match)
+            match = find_best_restaurant_match(deal_name, rest_groups, claude_client)
+            
+            if match:
+                if match['confidence'] >= 0.80:
+                    high_confidence_count += 1
+                if match.get('used_location_boost', False):
+                    location_boost_count += 1
+                
+                # Show match result with confidence indicator
+                confidence_icon = "✓" if match['confidence'] >= 0.92 else "○" if match['confidence'] >= 0.80 else "⚠"
+                location_info = f" @ {match['location_name']}" if match['location_name'] else ""
+                claude_used = " [+Claude boost]" if match.get('used_location_boost', False) else ""
+                
+                print(f"  {confidence_icon} Matched to: \"{match['restaurant_name']}\"{location_info}")
+                print(f"     Confidence: {match['confidence']:.1%}{claude_used}")
+                print(f"     Group: {match['restaurant_group_name']}")
+                print(f"     FLY Amount: {fly_allocation}")
+                
+                result = {
+                    'deal_name': deal_name,
+                    'restaurant_name': match['restaurant_name'],
+                    'location_name': match['location_name'],
+                    'match_confidence': f"{match['confidence']:.1%}",
+                    'restaurant_id': match['restaurant_id'],
+                    'restaurant_group_id': match['restaurant_group_id'],
+                    'restaurant_group_name': match['restaurant_group_name'],
+                    'fly_allocation': fly_allocation
+                }
+            else:
+                # This should never happen now, but keep as fallback
+                print(f"  ❌ ERROR: No match found!")
+                result = {
+                    'deal_name': deal_name,
+                    'restaurant_name': 'NO_MATCH_FOUND',
+                    'location_name': '',
+                    'match_confidence': '0.0%',
+                    'restaurant_id': '',
+                    'restaurant_group_id': '',
+                    'restaurant_group_name': '',
+                    'fly_allocation': fly_allocation
+                }
+            
+            # Write to all matches file immediately
+            all_writer.writerow(result)
+            all_file.flush()  # Ensure it's written to disk
+            results_count += 1
+            
+            # Also write to appropriate confidence file
+            if result['match_confidence'] and result['match_confidence'] != '0.0%':
+                conf_str = result['match_confidence'].strip('%')
+                conf_val = float(conf_str) / 100
+                
+                if conf_val >= 0.92:
+                    high_conf_writer.writerow(result)
+                    high_conf_file.flush()
+                elif 0.80 <= conf_val < 0.92:
+                    review_writer.writerow(result)
+                    review_file.flush()
+                    review_count += 1
+            
+            print(f"     💾 Saved to CSV (progress: {idx + 1}/{len(fly_allocations)})")
+    
+    finally:
+        # Always close files, even if there's an error
+        all_file.close()
+        review_file.close()
+        high_conf_file.close()
+        print(f"\n   ✓ All files closed safely")
+    
+    print(f"\n   ✓ Processed {results_count} FLY deals")
+    print(f"   ✓ High confidence (≥80%): {high_confidence_count}")
+    if claude_client:
+        print(f"   ✓ Used Claude location matching: {location_boost_count} times")
+    
+    # Count high confidence results (already written)
+    high_conf_count = high_confidence_count - review_count
     
     # Summary
     print(f"\n" + "=" * 70)
     print("📊 MATCHING SUMMARY")
     print("=" * 70)
-    print(f"Total FLY deals:                {len(results)}")
-    print(f"All deals matched:              {len(results)} (100%)")
+    print(f"Total FLY deals:                {results_count}")
+    print(f"All deals matched:              {results_count} (100%)")
     print(f"")
-    print(f"High confidence (≥92%):         {len(high_confidence)}")
-    print(f"Review needed (80-92%):         {len(review_needed)}")
-    print(f"Low confidence (<80%):          {len(results) - len(high_confidence) - len(review_needed)}")
+    print(f"High confidence (≥92%):         {high_conf_count}")
+    print(f"Review needed (80-92%):         {review_count}")
+    print(f"Low confidence (<80%):          {results_count - high_confidence_count}")
     print(f"Used location boost:            {location_boost_count}")
     print(f"")
-    print("✅ Done! Check the output CSV files.")
+    print("✅ Done! All results saved incrementally to CSV files.")
+    print(f"")
+    print(f"Output files:")
+    print(f"  • restaurant_fly_matches_all.csv ({results_count} rows)")
+    print(f"  • restaurant_fly_matches_high_confidence.csv ({high_conf_count} rows)")
+    print(f"  • restaurant_fly_matches_review.csv ({review_count} rows)")
     print("=" * 70)
 
 if __name__ == '__main__':
