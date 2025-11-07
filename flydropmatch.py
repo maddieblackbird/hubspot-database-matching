@@ -307,11 +307,7 @@ def find_best_restaurant_match(deal_name, restaurants, claude_client=None, max_r
     for candidate in candidates[:max_retries]:
         attempts += 1
         
-        # Skip Claude verification for very high confidence matches
-        if candidate['confidence'] >= 0.95:
-            return candidate
-        
-        # Use Claude to verify if available
+        # Always use Claude to verify if available (no skipping, even for high confidence)
         if claude_client:
             if attempts > 1:
                 print(f"\n     🔄 Trying candidate #{attempts}: \"{candidate['restaurant_name']}\" @ {candidate['location_name']}...", end=" ", flush=True)
@@ -487,6 +483,8 @@ def main():
     print("\nLegend: ✓ = High confidence (≥92%)  |  ○ = Medium (80-92%)  |  ⚠ = Low (<80%)")
     if test_mode:
         print("🧪 TEST MODE: Processing first 100 deals only")
+    if claude_client:
+        print("🤖 Claude will verify EVERY match (no skipping)")
     print()
     
     # Define field names for CSV output
